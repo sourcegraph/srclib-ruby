@@ -1,4 +1,4 @@
-package ruby
+package toolchain
 
 import "github.com/sourcegraph/srclib/unit"
 

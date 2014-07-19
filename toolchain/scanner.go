@@ -1,4 +1,4 @@
-package ruby
+package toolchain
 
 import (
 	"encoding/json"

@@ -1,6 +1,6 @@
 // +build ignore
 
-package ruby
+package toolchain
 
 import (
 	"os"
