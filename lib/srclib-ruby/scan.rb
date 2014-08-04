@@ -1,5 +1,6 @@
 require 'json'
 require 'optparse'
+require 'bundler'
 
 module Srclib
   class Scan
@@ -24,11 +25,16 @@ module Srclib
       raise "no args may be specified to scan (got #{args.inspect}); it only scans the current directory" if args.length != 0
 
       source_units = find_gems('.').map do |gemspec, gem|
+        Dir.chdir(File.dirname(gemspec))
+        if File.exist?("Gemfile")
+          deps = Bundler.definition.dependencies.map{ |d| [d.name, d.requirement.to_s] }
+        end
+
         {
           'Name' => gem[:name],
           'Type' => 'rubygem',
           'Files' => gem[:files],
-          'Dependencies' => gem[:dependencies],
+          'Dependencies' => deps, #gem[:dependencies], # TODO(sqs): what to do with the gemspec deps?
           'Data' => gem,
           'Ops' => {'depresolve' => nil, 'graph' => nil},
         }
