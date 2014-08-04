@@ -51,7 +51,7 @@
       "ToUnit": "geocoder",
       "ToUnitType": "rubygem",
       "ToVersionString": "~> 1.1.8",
-      "ToRepoCloneURL": "http://www.rubygeocoder.com"
+      "ToRepoCloneURL": "https://github.com/alexreisner/geocoder"
     }
   },
   {

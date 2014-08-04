@@ -62,6 +62,8 @@ module Srclib
       end
     end
 
+    public
+
     def self.get_gem_clone_url(gem_name)
       if GEM_CLONE_URLS[gem_name]
         GEM_CLONE_URLS[gem_name]
@@ -72,7 +74,7 @@ module Srclib
         req = Net::HTTP::Get.new(uri.request_uri)
         resp = http.request(req)
         info = JSON.parse(resp.body)
-        info['source_code_uri'] or info['homepage_uri']
+        info['source_code_uri'] or info['homepage_uri'] or raise "could not get gem clone URL for #{gem_name}"
       end
     end
 
