@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require_relative '../lib/srclib-ruby.rb'
+
+opt = {}
+
+subtext = <<HELP
+The commands are:
+
+#{Srclib.constants.map { |c| Srclib.const_get(c).is_a? Class and "    #{c.downcase}\t#{Srclib.const_get(c).summary}" }.join "\n"}
+
+See 'srclib-ruby COMMAND --help' for more information on a specific command.
+HELP
+
+global = OptionParser.new do |opts|
+  opts.banner = "Usage: srclib-ruby [options] [subcommand [options]]"
+  opts.on("-v", "--[no-]verbose", "Run verbosely") do |v|
+    opt[:verbose] = v
+  end
+  opts.separator ""
+  opts.separator subtext
+end
+
+global.order!
+subcmd = ARGV.shift
+if not subcmd
+  puts global.help
+  exit 1
+end
+
+if cls = Srclib.constants.find { |c| c.to_s.downcase == subcmd and Srclib.const_get(c).is_a? Class }
+  c = Srclib.const_get(cls).new
+  c.option_parser.order!
+  c.run(ARGV)
+else
+  STDERR.puts "No such subcommand: '#{subcmd}'\n"
+  STDERR.puts global.help
+  exit 1
+end
