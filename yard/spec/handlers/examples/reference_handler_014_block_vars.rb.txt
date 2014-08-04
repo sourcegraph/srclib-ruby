@@ -1,0 +1,9 @@
+x=3
+y=2
+[].map{|x| x;y}
+[].map do |x|
+  x
+  y
+end
+x
+y

@@ -1,0 +1,29 @@
+class A
+  def a
+    B.new #: B#
+  end
+
+  def self.a
+    A.new.a #: B#
+  end
+end
+
+class B
+  def b
+    C.new #: C#
+  end
+end
+
+class C
+  def c
+    "c"
+  end
+end
+
+A.new #: A#
+
+A.a #: B#
+
+B.new.b #: C#
+
+A.a.b.c #: String#

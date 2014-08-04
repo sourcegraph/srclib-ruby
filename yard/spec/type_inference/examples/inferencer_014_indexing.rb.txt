@@ -1,0 +1,12 @@
+array = ["a", "b", "c"]
+
+b = array[0] #: String#
+
+array2 = [1, 2, 3]
+c = array2[1] #: Fixnum#
+
+hash1 = {:a => "a", :b => "b"}
+d = hash1[:a] #: String#
+
+array0 = []
+hash0 = {}

@@ -1,0 +1,37 @@
+def f1
+  3
+end #returns Fixnum#
+
+class A;end
+
+def f2
+  A.new
+end #returns A#
+
+class B;end
+
+def f3(x)
+  if x < 0
+    A.new
+  else
+    B.new
+  end
+end #returns A#, B#
+
+def f4
+  A
+end #returns A
+
+def f5
+  f1 #vcall Fixnum#
+end #returns Fixnum#
+
+f1 #vcall Fixnum#
+
+class Z
+  def a; 3; end
+  def self.z; "s"; end
+end
+
+Z.new.a #: Fixnum#
+Z.z #: String#

@@ -1,0 +1,13 @@
+class A
+  def g(a1)
+    a1
+    3
+  end
+end
+
+a = A.new #: A#
+a.g(3) #: Fixnum#
+
+# failing: TODO(sqs)
+a1 = A.new
+a1.g(3) #TODO(sqs): Fixnum#

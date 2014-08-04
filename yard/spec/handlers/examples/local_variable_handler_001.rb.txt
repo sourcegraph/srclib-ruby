@@ -1,0 +1,35 @@
+somevar = "top level"
+
+module A
+  somevar = "in module"
+
+  class B
+    somevar = "in class"
+
+    class << self
+      somevar = "in singleton class"
+    end
+
+    def method
+      somevar = "in method"
+    end
+  end
+end
+
+class C
+  def f(a); end
+  def g(a = "x"); end
+  def h(*a); end
+  def i(**a); end
+  def j(&a); end
+end
+
+if x = 3; x; end
+
+[1, 2].map { |p| puts p }
+
+[1, 2].map do |q|
+  puts q
+end
+
+[1, 2].map{ |r,| r}

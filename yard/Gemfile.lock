@@ -1,0 +1,46 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    RedCloth (4.2.9)
+    asciidoctor (0.1.4)
+    diff-lcs (1.1.3)
+    gettext (3.0.2)
+      locale (>= 2.0.5)
+      text
+    locale (2.0.9)
+    mob_spawner (1.0.0)
+    multi_json (1.8.2)
+    rack (1.5.2)
+    rake (10.1.0)
+    redcarpet (1.17.2)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.2)
+    rspec-expectations (2.12.1)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.2)
+    rvm-tester (1.1.0)
+      mob_spawner
+      rake
+    simplecov (0.7.1)
+      multi_json (~> 1.0)
+      simplecov-html (~> 0.7.1)
+    simplecov-html (0.7.1)
+    text (1.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  RedCloth
+  asciidoctor
+  gettext (>= 2.2.1)
+  kramdown
+  rack
+  rake
+  redcarpet (= 1.17.2)
+  rspec (= 2.12)
+  rvm-tester
+  simplecov
