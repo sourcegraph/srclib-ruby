@@ -138,7 +138,7 @@ module Srclib
 
         if obj['name_start'] != 0 and obj['name_end'] != 0
           name_ref = {
-            'Path' => defn['Path'],
+            'SymbolPath' => defn['Path'],
             'Def' => true,
             'File' => defn['File'],
             'Start' => obj['name_start'],
