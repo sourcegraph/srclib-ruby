@@ -7,3 +7,9 @@ srclib-ruby uses [Loren Segal's](http://gnuu.org/)
 [Sourcegraph](https://sourcegraph.com) fork of YARD is in the `yard/`
 subdirectory. Commits to that subtree should be regularly sent upstream to the
 [github.com/sourcegraph/yard](https://github.com/sourcegraph/yard) fork.
+
+## TODO
+
+* Check whether Ruby stdlib works
+* Check whether xrefs work
+* Add Travis-CI test for `src test` test cases and YARD specs
