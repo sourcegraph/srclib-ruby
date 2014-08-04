@@ -1,0 +1,35 @@
+class A
+  @@mynum = 7
+
+  def initialize
+    @mystring = "a"
+  end
+
+  def im
+    @mystring #: String#
+    @mystring2 #: String#
+  end
+
+  def self.cm
+    @@mynum #: Fixnum#
+    @@mynum2 #: Fixnum#
+  end
+
+  @@mynum2 = 9
+
+  def setmystring2
+    @mystring2 = "a"
+  end
+end
+
+class B < A
+  def im
+    @mystring #TODO: ::String#
+    @mystring2 #TODO: ::String#
+  end
+
+  def self.cm
+    @@mynum #TODO: Fixnum#
+    @@mynum2 #TODO: Fixnum#
+  end
+end

@@ -1,0 +1,7 @@
+class Z
+  def initialize(x)
+  end
+end
+
+zz = Z.new(3)
+zz #: Z#

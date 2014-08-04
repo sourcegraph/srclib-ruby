@@ -1,0 +1,18 @@
+class C
+  def im; puts "C#im"; end
+
+  class D
+    def im; puts "D#im"; end
+
+    def y
+      im
+    end
+  end
+
+  def x
+    im
+  end
+end
+
+C.new.x
+C::D.new.y

@@ -1,0 +1,25 @@
+a = 1 #: Fixnum#
+
+b = (1 + 2) #: Fixnum#
+
+c = ("a" + "b") #: String#
+
+d = [1] #: Array#
+
+e = ([1] + [2]) #: Array#
+
+f = {:a => 1} #: Hash#
+
+class Hash
+  def merge(o)
+    Hash.new
+  end
+end
+
+g = ({:a => 1}.merge({:b => 2})) #: Hash#
+
+class String; def length; 123; end; end
+h = "abc".length #: Fixnum#
+
+class Array; def length; 123; end; end
+h = "abc".length #: Fixnum#

@@ -1,0 +1,7 @@
+module A
+  module_function
+
+  def f; end
+end
+
+A.f

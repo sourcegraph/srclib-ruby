@@ -1,0 +1,25 @@
+class C
+  def initialize; end
+
+  def qux
+    1
+  end
+end
+
+C #: C
+
+c = C.new #: C#
+c #: C#
+c.qux #: Fixnum#
+C.new.qux #: Fixnum#
+
+c.qux #C YARD::TypeInference::MethodType
+
+c.qux #@ C#qux
+C.new.qux #@ C#qux
+
+c2 = C.new() #: C#
+c2 #: C#
+c2.qux() #: Fixnum#
+C.new() #vcall C.new
+c2.qux #vcall Fixnum#
