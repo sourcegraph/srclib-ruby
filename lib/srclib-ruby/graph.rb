@@ -93,7 +93,7 @@ module Srclib
     def seen_defn(defn)
       if seen = @seen_defs[defn['Path']]
         STDERR.puts "already seen defn with path #{defn['Path']}; skipping (prev defn is: #{seen.inspect})"
-        true
+        return true
       end
       @seen_defs[defn['Path']] = defn
       false
@@ -103,7 +103,7 @@ module Srclib
       key = "SymbolRepo=#{ref['SymbolRepo']} SymbolUnitType=#{ref['SymbolUnitType']} SymbolUnit=#{ref['SymbolUnit']} SymbolPath=#{ref['SymbolPath']} File=#{ref['File']} Start=#{ref['Start']} End=#{ref['End']}"
       if seen = @seen_refs[key]
         STDERR.puts "already seen ref with seen-key #{key}; skipping (prev ref is: #{seen.inspect})"
-        true
+        return true
       end
       @seen_refs[key] = ref
       false
@@ -183,11 +183,9 @@ module Srclib
           # Internal ref to this gem. Nothing to update.
         end
 
-        if seen_ref(ref)
-          next
+        if not seen_ref(ref)
+          @graph['Refs'] << ref
         end
-
-        @graph['Refs'] << ref
       end
 
       @graph

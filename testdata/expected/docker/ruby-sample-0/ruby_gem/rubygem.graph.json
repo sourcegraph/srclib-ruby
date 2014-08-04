@@ -830,33 +830,11 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "C/$classmethods/ccm",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/cases/class.rb",
-      "Start": 19,
-      "End": 22
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "C/$classmethods/ccm",
       "Def": false,
       "Repo": "",
       "File": "lib/cases/class.rb",
       "Start": 248,
       "End": 251
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "C/$methods/im2",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/cases/class.rb",
-      "Start": 48,
-      "End": 51
     },
     {
       "SymbolRepo": "",
@@ -907,17 +885,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "C/$methods/im",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/cases/class.rb",
-      "Start": 34,
-      "End": 36
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "C/$methods/im",
       "Def": false,
       "Repo": "",
       "File": "lib/cases/class.rb",
@@ -945,28 +912,6 @@
       "File": "lib/cases/class.rb",
       "Start": 104,
       "End": 109
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "C/$methods/ivdef",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/cases/class.rb",
-      "Start": 104,
-      "End": 109
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "C/$methods/ivref",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/cases/class.rb",
-      "Start": 148,
-      "End": 153
     },
     {
       "SymbolRepo": "",
@@ -1017,17 +962,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "C/@x",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/cases/class.rb",
-      "Start": 114,
-      "End": 116
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "C/@x",
       "Def": true,
       "Repo": "",
       "File": "lib/cases/class.rb",
@@ -1044,17 +978,6 @@
       "File": "lib/cases/class.rb",
       "Start": 158,
       "End": 160
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "C/D/$classmethods/dcm",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/cases/class.rb",
-      "Start": 199,
-      "End": 202
     },
     {
       "SymbolRepo": "",
@@ -1099,17 +1022,6 @@
       "File": "lib/cases/class.rb",
       "Start": 261,
       "End": 263
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "C/D",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/cases/class.rb",
-      "Start": 182,
-      "End": 183
     },
     {
       "SymbolRepo": "",
@@ -1248,17 +1160,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "C",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/cases/class.rb",
-      "Start": 6,
-      "End": 7
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "C",
       "Def": false,
       "Repo": "",
       "File": "lib/cases/top_const.rb",
@@ -1275,17 +1176,6 @@
       "File": "lib/cases/top_const.rb",
       "Start": 6,
       "End": 7
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "M/N",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/cases/module.rb",
-      "Start": 18,
-      "End": 19
     },
     {
       "SymbolRepo": "",
@@ -1336,17 +1226,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "MY_GLOBAL_CONST",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 564,
-      "End": 579
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "MY_GLOBAL_CONST",
       "Def": true,
       "Repo": "",
       "File": "lib/ruby_gem.rb",
@@ -1359,17 +1238,6 @@
       "SymbolUnit": "",
       "SymbolPath": "MY_SAMPLE",
       "Def": true,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 747,
-      "End": 756
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "MY_SAMPLE",
-      "Def": false,
       "Repo": "",
       "File": "lib/ruby_gem.rb",
       "Start": 747,
@@ -1456,28 +1324,6 @@
       "SymbolRepo": "",
       "SymbolUnitType": "",
       "SymbolUnit": "",
-      "SymbolPath": "M",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/cases/module.rb",
-      "Start": 7,
-      "End": 8
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample/$classmethods/my_array",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 329,
-      "End": 337
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
       "SymbolPath": "Sample/$classmethods/my_array",
       "Def": true,
       "Repo": "",
@@ -1495,28 +1341,6 @@
       "File": "lib/ruby_gem.rb",
       "Start": 185,
       "End": 192
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample/$classmethods/my_bool",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 185,
-      "End": 192
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample/$classmethods/my_hash",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 247,
-      "End": 254
     },
     {
       "SymbolRepo": "",
@@ -1555,45 +1379,12 @@
       "SymbolRepo": "",
       "SymbolUnitType": "",
       "SymbolUnit": "",
-      "SymbolPath": "Sample/$classmethods/my_int",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 125,
-      "End": 131
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
       "SymbolPath": "Sample/$classmethods/my_string",
       "Def": true,
       "Repo": "",
       "File": "lib/ruby_gem.rb",
       "Start": 53,
       "End": 62
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample/$classmethods/my_string",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 53,
-      "End": 62
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample/$methods/initialize",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 371,
-      "End": 381
     },
     {
       "SymbolRepo": "",
@@ -1633,33 +1424,11 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "Sample/$methods/my_method",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 409,
-      "End": 418
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample/$methods/my_method",
       "Def": false,
       "Repo": "",
       "File": "lib/ruby_gem.rb",
       "Start": 805,
       "End": 814
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample/@i",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 389,
-      "End": 391
     },
     {
       "SymbolRepo": "",
@@ -1693,17 +1462,6 @@
       "File": "lib/ruby_gem.rb",
       "Start": 527,
       "End": 529
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample/MY_CONST",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 544,
-      "End": 552
     },
     {
       "SymbolRepo": "",
@@ -1765,17 +1523,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "Sample@_local_0@/$methods/my_method@b",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 439,
-      "End": 440
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample@_local_0@/$methods/my_method@b",
       "Def": true,
       "Repo": "",
       "File": "lib/ruby_gem.rb",
@@ -1820,33 +1567,11 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "Sample@_local_0@/$methods/my_method@c",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 429,
-      "End": 430
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample@_local_0@/$methods/my_method@c",
       "Def": true,
       "Repo": "",
       "File": "lib/ruby_gem.rb",
       "Start": 429,
       "End": 430
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample@_local_0@/$methods/my_method@l",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 454,
-      "End": 455
     },
     {
       "SymbolRepo": "",
@@ -1941,17 +1666,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "Sample",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 6,
-      "End": 12
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Sample",
       "Def": false,
       "Repo": "",
       "File": "lib/ruby_gem.rb",
@@ -2012,17 +1726,6 @@
       "File": "lib/cases/global_var.rb",
       "Start": 6,
       "End": 7
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/cases/stdlib_rb_local_0@u",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/cases/stdlib.rb",
-      "Start": 14,
-      "End": 15
     },
     {
       "SymbolRepo": "",
@@ -2098,30 +1801,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/ruby_gem.rb",
-      "Start": 676,
-      "End": 679
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/ruby_gem_rb_local_0@b64",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
       "Start": 716,
       "End": 719
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/ruby_gem_rb_local_0@foo",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 710,
-      "End": 713
     },
     {
       "SymbolRepo": "",
@@ -2150,33 +1831,11 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file:lib/ruby_gem_rb_local_0@my_global_var",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 587,
-      "End": 600
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/ruby_gem_rb_local_0@my_global_var",
       "Def": true,
       "Repo": "",
       "File": "lib/ruby_gem.rb",
       "Start": 587,
       "End": 600
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/ruby_gem_rb_local_0@my_sample",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/ruby_gem.rb",
-      "Start": 773,
-      "End": 782
     },
     {
       "SymbolRepo": "",

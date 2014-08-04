@@ -1405,17 +1405,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "Article/$classmethods/q",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 8459,
-      "End": 8460
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$classmethods/q",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1432,28 +1421,6 @@
       "File": "lib/use_tire.rb",
       "Start": 8552,
       "End": 8558
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$classmethods/search",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 8552,
-      "End": 8558
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$methods/initialize",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 2810,
-      "End": 2820
     },
     {
       "SymbolRepo": "",
@@ -1525,45 +1492,12 @@
       "SymbolRepo": "",
       "SymbolUnitType": "",
       "SymbolUnit": "",
-      "SymbolPath": "Article/$methods/to_indexed_json",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 3185,
-      "End": 3200
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
       "SymbolPath": "Article/$methods/type",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
       "Start": 3064,
       "End": 3068
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$methods/type",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 3064,
-      "End": 3068
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/@attributes",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 2842,
-      "End": 2853
     },
     {
       "SymbolRepo": "",
@@ -1757,17 +1691,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "Article",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 8385,
-      "End": 8392
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1812,33 +1735,11 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "Goal",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_groupdate.rb",
-      "Start": 125,
-      "End": 129
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Goal",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
       "Start": 459,
       "End": 463
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product2",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_searchkick.rb",
-      "Start": 452,
-      "End": 460
     },
     {
       "SymbolRepo": "",
@@ -1933,17 +1834,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "Product",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_searchkick.rb",
-      "Start": 52,
-      "End": 59
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -2004,17 +1894,6 @@
       "File": "lib/use_groupdate.rb",
       "Start": 307,
       "End": 311
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Task",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_groupdate.rb",
-      "Start": 88,
-      "End": 92
     },
     {
       "SymbolRepo": "",
@@ -2114,17 +1993,6 @@
       "File": "lib/use_groupdate.rb",
       "Start": 1597,
       "End": 1601
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_groupdate.rb",
-      "Start": 51,
-      "End": 55
     },
     {
       "SymbolRepo": "",
@@ -2310,17 +2178,6 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
-      "Start": 375,
-      "End": 379
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_barkick.rb",
       "Start": 403,
       "End": 407
     },
@@ -2351,17 +2208,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file:lib/use_geocoder_rb_local_0@results",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_geocoder.rb",
-      "Start": 572,
-      "End": 579
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_geocoder_rb_local_0@results",
       "Def": true,
       "Repo": "",
       "File": "lib/use_geocoder.rb",
@@ -2374,17 +2220,6 @@
       "SymbolUnit": "",
       "SymbolPath": "file:lib/use_groupdate_rb_local_0@time_zone",
       "Def": true,
-      "Repo": "",
-      "File": "lib/use_groupdate.rb",
-      "Start": 682,
-      "End": 691
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_groupdate_rb_local_0@time_zone",
-      "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
       "Start": 682,
@@ -2736,17 +2571,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file:lib/use_redis_rb_local_0@r",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_redis.rb",
-      "Start": 17,
-      "End": 18
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
       "Def": true,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2959,17 +2783,6 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
-      "Start": 698,
-      "End": 705
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_searchkick_rb_local_0@product",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_searchkick.rb",
       "Start": 722,
       "End": 729
     },
@@ -2992,30 +2805,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
-      "Start": 118,
-      "End": 126
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_searchkick_rb_local_0@products",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_searchkick.rb",
       "Start": 154,
       "End": 162
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_stripe_rb_local_0@charge",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_stripe.rb",
-      "Start": 339,
-      "End": 345
     },
     {
       "SymbolRepo": "",
@@ -3066,17 +2857,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file:lib/use_stripe_rb_local_0@customer",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_stripe.rb",
-      "Start": 807,
-      "End": 815
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_stripe_rb_local_0@customer",
       "Def": true,
       "Repo": "",
       "File": "lib/use_stripe.rb",
@@ -3110,33 +2890,11 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file:lib/use_stripe_rb_local_0@token",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_stripe.rb",
-      "Start": 235,
-      "End": 240
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_stripe_rb_local_0@token",
       "Def": true,
       "Repo": "",
       "File": "lib/use_stripe.rb",
       "Start": 235,
       "End": 240
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_0@article",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 3421,
-      "End": 3428
     },
     {
       "SymbolRepo": "",
@@ -3792,17 +3550,6 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file:lib/use_tire_rb_local_0@articles",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 5497,
-      "End": 5505
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@articles",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3830,17 +3577,6 @@
       "File": "lib/use_tire.rb",
       "Start": 6469,
       "End": 6477
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@index",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 25669,
-      "End": 25674
     },
     {
       "SymbolRepo": "",
@@ -3971,30 +3707,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 27313,
-      "End": 27320
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@matches",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
       "Start": 27524,
       "End": 27531
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@published_on_query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 13759,
-      "End": 13777
     },
     {
       "SymbolRepo": "",
@@ -4024,17 +3738,6 @@
       "SymbolUnit": "",
       "SymbolPath": "file:lib/use_tire_rb_local_0@q",
       "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 7879,
-      "End": 7880
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@q",
-      "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
       "Start": 7879,
@@ -4079,17 +3782,6 @@
       "SymbolUnit": "",
       "SymbolPath": "file:lib/use_tire_rb_local_0@response",
       "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 28252,
-      "End": 28260
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@response",
-      "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
       "Start": 28252,
@@ -4411,17 +4103,6 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 24684,
-      "End": 24685
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
       "Start": 7044,
       "End": 7045
     },
@@ -4501,17 +4182,6 @@
       "File": "lib/use_tire.rb",
       "Start": 9614,
       "End": 9615
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@tags_query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 13590,
-      "End": 13600
     },
     {
       "SymbolRepo": "",
@@ -4609,17 +4279,6 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_yajl.rb",
-      "Start": 808,
-      "End": 814
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@chunks",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_yajl.rb",
       "Start": 874,
       "End": 880
     },
@@ -4649,17 +4308,6 @@
       "SymbolRepo": "",
       "SymbolUnitType": "",
       "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@hash",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_yajl.rb",
-      "Start": 86,
-      "End": 90
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
       "SymbolPath": "file:lib/use_yajl_rb_local_0@obj",
       "Def": false,
       "Repo": "",
@@ -4672,33 +4320,11 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file:lib/use_yajl_rb_local_0@obj",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_yajl.rb",
-      "Start": 936,
-      "End": 939
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@obj",
       "Def": true,
       "Repo": "",
       "File": "lib/use_yajl.rb",
       "Start": 936,
       "End": 939
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@total_size",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_yajl.rb",
-      "Start": 819,
-      "End": 829
     },
     {
       "SymbolRepo": "",
@@ -4728,17 +4354,6 @@
       "SymbolUnit": "",
       "SymbolPath": "file:lib/use_yajl_rb_local_0@uri",
       "Def": true,
-      "Repo": "",
-      "File": "lib/use_yajl.rb",
-      "Start": 139,
-      "End": 142
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@uri",
-      "Def": false,
       "Repo": "",
       "File": "lib/use_yajl.rb",
       "Start": 139,

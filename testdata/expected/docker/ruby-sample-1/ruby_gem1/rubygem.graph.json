@@ -74,30 +74,8 @@
       "SymbolRepo": "",
       "SymbolUnitType": "",
       "SymbolUnit": "",
-      "SymbolPath": "A/$classmethods/method",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/gem.rb",
-      "Start": 35,
-      "End": 41
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
       "SymbolPath": "A@_local_0@method@t",
       "Def": true,
-      "Repo": "",
-      "File": "lib/gem.rb",
-      "Start": 46,
-      "End": 47
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "A@_local_0@method@t",
-      "Def": false,
       "Repo": "",
       "File": "lib/gem.rb",
       "Start": 46,
@@ -113,17 +91,6 @@
       "File": "lib/gem.rb",
       "Start": 83,
       "End": 84
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "A",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/gem.rb",
-      "Start": 22,
-      "End": 23
     },
     {
       "SymbolRepo": "",
