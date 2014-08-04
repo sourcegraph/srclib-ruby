@@ -4,3 +4,9 @@
 [submodule "testdata/case/ruby-sample-1"]
 	path = testdata/case/ruby-sample-1
 	url = https://github.com/sgtest/ruby-sample-1.git
+[submodule "testdata/case/sample_ruby_gem"]
+	path = testdata/case/sample_ruby_gem
+	url = https://github.com/sgtest/sample_ruby_gem.git
+[submodule "testdata/case/ruby_sample_xref_app"]
+	path = testdata/case/ruby_sample_xref_app
+	url = https://github.com/sgtest/ruby_sample_xref_app.git
