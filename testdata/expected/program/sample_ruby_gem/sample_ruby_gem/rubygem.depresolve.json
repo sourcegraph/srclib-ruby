@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "Raw": [
+      "sample_ruby_gem",
+      ">= 0"
+    ],
+    "Target": {
+      "ToUnit": "sample_ruby_gem",
+      "ToUnitType": "rubygem",
+      "ToVersionString": ">= 0",
+      "ToRepoCloneURL": "https://github.com/sgtest/sample_ruby_gem"
+    }
+  },
+  {
+    "Raw": [
+      "turbolinks",
+      ">= 0"
+    ],
+    "Target": {
+      "ToUnit": "turbolinks",
+      "ToUnitType": "rubygem",
+      "ToVersionString": ">= 0",
+      "ToRepoCloneURL": "https://github.com/rails/turbolinks/"
+    }
+  }
+]

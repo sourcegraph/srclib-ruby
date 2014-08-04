@@ -1,1 +1,105 @@
-[]
+[
+  {
+    "Raw": [
+      "ruby_sample_xref_app",
+      ">= 0"
+    ],
+    "Error": "#<JSON::ParserError: 757: unexpected token at 'This rubygem could not be found.'>"
+  },
+  {
+    "Raw": [
+      "tire",
+      "~> 0.6.1"
+    ],
+    "Target": {
+      "ToUnit": "tire",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "~> 0.6.1",
+      "ToRepoCloneURL": "https://github.com/karmi/tire"
+    }
+  },
+  {
+    "Raw": [
+      "redis",
+      "~> 3.0.5"
+    ],
+    "Target": {
+      "ToUnit": "redis",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "~> 3.0.5",
+      "ToRepoCloneURL": "https://github.com/redis/redis-rb"
+    }
+  },
+  {
+    "Raw": [
+      "stripe",
+      "~> 1.8.8"
+    ],
+    "Target": {
+      "ToUnit": "stripe",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "~> 1.8.8",
+      "ToRepoCloneURL": "https://github.com/stripe/stripe-ruby"
+    }
+  },
+  {
+    "Raw": [
+      "geocoder",
+      "~> 1.1.8"
+    ],
+    "Target": {
+      "ToUnit": "geocoder",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "~> 1.1.8",
+      "ToRepoCloneURL": "http://www.rubygeocoder.com"
+    }
+  },
+  {
+    "Raw": [
+      "yajl-ruby",
+      ">= 0"
+    ],
+    "Target": {
+      "ToUnit": "yajl-ruby",
+      "ToUnitType": "rubygem",
+      "ToVersionString": ">= 0",
+      "ToRepoCloneURL": "http://github.com/brianmario/yajl-ruby"
+    }
+  },
+  {
+    "Raw": [
+      "searchkick",
+      "~> 0.2.8"
+    ],
+    "Target": {
+      "ToUnit": "searchkick",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "~> 0.2.8",
+      "ToRepoCloneURL": "https://github.com/ankane/searchkick"
+    }
+  },
+  {
+    "Raw": [
+      "groupdate",
+      "~> 1.0.4"
+    ],
+    "Target": {
+      "ToUnit": "groupdate",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "~> 1.0.4",
+      "ToRepoCloneURL": "https://github.com/ankane/groupdate"
+    }
+  },
+  {
+    "Raw": [
+      "barkick",
+      "~> 0.0.2"
+    ],
+    "Target": {
+      "ToUnit": "barkick",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "~> 0.0.2",
+      "ToRepoCloneURL": "https://github.com/ankane/barkick"
+    }
+  }
+]
