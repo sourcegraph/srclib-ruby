@@ -100,7 +100,7 @@ module Srclib
     end
 
     def seen_ref(ref)
-      key = "SymbolRepo=#{ref['SymbolRepo']} SymbolUnitType=#{ref['SymbolUnitType']} SymbolUnit=#{ref['SymbolUnit']} SymbolPath=#{ref['SymbolPath']} File=#{ref['File']} Start=#{ref['Start']} End=#{ref['End']}"
+      key = "DefRepo=#{ref['DefRepo']} DefUnitType=#{ref['DefUnitType']} DefUnit=#{ref['DefUnit']} DefPath=#{ref['DefPath']} File=#{ref['File']} Start=#{ref['Start']} End=#{ref['End']}"
       if seen = @seen_refs[key]
         STDERR.puts "already seen ref with seen-key #{key}; skipping (prev ref is: #{seen.inspect})"
         return true
@@ -112,7 +112,7 @@ module Srclib
     def convert_to_srclib_graph_format(condensed)
       @seen_defs = {}
       @seen_refs = {}
-      @graph = {'Symbols' => [], 'Refs' => [], 'Docs' => []}
+      @graph = {'Defs' => [], 'Refs' => [], 'Docs' => []}
 
       for obj in condensed['objects']
         defn = to_srclib_defn(obj)
@@ -121,7 +121,7 @@ module Srclib
           next
         end
 
-        @graph['Symbols'] << defn
+        @graph['Defs'] << defn
 
         if obj['docstring'] and !obj['docstring'].empty?
           @graph['Docs'] << {
@@ -138,7 +138,7 @@ module Srclib
 
         if obj['name_start'] != 0 and obj['name_end'] != 0
           name_ref = {
-            'SymbolPath' => defn['Path'],
+            'DefPath' => defn['Path'],
             'Def' => true,
             'File' => defn['File'],
             'Start' => obj['name_start'],
@@ -155,23 +155,23 @@ module Srclib
       for yard_ref in condensed['references']
         ref, dep_gem_name = to_srclib_ref(yard_ref)
 
-        if ref['SymbolPath'].empty?
-          STDERR.puts "Warning: got ref with empty symbol path; skipping (ref is: #{ref.inspect})"
+        if ref['DefPath'].empty?
+          STDERR.puts "Warning: got ref with empty def path; skipping (ref is: #{ref.inspect})"
           next
         end
 
-        # Determine the referenced symbol's repo.
+        # Determine the referenced def's repo.
         if dep_gem_name == STDLIB_GEM_NAME_SENTINEL
           # Ref to stdlib.
-          ref['SymbolRepo'] = STDLIB_CLONE_URL
-          ref['SymbolUnit'] = '.'
-          ref['SymbolUnitType'] = 'ruby'
+          ref['DefRepo'] = STDLIB_CLONE_URL
+          ref['DefUnit'] = '.'
+          ref['DefUnitType'] = 'ruby'
         elsif dep_gem_name and dep_gem_name != ""
           # Ref to another gem.
           begin
             gem_clone_url = Srclib::DepResolve.get_gem_clone_url(dep_gem_name)
-            ref['SymbolRepo'] = gem_clone_url
-            ref['SymbolUnit'] = dep_gem_name
+            ref['DefRepo'] = gem_clone_url
+            ref['DefUnit'] = dep_gem_name
           rescue Exception => ex
             if not printed_gem_resolution_err[dep_gem_name]
               STDERR.puts "Warning: Failed to resolve gem dependency #{dep_gem_name} to clone URL: #{ex.inspect} (continuing, not emitting reference, and suppressing future identical log messages)"
@@ -193,7 +193,7 @@ module Srclib
 
     def to_srclib_ref(yard_ref)
       ref = {
-        'SymbolPath' => yard_object_path_to_srclib_path(yard_ref['target']),
+        'DefPath' => yard_object_path_to_srclib_path(yard_ref['target']),
         'Def' => yard_ref['kind'] == 'decl_ident',
         'File' => yard_ref['file'],
         'Start' => yard_ref['start'],

@@ -1,5 +1,5 @@
 {
-  "Symbols": [
+  "Defs": [
     {
       "Path": "A",
       "TreePath": "./A",
@@ -60,10 +60,10 @@
   ],
   "Refs": [
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "A/$classmethods/method",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "A/$classmethods/method",
       "Def": true,
       "Repo": "",
       "File": "lib/gem.rb",
@@ -71,10 +71,10 @@
       "End": 41
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "A@_local_0@method@t",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "A@_local_0@method@t",
       "Def": true,
       "Repo": "",
       "File": "lib/gem.rb",
@@ -82,10 +82,10 @@
       "End": 47
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "A@_local_0@method@t",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "A@_local_0@method@t",
       "Def": false,
       "Repo": "",
       "File": "lib/gem.rb",
@@ -93,10 +93,10 @@
       "End": 84
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "A",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "A",
       "Def": true,
       "Repo": "",
       "File": "lib/gem.rb",
@@ -104,10 +104,10 @@
       "End": 23
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "A",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "A",
       "Def": false,
       "Repo": "",
       "File": "lib/gem.rb",

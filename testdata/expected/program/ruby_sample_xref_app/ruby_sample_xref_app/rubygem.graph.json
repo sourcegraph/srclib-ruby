@@ -1,5 +1,5 @@
 {
-  "Symbols": [
+  "Defs": [
     {
       "Path": "Article",
       "TreePath": "./Article",
@@ -1390,10 +1390,10 @@
   ],
   "Refs": [
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$classmethods/q",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/$classmethods/q",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1401,10 +1401,10 @@
       "End": 8460
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$classmethods/q",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/$classmethods/q",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1412,10 +1412,10 @@
       "End": 8872
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$classmethods/search",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/$classmethods/search",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1423,10 +1423,10 @@
       "End": 8558
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$methods/initialize",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/$methods/initialize",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1434,10 +1434,10 @@
       "End": 2820
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$methods/initialize",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/$methods/initialize",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1445,10 +1445,10 @@
       "End": 3442
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$methods/published_on",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/$methods/published_on",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1456,10 +1456,10 @@
       "End": 2801
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$methods/tags",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/$methods/tags",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1467,10 +1467,10 @@
       "End": 2786
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$methods/title",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/$methods/title",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1478,10 +1478,10 @@
       "End": 2779
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$methods/to_indexed_json",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/$methods/to_indexed_json",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1489,10 +1489,10 @@
       "End": 3200
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/$methods/type",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/$methods/type",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1500,10 +1500,10 @@
       "End": 3068
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/@attributes",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/@attributes",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1511,10 +1511,10 @@
       "End": 2853
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/@attributes",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/@attributes",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1522,10 +1522,10 @@
       "End": 2885
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article/@attributes",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article/@attributes",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1533,10 +1533,10 @@
       "End": 3218
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article@_local_0@/$methods/initialize@@block_local_0@name",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article@_local_0@/$methods/initialize@@block_local_0@name",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1544,10 +1544,10 @@
       "End": 2903
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article@_local_0@/$methods/initialize@@block_local_0@name",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article@_local_0@/$methods/initialize@@block_local_0@name",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1555,10 +1555,10 @@
       "End": 2942
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article@_local_0@/$methods/initialize@@block_local_0@value",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article@_local_0@/$methods/initialize@@block_local_0@value",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1566,10 +1566,10 @@
       "End": 2909
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article@_local_0@/$methods/initialize@@block_local_0@value",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article@_local_0@/$methods/initialize@@block_local_0@value",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1577,10 +1577,10 @@
       "End": 2951
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article@_local_0@/$methods/initialize@attributes",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article@_local_0@/$methods/initialize@attributes",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1588,10 +1588,10 @@
       "End": 2831
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article@_local_0@/$methods/initialize@attributes",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article@_local_0@/$methods/initialize@attributes",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1599,10 +1599,10 @@
       "End": 2867
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article@_local_1@search@@block_local_0@@block_local_1@query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article@_local_1@search@@block_local_0@@block_local_1@query",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1610,10 +1610,10 @@
       "End": 8774
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article@_local_1@search@@block_local_0@@block_local_1@query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article@_local_1@search@@block_local_0@@block_local_1@query",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1621,10 +1621,10 @@
       "End": 8858
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article@_local_1@search@@block_local_0@search",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article@_local_1@search@@block_local_0@search",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1632,10 +1632,10 @@
       "End": 8677
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article@_local_1@search@@block_local_0@search",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article@_local_1@search@@block_local_0@search",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1643,10 +1643,10 @@
       "End": 8758
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1654,10 +1654,10 @@
       "End": 10931
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1665,10 +1665,10 @@
       "End": 2749
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1676,10 +1676,10 @@
       "End": 3438
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1687,10 +1687,10 @@
       "End": 8392
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1698,10 +1698,10 @@
       "End": 8458
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1709,10 +1709,10 @@
       "End": 8551
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Article",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Article",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -1720,10 +1720,10 @@
       "End": 8870
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Goal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Goal",
       "Def": true,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1731,10 +1731,10 @@
       "End": 129
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Goal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Goal",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1742,10 +1742,10 @@
       "End": 463
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product2",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product2",
       "Def": true,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1753,10 +1753,10 @@
       "End": 460
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1764,10 +1764,10 @@
       "End": 107
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1775,10 +1775,10 @@
       "End": 136
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1786,10 +1786,10 @@
       "End": 214
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1797,10 +1797,10 @@
       "End": 287
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1808,10 +1808,10 @@
       "End": 344
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1819,10 +1819,10 @@
       "End": 391
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product",
       "Def": true,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1830,10 +1830,10 @@
       "End": 59
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1841,10 +1841,10 @@
       "End": 572
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1852,10 +1852,10 @@
       "End": 620
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1863,10 +1863,10 @@
       "End": 715
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -1874,10 +1874,10 @@
       "End": 765
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Task",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Task",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1885,10 +1885,10 @@
       "End": 1500
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Task",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Task",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1896,10 +1896,10 @@
       "End": 311
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "Task",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Task",
       "Def": true,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1907,10 +1907,10 @@
       "End": 92
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1918,10 +1918,10 @@
       "End": 1034
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1929,10 +1929,10 @@
       "End": 1182
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1940,10 +1940,10 @@
       "End": 1315
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1951,10 +1951,10 @@
       "End": 1370
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1962,10 +1962,10 @@
       "End": 1428
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1973,10 +1973,10 @@
       "End": 1564
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1984,10 +1984,10 @@
       "End": 160
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -1995,10 +1995,10 @@
       "End": 1601
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": true,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -2006,10 +2006,10 @@
       "End": 55
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -2017,10 +2017,10 @@
       "End": 617
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -2028,10 +2028,10 @@
       "End": 753
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -2039,10 +2039,10 @@
       "End": 803
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "User",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "User",
       "Def": false,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -2050,10 +2050,10 @@
       "End": 909
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2061,10 +2061,10 @@
       "End": 115
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2072,10 +2072,10 @@
       "End": 150
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2083,10 +2083,10 @@
       "End": 184
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2094,10 +2094,10 @@
       "End": 23
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2105,10 +2105,10 @@
       "End": 209
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2116,10 +2116,10 @@
       "End": 238
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2127,10 +2127,10 @@
       "End": 270
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2138,10 +2138,10 @@
       "End": 294
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2149,10 +2149,10 @@
       "End": 318
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2160,10 +2160,10 @@
       "End": 342
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": true,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2171,10 +2171,10 @@
       "End": 379
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2182,10 +2182,10 @@
       "End": 407
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2193,10 +2193,10 @@
       "End": 55
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_barkick_rb_local_0@gtin",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_barkick_rb_local_0@gtin",
       "Def": false,
       "Repo": "",
       "File": "lib/use_barkick.rb",
@@ -2204,10 +2204,10 @@
       "End": 79
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_geocoder_rb_local_0@results",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_geocoder_rb_local_0@results",
       "Def": true,
       "Repo": "",
       "File": "lib/use_geocoder.rb",
@@ -2215,10 +2215,10 @@
       "End": 579
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_groupdate_rb_local_0@time_zone",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_groupdate_rb_local_0@time_zone",
       "Def": true,
       "Repo": "",
       "File": "lib/use_groupdate.rb",
@@ -2226,10 +2226,10 @@
       "End": 691
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@channel",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@channel",
       "Def": true,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2237,10 +2237,10 @@
       "End": 784
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@channel",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@channel",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2248,10 +2248,10 @@
       "End": 837
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@subscriptions",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@subscriptions",
       "Def": true,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2259,10 +2259,10 @@
       "End": 799
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@subscriptions",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@subscriptions",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2270,10 +2270,10 @@
       "End": 855
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@channel",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@channel",
       "Def": true,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2281,10 +2281,10 @@
       "End": 908
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@channel",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@channel",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2292,10 +2292,10 @@
       "End": 941
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@message",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@message",
       "Def": true,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2303,10 +2303,10 @@
       "End": 917
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@message",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@message",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2314,10 +2314,10 @@
       "End": 953
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@message",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@message",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2325,10 +2325,10 @@
       "End": 990
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@channel",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@channel",
       "Def": true,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2336,10 +2336,10 @@
       "End": 1040
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@channel",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@channel",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2347,10 +2347,10 @@
       "End": 1097
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@subscriptions",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@subscriptions",
       "Def": true,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2358,10 +2358,10 @@
       "End": 1055
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@subscriptions",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@subscriptions",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2369,10 +2369,10 @@
       "End": 1115
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@on",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@on",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2380,10 +2380,10 @@
       "End": 1016
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@on",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@on",
       "Def": true,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2391,10 +2391,10 @@
       "End": 754
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@on",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@on",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2402,10 +2402,10 @@
       "End": 762
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@@block_local_85@on",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@@block_local_85@on",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2413,10 +2413,10 @@
       "End": 888
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2424,10 +2424,10 @@
       "End": 116
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2435,10 +2435,10 @@
       "End": 1248
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2446,10 +2446,10 @@
       "End": 1265
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2457,10 +2457,10 @@
       "End": 1326
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2468,10 +2468,10 @@
       "End": 1351
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2479,10 +2479,10 @@
       "End": 1376
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2490,10 +2490,10 @@
       "End": 140
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2501,10 +2501,10 @@
       "End": 1447
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2512,10 +2512,10 @@
       "End": 1474
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2523,10 +2523,10 @@
       "End": 1500
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2534,10 +2534,10 @@
       "End": 1548
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2545,10 +2545,10 @@
       "End": 159
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2556,10 +2556,10 @@
       "End": 1593
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2567,10 +2567,10 @@
       "End": 1667
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": true,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2578,10 +2578,10 @@
       "End": 18
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2589,10 +2589,10 @@
       "End": 179
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2600,10 +2600,10 @@
       "End": 199
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2611,10 +2611,10 @@
       "End": 234
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2622,10 +2622,10 @@
       "End": 254
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2633,10 +2633,10 @@
       "End": 274
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2644,10 +2644,10 @@
       "End": 293
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2655,10 +2655,10 @@
       "End": 33
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2666,10 +2666,10 @@
       "End": 350
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2677,10 +2677,10 @@
       "End": 385
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2688,10 +2688,10 @@
       "End": 423
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2699,10 +2699,10 @@
       "End": 465
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2710,10 +2710,10 @@
       "End": 543
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2721,10 +2721,10 @@
       "End": 634
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2732,10 +2732,10 @@
       "End": 661
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_redis_rb_local_0@r",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_redis_rb_local_0@r",
       "Def": false,
       "Repo": "",
       "File": "lib/use_redis.rb",
@@ -2743,10 +2743,10 @@
       "End": 73
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_searchkick_rb_local_0@@block_local_89@product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_searchkick_rb_local_0@@block_local_89@product",
       "Def": true,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -2754,10 +2754,10 @@
       "End": 179
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_searchkick_rb_local_0@@block_local_89@product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_searchkick_rb_local_0@@block_local_89@product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -2765,10 +2765,10 @@
       "End": 195
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_searchkick_rb_local_0@product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_searchkick_rb_local_0@product",
       "Def": true,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -2776,10 +2776,10 @@
       "End": 705
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_searchkick_rb_local_0@product",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_searchkick_rb_local_0@product",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -2787,10 +2787,10 @@
       "End": 729
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_searchkick_rb_local_0@products",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_searchkick_rb_local_0@products",
       "Def": true,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -2798,10 +2798,10 @@
       "End": 126
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_searchkick_rb_local_0@products",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_searchkick_rb_local_0@products",
       "Def": false,
       "Repo": "",
       "File": "lib/use_searchkick.rb",
@@ -2809,10 +2809,10 @@
       "End": 162
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_stripe_rb_local_0@charge",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_stripe_rb_local_0@charge",
       "Def": true,
       "Repo": "",
       "File": "lib/use_stripe.rb",
@@ -2820,10 +2820,10 @@
       "End": 345
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_stripe_rb_local_0@customer",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_stripe_rb_local_0@customer",
       "Def": false,
       "Repo": "",
       "File": "lib/use_stripe.rb",
@@ -2831,10 +2831,10 @@
       "End": 585
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_stripe_rb_local_0@customer",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_stripe_rb_local_0@customer",
       "Def": false,
       "Repo": "",
       "File": "lib/use_stripe.rb",
@@ -2842,10 +2842,10 @@
       "End": 735
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_stripe_rb_local_0@customer",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_stripe_rb_local_0@customer",
       "Def": false,
       "Repo": "",
       "File": "lib/use_stripe.rb",
@@ -2853,10 +2853,10 @@
       "End": 762
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_stripe_rb_local_0@customer",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_stripe_rb_local_0@customer",
       "Def": true,
       "Repo": "",
       "File": "lib/use_stripe.rb",
@@ -2864,10 +2864,10 @@
       "End": 815
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_stripe_rb_local_0@customer",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_stripe_rb_local_0@customer",
       "Def": false,
       "Repo": "",
       "File": "lib/use_stripe.rb",
@@ -2875,10 +2875,10 @@
       "End": 870
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_stripe_rb_local_0@customer",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_stripe_rb_local_0@customer",
       "Def": false,
       "Repo": "",
       "File": "lib/use_stripe.rb",
@@ -2886,10 +2886,10 @@
       "End": 885
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_stripe_rb_local_0@token",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_stripe_rb_local_0@token",
       "Def": true,
       "Repo": "",
       "File": "lib/use_stripe.rb",
@@ -2897,10 +2897,10 @@
       "End": 240
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_0@article",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_0@article",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -2908,10 +2908,10 @@
       "End": 3428
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_0@article",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_0@article",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -2919,10 +2919,10 @@
       "End": 3621
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_11@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_11@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -2930,10 +2930,10 @@
       "End": 7607
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_11@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_11@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -2941,10 +2941,10 @@
       "End": 7630
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_11@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_11@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -2952,10 +2952,10 @@
       "End": 7661
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_14@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_14@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -2963,10 +2963,10 @@
       "End": 8102
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_14@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_14@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -2974,10 +2974,10 @@
       "End": 8125
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_14@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_14@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -2985,10 +2985,10 @@
       "End": 8151
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_19@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_19@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -2996,10 +2996,10 @@
       "End": 11830
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_19@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_19@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3007,10 +3007,10 @@
       "End": 11853
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_19@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_19@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3018,10 +3018,10 @@
       "End": 11879
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_22@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_22@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3029,10 +3029,10 @@
       "End": 12323
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_22@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_22@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3040,10 +3040,10 @@
       "End": 12346
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_22@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_22@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3051,10 +3051,10 @@
       "End": 12372
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_29@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_29@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3062,10 +3062,10 @@
       "End": 13264
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_29@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_29@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3073,10 +3073,10 @@
       "End": 13287
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_29@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_29@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3084,10 +3084,10 @@
       "End": 13313
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_30@boolean",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_30@boolean",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3095,10 +3095,10 @@
       "End": 13621
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_30@boolean",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_30@boolean",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3106,10 +3106,10 @@
       "End": 13632
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_30@boolean",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_30@boolean",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3117,10 +3117,10 @@
       "End": 13672
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_33@boolean",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_33@boolean",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3128,10 +3128,10 @@
       "End": 13798
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_33@boolean",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_33@boolean",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3139,10 +3139,10 @@
       "End": 13809
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@@block_local_5@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@@block_local_5@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3150,10 +3150,10 @@
       "End": 6641
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@@block_local_5@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@@block_local_5@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3161,10 +3161,10 @@
       "End": 6651
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@documents",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@documents",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3172,10 +3172,10 @@
       "End": 6491
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@documents",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@documents",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3183,10 +3183,10 @@
       "End": 6625
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_42@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_42@f",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3194,10 +3194,10 @@
       "End": 16193
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_42@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_42@f",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3205,10 +3205,10 @@
       "End": 16206
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_42@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_42@f",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3216,10 +3216,10 @@
       "End": 16229
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_47@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_47@f",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3227,10 +3227,10 @@
       "End": 17102
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_47@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_47@f",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3238,10 +3238,10 @@
       "End": 17115
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_47@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_47@f",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3249,10 +3249,10 @@
       "End": 17138
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_48@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_48@f",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3260,10 +3260,10 @@
       "End": 17514
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_48@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_48@f",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3271,10 +3271,10 @@
       "End": 17527
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_48@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_48@f",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3282,10 +3282,10 @@
       "End": 17550
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_52@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_52@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3293,10 +3293,10 @@
       "End": 19639
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_52@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_52@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3304,10 +3304,10 @@
       "End": 19662
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_52@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_52@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3315,10 +3315,10 @@
       "End": 19688
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_53@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_53@f",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3326,10 +3326,10 @@
       "End": 19993
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_53@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_53@f",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3337,10 +3337,10 @@
       "End": 20006
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_53@f",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_53@f",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3348,10 +3348,10 @@
       "End": 20029
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_56@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_56@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3359,10 +3359,10 @@
       "End": 20218
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_56@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_56@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3370,10 +3370,10 @@
       "End": 20241
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_56@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_56@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3381,10 +3381,10 @@
       "End": 20279
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_56@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_56@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3392,10 +3392,10 @@
       "End": 20395
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_60@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_60@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3403,10 +3403,10 @@
       "End": 21023
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_60@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_60@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3414,10 +3414,10 @@
       "End": 21046
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_64@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_64@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3425,10 +3425,10 @@
       "End": 21711
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_64@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_64@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3436,10 +3436,10 @@
       "End": 21734
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_64@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_64@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3447,10 +3447,10 @@
       "End": 21780
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3458,10 +3458,10 @@
       "End": 23862
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3469,10 +3469,10 @@
       "End": 23885
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3480,10 +3480,10 @@
       "End": 23915
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_73@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_73@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3491,10 +3491,10 @@
       "End": 24538
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_73@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_73@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3502,10 +3502,10 @@
       "End": 24566
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_73@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_73@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3513,10 +3513,10 @@
       "End": 24599
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_8@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_8@document",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3524,10 +3524,10 @@
       "End": 7189
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_8@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_8@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3535,10 +3535,10 @@
       "End": 7212
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@@block_local_8@document",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_8@document",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3546,10 +3546,10 @@
       "End": 7238
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@articles",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@articles",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3557,10 +3557,10 @@
       "End": 5505
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@articles",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@articles",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3568,10 +3568,10 @@
       "End": 6226
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@articles",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@articles",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3579,10 +3579,10 @@
       "End": 6477
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@index",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3590,10 +3590,10 @@
       "End": 25674
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@index",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3601,10 +3601,10 @@
       "End": 26458
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@index",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3612,10 +3612,10 @@
       "End": 26871
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@index",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3623,10 +3623,10 @@
       "End": 27328
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@index",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3634,10 +3634,10 @@
       "End": 27870
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@index",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3645,10 +3645,10 @@
       "End": 28268
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@matches",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3656,10 +3656,10 @@
       "End": 26450
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@matches",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3667,10 +3667,10 @@
       "End": 26723
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@matches",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3678,10 +3678,10 @@
       "End": 26863
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@matches",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3689,10 +3689,10 @@
       "End": 27224
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@matches",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3700,10 +3700,10 @@
       "End": 27320
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@matches",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3711,10 +3711,10 @@
       "End": 27531
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@published_on_query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@published_on_query",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3722,10 +3722,10 @@
       "End": 13777
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@published_on_query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@published_on_query",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3733,10 +3733,10 @@
       "End": 14133
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@q",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@q",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3744,10 +3744,10 @@
       "End": 7880
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@q",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@q",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3755,10 +3755,10 @@
       "End": 7992
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@response",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@response",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3766,10 +3766,10 @@
       "End": 27862
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@response",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@response",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3777,10 +3777,10 @@
       "End": 28158
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@response",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@response",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3788,10 +3788,10 @@
       "End": 28260
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@response",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@response",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3799,10 +3799,10 @@
       "End": 28648
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3810,10 +3810,10 @@
       "End": 11287
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3821,10 +3821,10 @@
       "End": 11804
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3832,10 +3832,10 @@
       "End": 11985
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3843,10 +3843,10 @@
       "End": 12297
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3854,10 +3854,10 @@
       "End": 12683
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3865,10 +3865,10 @@
       "End": 13238
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3876,10 +3876,10 @@
       "End": 15448
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3887,10 +3887,10 @@
       "End": 16055
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3898,10 +3898,10 @@
       "End": 16084
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3909,10 +3909,10 @@
       "End": 16150
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3920,10 +3920,10 @@
       "End": 16396
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3931,10 +3931,10 @@
       "End": 17051
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3942,10 +3942,10 @@
       "End": 17464
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3953,10 +3953,10 @@
       "End": 19155
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3964,10 +3964,10 @@
       "End": 19613
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3975,10 +3975,10 @@
       "End": 19950
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3986,10 +3986,10 @@
       "End": 20130
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -3997,10 +3997,10 @@
       "End": 20192
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4008,10 +4008,10 @@
       "End": 20710
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4019,10 +4019,10 @@
       "End": 20997
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4030,10 +4030,10 @@
       "End": 21140
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4041,10 +4041,10 @@
       "End": 21685
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4052,10 +4052,10 @@
       "End": 23546
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4063,10 +4063,10 @@
       "End": 23836
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4074,10 +4074,10 @@
       "End": 24223
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4085,10 +4085,10 @@
       "End": 24512
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4096,10 +4096,10 @@
       "End": 24685
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4107,10 +4107,10 @@
       "End": 7045
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4118,10 +4118,10 @@
       "End": 7163
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4129,10 +4129,10 @@
       "End": 7348
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4140,10 +4140,10 @@
       "End": 7581
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4151,10 +4151,10 @@
       "End": 7947
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4162,10 +4162,10 @@
       "End": 8076
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4173,10 +4173,10 @@
       "End": 9233
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@s",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4184,10 +4184,10 @@
       "End": 9615
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@tags_query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@tags_query",
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4195,10 +4195,10 @@
       "End": 13600
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@tags_query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@tags_query",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4206,10 +4206,10 @@
       "End": 13977
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_tire_rb_local_0@tags_query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@tags_query",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4217,10 +4217,10 @@
       "End": 14101
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@@block_local_82@hash",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@@block_local_82@hash",
       "Def": true,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4228,10 +4228,10 @@
       "End": 277
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@@block_local_83@chunk",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@@block_local_83@chunk",
       "Def": true,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4239,10 +4239,10 @@
       "End": 870
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@@block_local_83@chunk",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@@block_local_83@chunk",
       "Def": false,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4250,10 +4250,10 @@
       "End": 907
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@@block_local_83@chunk",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@@block_local_83@chunk",
       "Def": false,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4261,10 +4261,10 @@
       "End": 930
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@chunks",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@chunks",
       "Def": true,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4272,10 +4272,10 @@
       "End": 814
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@chunks",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@chunks",
       "Def": false,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4283,10 +4283,10 @@
       "End": 880
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@hash",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@hash",
       "Def": false,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4294,10 +4294,10 @@
       "End": 127
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@hash",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@hash",
       "Def": true,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4305,10 +4305,10 @@
       "End": 90
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@obj",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@obj",
       "Def": false,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4316,10 +4316,10 @@
       "End": 337
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@obj",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@obj",
       "Def": true,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4327,10 +4327,10 @@
       "End": 939
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@total_size",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@total_size",
       "Def": true,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4338,10 +4338,10 @@
       "End": 829
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@total_size",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@total_size",
       "Def": false,
       "Repo": "",
       "File": "lib/use_yajl.rb",
@@ -4349,10 +4349,10 @@
       "End": 898
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file:lib/use_yajl_rb_local_0@uri",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_yajl_rb_local_0@uri",
       "Def": true,
       "Repo": "",
       "File": "lib/use_yajl.rb",
