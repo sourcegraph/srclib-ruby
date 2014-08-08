@@ -65,6 +65,9 @@ module Srclib
           if o[:files]
             o[:files].sort!
           end
+          if o[:metadata] && o[:metadata].empty?
+            o.delete(:metadata)
+          end
           gemspecs[spec_file] = o
         end
       end
