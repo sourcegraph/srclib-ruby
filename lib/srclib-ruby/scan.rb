@@ -68,6 +68,8 @@ module Srclib
           if o[:metadata] && o[:metadata].empty?
             o.delete(:metadata)
           end
+          o.delete(:rubygems_version)
+          o.delete(:specification_version)
           gemspecs[spec_file] = o
         end
       end
