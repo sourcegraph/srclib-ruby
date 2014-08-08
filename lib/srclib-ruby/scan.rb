@@ -62,6 +62,9 @@ module Srclib
             v = spec.instance_variable_get("@#{name}")
             o[name] = v if v
           end
+          if o['files']
+            o['files'].sort!
+          end
           gemspecs[spec_file] = o
         end
       end
