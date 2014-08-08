@@ -237,6 +237,8 @@ module Srclib
         'DefEnd' => obj['def_end'],
         'Test' => (/(_test\.rb|_spec\.rb)$/.match(obj['file']) or /(specs?|tests?)\//.match(obj['file'])),
         'Data' => {
+          # NOTE: This should be kept in sync with the def formatter in this
+          # repository (which is written in Go).
           'RubyKind' => obj['type'],
           'TypeString' => obj['type_string'],
           'Signature' => obj['signature'],
