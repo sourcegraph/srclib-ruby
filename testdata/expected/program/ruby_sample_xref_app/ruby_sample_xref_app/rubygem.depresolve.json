@@ -1,45 +1,14 @@
 [
   {
     "Raw": [
-      "ruby_sample_xref_app",
-      ">= 0"
-    ],
-    "Error": "#<JSON::ParserError: 746: unexpected token at 'This rubygem could not be found.'>"
-  },
-  {
-    "Raw": [
-      "tire",
-      "~> 0.6.1"
+      "barkick",
+      "~> 0.0.2"
     ],
     "Target": {
-      "ToUnit": "tire",
+      "ToUnit": "barkick",
       "ToUnitType": "rubygem",
-      "ToVersionString": "~> 0.6.1",
-      "ToRepoCloneURL": "https://github.com/karmi/tire"
-    }
-  },
-  {
-    "Raw": [
-      "redis",
-      "~> 3.0.5"
-    ],
-    "Target": {
-      "ToUnit": "redis",
-      "ToUnitType": "rubygem",
-      "ToVersionString": "~> 3.0.5",
-      "ToRepoCloneURL": "https://github.com/redis/redis-rb"
-    }
-  },
-  {
-    "Raw": [
-      "stripe",
-      "~> 1.8.8"
-    ],
-    "Target": {
-      "ToUnit": "stripe",
-      "ToUnitType": "rubygem",
-      "ToVersionString": "~> 1.8.8",
-      "ToRepoCloneURL": "https://github.com/stripe/stripe-ruby"
+      "ToVersionString": "~> 0.0.2",
+      "ToRepoCloneURL": "https://github.com/ankane/barkick"
     }
   },
   {
@@ -56,15 +25,34 @@
   },
   {
     "Raw": [
-      "yajl-ruby",
-      ">= 0"
+      "groupdate",
+      "~> 1.0.4"
     ],
     "Target": {
-      "ToUnit": "yajl-ruby",
+      "ToUnit": "groupdate",
       "ToUnitType": "rubygem",
-      "ToVersionString": ">= 0",
-      "ToRepoCloneURL": "http://github.com/brianmario/yajl-ruby"
+      "ToVersionString": "~> 1.0.4",
+      "ToRepoCloneURL": "https://github.com/ankane/groupdate"
     }
+  },
+  {
+    "Raw": [
+      "redis",
+      "~> 3.0.5"
+    ],
+    "Target": {
+      "ToUnit": "redis",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "~> 3.0.5",
+      "ToRepoCloneURL": "https://github.com/redis/redis-rb"
+    }
+  },
+  {
+    "Raw": [
+      "ruby_sample_xref_app",
+      ">= 0"
+    ],
+    "Error": "#<JSON::ParserError: 746: unexpected token at 'This rubygem could not be found.'>"
   },
   {
     "Raw": [
@@ -80,26 +68,38 @@
   },
   {
     "Raw": [
-      "groupdate",
-      "~> 1.0.4"
+      "stripe",
+      "~> 1.8.8"
     ],
     "Target": {
-      "ToUnit": "groupdate",
+      "ToUnit": "stripe",
       "ToUnitType": "rubygem",
-      "ToVersionString": "~> 1.0.4",
-      "ToRepoCloneURL": "https://github.com/ankane/groupdate"
+      "ToVersionString": "~> 1.8.8",
+      "ToRepoCloneURL": "https://github.com/stripe/stripe-ruby"
     }
   },
   {
     "Raw": [
-      "barkick",
-      "~> 0.0.2"
+      "tire",
+      "~> 0.6.1"
     ],
     "Target": {
-      "ToUnit": "barkick",
+      "ToUnit": "tire",
       "ToUnitType": "rubygem",
-      "ToVersionString": "~> 0.0.2",
-      "ToRepoCloneURL": "https://github.com/ankane/barkick"
+      "ToVersionString": "~> 0.6.1",
+      "ToRepoCloneURL": "https://github.com/karmi/tire"
+    }
+  },
+  {
+    "Raw": [
+      "yajl-ruby",
+      ">= 0"
+    ],
+    "Target": {
+      "ToUnit": "yajl-ruby",
+      "ToUnitType": "rubygem",
+      "ToVersionString": ">= 0",
+      "ToRepoCloneURL": "http://github.com/brianmario/yajl-ruby"
     }
   }
 ]

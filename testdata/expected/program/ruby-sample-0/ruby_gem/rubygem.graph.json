@@ -22,16 +22,16 @@
     {
       "Path": "C",
       "TreePath": "./C",
-      "Kind": "type",
+      "Kind": "const",
       "Name": "C",
       "Callable": false,
-      "File": "lib/cases/class.rb",
+      "File": "lib/cases/top_const.rb",
       "DefStart": 0,
-      "DefEnd": 235,
+      "DefEnd": 5,
       "Exported": true,
       "Data": {
-        "RubyKind": "class",
-        "TypeString": "Fixnum#, C",
+        "RubyKind": "constant",
+        "TypeString": "C, Fixnum#",
         "Signature": null,
         "Module": "",
         "RubyPath": "C",
@@ -609,8 +609,8 @@
       }
     },
     {
-      "Path": "file:lib/cases/core_rb_local_0@@block_local_1@n",
-      "TreePath": "./file:lib/cases/core_rb_local_0/@block_local_1/n",
+      "Path": "file:lib/cases/core_rb_local_0@@block_local_0@n",
+      "TreePath": "./file:lib/cases/core_rb_local_0/@block_local_0/n",
       "Kind": "var",
       "Name": "n",
       "Callable": false,
@@ -623,7 +623,7 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/cases/core.rb_local_0\u003e@block_local_1\u003en",
+        "RubyPath": "file:lib/cases/core.rb_local_0\u003e@block_local_0\u003en",
         "ReturnType": ""
       }
     },
@@ -685,8 +685,8 @@
       }
     },
     {
-      "Path": "file:lib/ruby_gem_rb_local_0@@block_local_0@t",
-      "TreePath": "./file:lib/ruby_gem_rb_local_0/@block_local_0/t",
+      "Path": "file:lib/ruby_gem_rb_local_0@@block_local_1@t",
+      "TreePath": "./file:lib/ruby_gem_rb_local_0/@block_local_1/t",
       "Kind": "var",
       "Name": "t",
       "Callable": false,
@@ -699,7 +699,7 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/ruby_gem.rb_local_0\u003e@block_local_0\u003et",
+        "RubyPath": "file:lib/ruby_gem.rb_local_0\u003e@block_local_1\u003et",
         "ReturnType": ""
       }
     },
@@ -1687,7 +1687,7 @@
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
-      "DefPath": "file:lib/cases/core_rb_local_0@@block_local_1@n",
+      "DefPath": "file:lib/cases/core_rb_local_0@@block_local_0@n",
       "Def": true,
       "Repo": "",
       "File": "lib/cases/core.rb",
@@ -1698,7 +1698,7 @@
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
-      "DefPath": "file:lib/cases/core_rb_local_0@@block_local_1@n",
+      "DefPath": "file:lib/cases/core_rb_local_0@@block_local_0@n",
       "Def": false,
       "Repo": "",
       "File": "lib/cases/core.rb",
@@ -1764,7 +1764,7 @@
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
-      "DefPath": "file:lib/ruby_gem_rb_local_0@@block_local_0@t",
+      "DefPath": "file:lib/ruby_gem_rb_local_0@@block_local_1@t",
       "Def": true,
       "Repo": "",
       "File": "lib/ruby_gem.rb",
@@ -1775,7 +1775,7 @@
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
-      "DefPath": "file:lib/ruby_gem_rb_local_0@@block_local_0@t",
+      "DefPath": "file:lib/ruby_gem_rb_local_0@@block_local_1@t",
       "Def": false,
       "Repo": "",
       "File": "lib/ruby_gem.rb",

@@ -33,13 +33,13 @@ module Srclib
         {
           'Name' => gem[:name],
           'Type' => 'rubygem',
-          'Files' => gem[:files],
-          'Dependencies' => deps, #gem[:dependencies], # TODO(sqs): what to do with the gemspec deps?
+          'Files' => gem[:files].sort,
+          'Dependencies' => (deps and deps.sort), #gem[:dependencies], # TODO(sqs): what to do with the gemspec deps?
           'Data' => gem,
           'Ops' => {'depresolve' => nil, 'graph' => nil},
         }
       end
-      puts JSON.generate(source_units)
+      puts JSON.generate(source_units.sort)
     end
 
     def initialize
@@ -51,7 +51,7 @@ module Srclib
     def find_gems(dir)
       dir = File.expand_path(dir)
       gemspecs = {}
-      spec_files = Dir.glob(File.join(dir, "**/*.gemspec"))
+      spec_files = Dir.glob(File.join(dir, "**/*.gemspec")).sort
       spec_files.each do |spec_file|
         Dir.chdir(File.expand_path(File.dirname(spec_file), dir))
         spec = Gem::Specification.load(spec_file)
