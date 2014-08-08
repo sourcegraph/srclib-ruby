@@ -34,7 +34,7 @@
         "TypeString": "",
         "Signature": "self.q",
         "Module": "",
-        "RubyPath": "Article/$classmethods/q",
+        "RubyPath": "Article.q",
         "ReturnType": ""
       }
     },
@@ -53,7 +53,7 @@
         "TypeString": "",
         "Signature": "self.search",
         "Module": "",
-        "RubyPath": "Article/$classmethods/search",
+        "RubyPath": "Article.search",
         "ReturnType": ""
       }
     },
@@ -72,7 +72,7 @@
         "TypeString": "",
         "Signature": "initialize(attributes={})",
         "Module": "",
-        "RubyPath": "Article/$methods/initialize",
+        "RubyPath": "Article#initialize",
         "ReturnType": ""
       }
     },
@@ -91,7 +91,7 @@
         "TypeString": "",
         "Signature": "published_on",
         "Module": "",
-        "RubyPath": "Article/$methods/published_on",
+        "RubyPath": "Article#published_on",
         "ReturnType": ""
       }
     },
@@ -110,7 +110,7 @@
         "TypeString": "",
         "Signature": "tags",
         "Module": "",
-        "RubyPath": "Article/$methods/tags",
+        "RubyPath": "Article#tags",
         "ReturnType": ""
       }
     },
@@ -129,7 +129,7 @@
         "TypeString": "",
         "Signature": "title",
         "Module": "",
-        "RubyPath": "Article/$methods/title",
+        "RubyPath": "Article#title",
         "ReturnType": ""
       }
     },
@@ -148,7 +148,7 @@
         "TypeString": "",
         "Signature": "to_indexed_json",
         "Module": "",
-        "RubyPath": "Article/$methods/to_indexed_json",
+        "RubyPath": "Article#to_indexed_json",
         "ReturnType": ""
       }
     },
@@ -167,7 +167,7 @@
         "TypeString": "",
         "Signature": "type",
         "Module": "",
-        "RubyPath": "Article/$methods/type",
+        "RubyPath": "Article#type",
         "ReturnType": ""
       }
     },
@@ -186,13 +186,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Article/@attributes",
+        "RubyPath": "Article::@attributes",
         "ReturnType": ""
       }
     },
     {
       "Path": "Article@_local_0@/$methods/initialize@@block_local_0@name",
-      "TreePath": "./Article@_local_0@/initialize@@block_local_0@name",
+      "TreePath": "./Article/initialize/@block_local_0/name",
       "Kind": "var",
       "Name": "name",
       "Callable": false,
@@ -205,13 +205,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Article@_local_0@/$methods/initialize@@block_local_0@name",
+        "RubyPath": "Article\u003e_local_0\u003e#initialize\u003e@block_local_0\u003ename",
         "ReturnType": ""
       }
     },
     {
       "Path": "Article@_local_0@/$methods/initialize@@block_local_0@value",
-      "TreePath": "./Article@_local_0@/initialize@@block_local_0@value",
+      "TreePath": "./Article/initialize/@block_local_0/value",
       "Kind": "var",
       "Name": "value",
       "Callable": false,
@@ -224,13 +224,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Article@_local_0@/$methods/initialize@@block_local_0@value",
+        "RubyPath": "Article\u003e_local_0\u003e#initialize\u003e@block_local_0\u003evalue",
         "ReturnType": ""
       }
     },
     {
       "Path": "Article@_local_0@/$methods/initialize@attributes",
-      "TreePath": "./Article@_local_0@/initialize@attributes",
+      "TreePath": "./Article/initialize/attributes",
       "Kind": "var",
       "Name": "attributes",
       "Callable": false,
@@ -243,13 +243,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Article@_local_0@/$methods/initialize@attributes",
+        "RubyPath": "Article\u003e_local_0\u003e#initialize\u003eattributes",
         "ReturnType": ""
       }
     },
     {
       "Path": "Article@_local_1@search@@block_local_0@@block_local_1@query",
-      "TreePath": "./Article@_local_1@search@@block_local_0@@block_local_1@query",
+      "TreePath": "./Article/search/@block_local_0/@block_local_1/query",
       "Kind": "var",
       "Name": "query",
       "Callable": false,
@@ -262,13 +262,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Article@_local_1@search@@block_local_0@@block_local_1@query",
+        "RubyPath": "Article\u003e_local_1\u003esearch\u003e@block_local_0\u003e@block_local_1\u003equery",
         "ReturnType": ""
       }
     },
     {
       "Path": "Article@_local_1@search@@block_local_0@search",
-      "TreePath": "./Article@_local_1@search@@block_local_0@search",
+      "TreePath": "./Article/search/@block_local_0/search",
       "Kind": "var",
       "Name": "search",
       "Callable": false,
@@ -281,7 +281,7 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Article@_local_1@search@@block_local_0@search",
+        "RubyPath": "Article\u003e_local_1\u003esearch\u003e@block_local_0\u003esearch",
         "ReturnType": ""
       }
     },
@@ -382,7 +382,7 @@
     },
     {
       "Path": "file:lib/use_barkick_rb_local_0@gtin",
-      "TreePath": "./file:lib/use_barkick_rb_local_0@gtin",
+      "TreePath": "./file:lib/use_barkick_rb_local_0/gtin",
       "Kind": "var",
       "Name": "gtin",
       "Callable": false,
@@ -395,13 +395,13 @@
         "TypeString": "GTIN#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_barkick_rb_local_0@gtin",
+        "RubyPath": "file:lib/use_barkick.rb_local_0\u003egtin",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_geocoder_rb_local_0@results",
-      "TreePath": "./file:lib/use_geocoder_rb_local_0@results",
+      "TreePath": "./file:lib/use_geocoder_rb_local_0/results",
       "Kind": "var",
       "Name": "results",
       "Callable": false,
@@ -414,13 +414,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_geocoder_rb_local_0@results",
+        "RubyPath": "file:lib/use_geocoder.rb_local_0\u003eresults",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_groupdate_rb_local_0@time_zone",
-      "TreePath": "./file:lib/use_groupdate_rb_local_0@time_zone",
+      "TreePath": "./file:lib/use_groupdate_rb_local_0/time_zone",
       "Kind": "var",
       "Name": "time_zone",
       "Callable": false,
@@ -433,13 +433,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_groupdate_rb_local_0@time_zone",
+        "RubyPath": "file:lib/use_groupdate.rb_local_0\u003etime_zone",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@channel",
-      "TreePath": "./file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@channel",
+      "TreePath": "./file:lib/use_redis_rb_local_0/@block_local_85/@block_local_86/channel",
       "Kind": "var",
       "Name": "channel",
       "Callable": false,
@@ -452,13 +452,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@channel",
+        "RubyPath": "file:lib/use_redis.rb_local_0\u003e@block_local_85\u003e@block_local_86\u003echannel",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@subscriptions",
-      "TreePath": "./file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@subscriptions",
+      "TreePath": "./file:lib/use_redis_rb_local_0/@block_local_85/@block_local_86/subscriptions",
       "Kind": "var",
       "Name": "subscriptions",
       "Callable": false,
@@ -471,13 +471,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_86@subscriptions",
+        "RubyPath": "file:lib/use_redis.rb_local_0\u003e@block_local_85\u003e@block_local_86\u003esubscriptions",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@channel",
-      "TreePath": "./file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@channel",
+      "TreePath": "./file:lib/use_redis_rb_local_0/@block_local_85/@block_local_87/channel",
       "Kind": "var",
       "Name": "channel",
       "Callable": false,
@@ -490,13 +490,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@channel",
+        "RubyPath": "file:lib/use_redis.rb_local_0\u003e@block_local_85\u003e@block_local_87\u003echannel",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@message",
-      "TreePath": "./file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@message",
+      "TreePath": "./file:lib/use_redis_rb_local_0/@block_local_85/@block_local_87/message",
       "Kind": "var",
       "Name": "message",
       "Callable": false,
@@ -509,13 +509,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_87@message",
+        "RubyPath": "file:lib/use_redis.rb_local_0\u003e@block_local_85\u003e@block_local_87\u003emessage",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@channel",
-      "TreePath": "./file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@channel",
+      "TreePath": "./file:lib/use_redis_rb_local_0/@block_local_85/@block_local_88/channel",
       "Kind": "var",
       "Name": "channel",
       "Callable": false,
@@ -528,13 +528,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@channel",
+        "RubyPath": "file:lib/use_redis.rb_local_0\u003e@block_local_85\u003e@block_local_88\u003echannel",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@subscriptions",
-      "TreePath": "./file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@subscriptions",
+      "TreePath": "./file:lib/use_redis_rb_local_0/@block_local_85/@block_local_88/subscriptions",
       "Kind": "var",
       "Name": "subscriptions",
       "Callable": false,
@@ -547,13 +547,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_redis_rb_local_0@@block_local_85@@block_local_88@subscriptions",
+        "RubyPath": "file:lib/use_redis.rb_local_0\u003e@block_local_85\u003e@block_local_88\u003esubscriptions",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_redis_rb_local_0@@block_local_85@on",
-      "TreePath": "./file:lib/use_redis_rb_local_0@@block_local_85@on",
+      "TreePath": "./file:lib/use_redis_rb_local_0/@block_local_85/on",
       "Kind": "var",
       "Name": "on",
       "Callable": false,
@@ -566,13 +566,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_redis_rb_local_0@@block_local_85@on",
+        "RubyPath": "file:lib/use_redis.rb_local_0\u003e@block_local_85\u003eon",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_redis_rb_local_0@r",
-      "TreePath": "./file:lib/use_redis_rb_local_0@r",
+      "TreePath": "./file:lib/use_redis_rb_local_0/r",
       "Kind": "var",
       "Name": "r",
       "Callable": false,
@@ -585,13 +585,13 @@
         "TypeString": "Redis#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_redis_rb_local_0@r",
+        "RubyPath": "file:lib/use_redis.rb_local_0\u003er",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_searchkick_rb_local_0@@block_local_89@product",
-      "TreePath": "./file:lib/use_searchkick_rb_local_0@@block_local_89@product",
+      "TreePath": "./file:lib/use_searchkick_rb_local_0/@block_local_89/product",
       "Kind": "var",
       "Name": "product",
       "Callable": false,
@@ -604,13 +604,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_searchkick_rb_local_0@@block_local_89@product",
+        "RubyPath": "file:lib/use_searchkick.rb_local_0\u003e@block_local_89\u003eproduct",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_searchkick_rb_local_0@product",
-      "TreePath": "./file:lib/use_searchkick_rb_local_0@product",
+      "TreePath": "./file:lib/use_searchkick_rb_local_0/product",
       "Kind": "var",
       "Name": "product",
       "Callable": false,
@@ -623,13 +623,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_searchkick_rb_local_0@product",
+        "RubyPath": "file:lib/use_searchkick.rb_local_0\u003eproduct",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_searchkick_rb_local_0@products",
-      "TreePath": "./file:lib/use_searchkick_rb_local_0@products",
+      "TreePath": "./file:lib/use_searchkick_rb_local_0/products",
       "Kind": "var",
       "Name": "products",
       "Callable": false,
@@ -642,13 +642,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_searchkick_rb_local_0@products",
+        "RubyPath": "file:lib/use_searchkick.rb_local_0\u003eproducts",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_stripe_rb_local_0@charge",
-      "TreePath": "./file:lib/use_stripe_rb_local_0@charge",
+      "TreePath": "./file:lib/use_stripe_rb_local_0/charge",
       "Kind": "var",
       "Name": "charge",
       "Callable": false,
@@ -661,13 +661,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_stripe_rb_local_0@charge",
+        "RubyPath": "file:lib/use_stripe.rb_local_0\u003echarge",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_stripe_rb_local_0@customer",
-      "TreePath": "./file:lib/use_stripe_rb_local_0@customer",
+      "TreePath": "./file:lib/use_stripe_rb_local_0/customer",
       "Kind": "var",
       "Name": "customer",
       "Callable": false,
@@ -680,13 +680,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_stripe_rb_local_0@customer",
+        "RubyPath": "file:lib/use_stripe.rb_local_0\u003ecustomer",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_stripe_rb_local_0@token",
-      "TreePath": "./file:lib/use_stripe_rb_local_0@token",
+      "TreePath": "./file:lib/use_stripe_rb_local_0/token",
       "Kind": "var",
       "Name": "token",
       "Callable": false,
@@ -699,13 +699,13 @@
         "TypeString": "String#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_stripe_rb_local_0@token",
+        "RubyPath": "file:lib/use_stripe.rb_local_0\u003etoken",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_0@article",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_0@article",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_0/article",
       "Kind": "var",
       "Name": "article",
       "Callable": false,
@@ -718,13 +718,13 @@
         "TypeString": "Article#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_0@article",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_0\u003earticle",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_11@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_11@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_11/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -737,13 +737,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_11@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_11\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_14@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_14@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_14/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -756,13 +756,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_14@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_14\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_19@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_19@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_19/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -775,13 +775,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_19@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_19\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_22@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_22@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_22/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -794,13 +794,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_22@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_22\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_29@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_29@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_29/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -813,13 +813,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_29@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_29\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_30@boolean",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_30@boolean",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_30/boolean",
       "Kind": "var",
       "Name": "boolean",
       "Callable": false,
@@ -832,13 +832,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_30@boolean",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_30\u003eboolean",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_33@boolean",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_33@boolean",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_33/boolean",
       "Kind": "var",
       "Name": "boolean",
       "Callable": false,
@@ -851,13 +851,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_33@boolean",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_33\u003eboolean",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@@block_local_5@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@@block_local_5@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_3/@block_local_4/@block_local_5/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -870,13 +870,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@@block_local_5@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_3\u003e@block_local_4\u003e@block_local_5\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@documents",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@documents",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_3/@block_local_4/documents",
       "Kind": "var",
       "Name": "documents",
       "Callable": false,
@@ -889,13 +889,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_3@@block_local_4@documents",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_3\u003e@block_local_4\u003edocuments",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_42@f",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_42@f",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_42/f",
       "Kind": "var",
       "Name": "f",
       "Callable": false,
@@ -908,13 +908,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_42@f",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_42\u003ef",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_47@f",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_47@f",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_47/f",
       "Kind": "var",
       "Name": "f",
       "Callable": false,
@@ -927,13 +927,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_47@f",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_47\u003ef",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_48@f",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_48@f",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_48/f",
       "Kind": "var",
       "Name": "f",
       "Callable": false,
@@ -946,13 +946,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_48@f",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_48\u003ef",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_52@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_52@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_52/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -965,13 +965,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_52@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_52\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_53@f",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_53@f",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_53/f",
       "Kind": "var",
       "Name": "f",
       "Callable": false,
@@ -984,13 +984,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_53@f",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_53\u003ef",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_56@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_56@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_56/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -1003,13 +1003,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_56@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_56\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_60@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_60@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_60/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -1022,13 +1022,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_60@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_60\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_64@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_64@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_64/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -1041,13 +1041,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_64@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_64\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_70@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_70@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_70/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -1060,13 +1060,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_70\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_73@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_73@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_73/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -1079,13 +1079,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_73@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_73\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@@block_local_8@document",
-      "TreePath": "./file:lib/use_tire_rb_local_0@@block_local_8@document",
+      "TreePath": "./file:lib/use_tire_rb_local_0/@block_local_8/document",
       "Kind": "var",
       "Name": "document",
       "Callable": false,
@@ -1098,13 +1098,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@@block_local_8@document",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003e@block_local_8\u003edocument",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@articles",
-      "TreePath": "./file:lib/use_tire_rb_local_0@articles",
+      "TreePath": "./file:lib/use_tire_rb_local_0/articles",
       "Kind": "var",
       "Name": "articles",
       "Callable": false,
@@ -1117,13 +1117,13 @@
         "TypeString": "Array#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@articles",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003earticles",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@index",
-      "TreePath": "./file:lib/use_tire_rb_local_0@index",
+      "TreePath": "./file:lib/use_tire_rb_local_0/index",
       "Kind": "var",
       "Name": "index",
       "Callable": false,
@@ -1136,13 +1136,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@index",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003eindex",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@matches",
-      "TreePath": "./file:lib/use_tire_rb_local_0@matches",
+      "TreePath": "./file:lib/use_tire_rb_local_0/matches",
       "Kind": "var",
       "Name": "matches",
       "Callable": false,
@@ -1155,13 +1155,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@matches",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003ematches",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@published_on_query",
-      "TreePath": "./file:lib/use_tire_rb_local_0@published_on_query",
+      "TreePath": "./file:lib/use_tire_rb_local_0/published_on_query",
       "Kind": "var",
       "Name": "published_on_query",
       "Callable": false,
@@ -1174,13 +1174,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@published_on_query",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003epublished_on_query",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@q",
-      "TreePath": "./file:lib/use_tire_rb_local_0@q",
+      "TreePath": "./file:lib/use_tire_rb_local_0/q",
       "Kind": "var",
       "Name": "q",
       "Callable": false,
@@ -1193,13 +1193,13 @@
         "TypeString": "String#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@q",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003eq",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@response",
-      "TreePath": "./file:lib/use_tire_rb_local_0@response",
+      "TreePath": "./file:lib/use_tire_rb_local_0/response",
       "Kind": "var",
       "Name": "response",
       "Callable": false,
@@ -1212,13 +1212,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@response",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003eresponse",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@s",
-      "TreePath": "./file:lib/use_tire_rb_local_0@s",
+      "TreePath": "./file:lib/use_tire_rb_local_0/s",
       "Kind": "var",
       "Name": "s",
       "Callable": false,
@@ -1231,13 +1231,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@s",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003es",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_tire_rb_local_0@tags_query",
-      "TreePath": "./file:lib/use_tire_rb_local_0@tags_query",
+      "TreePath": "./file:lib/use_tire_rb_local_0/tags_query",
       "Kind": "var",
       "Name": "tags_query",
       "Callable": false,
@@ -1250,13 +1250,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_tire_rb_local_0@tags_query",
+        "RubyPath": "file:lib/use_tire.rb_local_0\u003etags_query",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_yajl_rb_local_0@@block_local_82@hash",
-      "TreePath": "./file:lib/use_yajl_rb_local_0@@block_local_82@hash",
+      "TreePath": "./file:lib/use_yajl_rb_local_0/@block_local_82/hash",
       "Kind": "var",
       "Name": "hash",
       "Callable": false,
@@ -1269,13 +1269,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_yajl_rb_local_0@@block_local_82@hash",
+        "RubyPath": "file:lib/use_yajl.rb_local_0\u003e@block_local_82\u003ehash",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_yajl_rb_local_0@@block_local_83@chunk",
-      "TreePath": "./file:lib/use_yajl_rb_local_0@@block_local_83@chunk",
+      "TreePath": "./file:lib/use_yajl_rb_local_0/@block_local_83/chunk",
       "Kind": "var",
       "Name": "chunk",
       "Callable": false,
@@ -1288,13 +1288,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_yajl_rb_local_0@@block_local_83@chunk",
+        "RubyPath": "file:lib/use_yajl.rb_local_0\u003e@block_local_83\u003echunk",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_yajl_rb_local_0@chunks",
-      "TreePath": "./file:lib/use_yajl_rb_local_0@chunks",
+      "TreePath": "./file:lib/use_yajl_rb_local_0/chunks",
       "Kind": "var",
       "Name": "chunks",
       "Callable": false,
@@ -1307,13 +1307,13 @@
         "TypeString": "Fixnum#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_yajl_rb_local_0@chunks",
+        "RubyPath": "file:lib/use_yajl.rb_local_0\u003echunks",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_yajl_rb_local_0@hash",
-      "TreePath": "./file:lib/use_yajl_rb_local_0@hash",
+      "TreePath": "./file:lib/use_yajl_rb_local_0/hash",
       "Kind": "var",
       "Name": "hash",
       "Callable": false,
@@ -1326,13 +1326,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_yajl_rb_local_0@hash",
+        "RubyPath": "file:lib/use_yajl.rb_local_0\u003ehash",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_yajl_rb_local_0@obj",
-      "TreePath": "./file:lib/use_yajl_rb_local_0@obj",
+      "TreePath": "./file:lib/use_yajl_rb_local_0/obj",
       "Kind": "var",
       "Name": "obj",
       "Callable": false,
@@ -1345,13 +1345,13 @@
         "TypeString": "Hash#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_yajl_rb_local_0@obj",
+        "RubyPath": "file:lib/use_yajl.rb_local_0\u003eobj",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_yajl_rb_local_0@total_size",
-      "TreePath": "./file:lib/use_yajl_rb_local_0@total_size",
+      "TreePath": "./file:lib/use_yajl_rb_local_0/total_size",
       "Kind": "var",
       "Name": "total_size",
       "Callable": false,
@@ -1364,13 +1364,13 @@
         "TypeString": "Fixnum#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_yajl_rb_local_0@total_size",
+        "RubyPath": "file:lib/use_yajl.rb_local_0\u003etotal_size",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/use_yajl_rb_local_0@uri",
-      "TreePath": "./file:lib/use_yajl_rb_local_0@uri",
+      "TreePath": "./file:lib/use_yajl_rb_local_0/uri",
       "Kind": "var",
       "Name": "uri",
       "Callable": false,
@@ -1383,7 +1383,7 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/use_yajl_rb_local_0@uri",
+        "RubyPath": "file:lib/use_yajl.rb_local_0\u003euri",
         "ReturnType": ""
       }
     }

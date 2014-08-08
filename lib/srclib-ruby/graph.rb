@@ -250,6 +250,7 @@ module Srclib
     end
 
     def yard_object_path_to_srclib_path(p)
+      p = p.dup
       p.gsub!(".rb", "_rb")
       p.gsub!("::", "/")
       p.gsub!("#", "/$methods/")
@@ -260,6 +261,7 @@ module Srclib
     end
 
     def yard_object_path_to_srclib_treepath(p)
+      p = p.dup
       p.gsub!(".rb", "_rb")
       p.gsub!("::", "/")
       p.gsub!("#", "/")

@@ -34,13 +34,13 @@
         "TypeString": "",
         "Signature": "self.method",
         "Module": "",
-        "RubyPath": "A/$classmethods/method",
+        "RubyPath": "A.method",
         "ReturnType": ""
       }
     },
     {
       "Path": "A@_local_0@method@t",
-      "TreePath": "./A@_local_0@method@t",
+      "TreePath": "./A/method/t",
       "Kind": "var",
       "Name": "t",
       "Callable": false,
@@ -53,7 +53,7 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "A@_local_0@method@t",
+        "RubyPath": "A\u003e_local_0\u003emethod\u003et",
         "ReturnType": ""
       }
     }

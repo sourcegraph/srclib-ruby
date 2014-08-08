@@ -15,7 +15,7 @@
         "TypeString": "#f",
         "Signature": "f(a)",
         "Module": "",
-        "RubyPath": "$methods/f",
+        "RubyPath": "#f",
         "ReturnType": "NilClass#"
       }
     },
@@ -53,7 +53,7 @@
         "TypeString": "C.ccm",
         "Signature": "self.ccm; end",
         "Module": "",
-        "RubyPath": "C/$classmethods/ccm",
+        "RubyPath": "C.ccm",
         "ReturnType": "NilClass#"
       }
     },
@@ -72,7 +72,7 @@
         "TypeString": "C#im",
         "Signature": "im; end",
         "Module": "",
-        "RubyPath": "C/$methods/im",
+        "RubyPath": "C#im",
         "ReturnType": "NilClass#"
       }
     },
@@ -91,7 +91,7 @@
         "TypeString": "",
         "Signature": "im2;",
         "Module": "",
-        "RubyPath": "C/$methods/im2",
+        "RubyPath": "C#im2",
         "ReturnType": ""
       }
     },
@@ -110,7 +110,7 @@
         "TypeString": "",
         "Signature": "ivdef",
         "Module": "",
-        "RubyPath": "C/$methods/ivdef",
+        "RubyPath": "C#ivdef",
         "ReturnType": ""
       }
     },
@@ -129,7 +129,7 @@
         "TypeString": "",
         "Signature": "ivref",
         "Module": "",
-        "RubyPath": "C/$methods/ivref",
+        "RubyPath": "C#ivref",
         "ReturnType": ""
       }
     },
@@ -148,7 +148,7 @@
         "TypeString": "NilClass#",
         "Signature": "x",
         "Module": "",
-        "RubyPath": "C/$methods/x",
+        "RubyPath": "C#x",
         "ReturnType": ""
       }
     },
@@ -167,7 +167,7 @@
         "TypeString": "",
         "Signature": "x=(value)",
         "Module": "",
-        "RubyPath": "C/$methods/x=",
+        "RubyPath": "C#x=",
         "ReturnType": ""
       }
     },
@@ -186,7 +186,7 @@
         "TypeString": "Fixnum#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "C/@x",
+        "RubyPath": "C::@x",
         "ReturnType": ""
       }
     },
@@ -205,7 +205,7 @@
         "TypeString": "C::D",
         "Signature": null,
         "Module": "",
-        "RubyPath": "C/D",
+        "RubyPath": "C::D",
         "ReturnType": ""
       }
     },
@@ -224,7 +224,7 @@
         "TypeString": "C::D.dcm",
         "Signature": "self.dcm; end",
         "Module": "",
-        "RubyPath": "C/D/$classmethods/dcm",
+        "RubyPath": "C::D.dcm",
         "ReturnType": "NilClass#"
       }
     },
@@ -243,7 +243,7 @@
         "TypeString": "",
         "Signature": "im; end",
         "Module": "",
-        "RubyPath": "C/D/$methods/im",
+        "RubyPath": "C::D#im",
         "ReturnType": ""
       }
     },
@@ -281,7 +281,7 @@
         "TypeString": "",
         "Signature": null,
         "Module": "M",
-        "RubyPath": "M/N",
+        "RubyPath": "M::N",
         "ReturnType": ""
       }
     },
@@ -357,7 +357,7 @@
         "TypeString": "",
         "Signature": "self.my_array",
         "Module": "",
-        "RubyPath": "Sample/$classmethods/my_array",
+        "RubyPath": "Sample.my_array",
         "ReturnType": ""
       }
     },
@@ -376,7 +376,7 @@
         "TypeString": "",
         "Signature": "self.my_bool",
         "Module": "",
-        "RubyPath": "Sample/$classmethods/my_bool",
+        "RubyPath": "Sample.my_bool",
         "ReturnType": ""
       }
     },
@@ -395,7 +395,7 @@
         "TypeString": "Sample.my_hash",
         "Signature": "self.my_hash",
         "Module": "",
-        "RubyPath": "Sample/$classmethods/my_hash",
+        "RubyPath": "Sample.my_hash",
         "ReturnType": "Hash#"
       }
     },
@@ -414,7 +414,7 @@
         "TypeString": "",
         "Signature": "self.my_int",
         "Module": "",
-        "RubyPath": "Sample/$classmethods/my_int",
+        "RubyPath": "Sample.my_int",
         "ReturnType": ""
       }
     },
@@ -433,7 +433,7 @@
         "TypeString": "",
         "Signature": "self.my_string",
         "Module": "",
-        "RubyPath": "Sample/$classmethods/my_string",
+        "RubyPath": "Sample.my_string",
         "ReturnType": ""
       }
     },
@@ -452,7 +452,7 @@
         "TypeString": "",
         "Signature": "initialize(i)",
         "Module": "",
-        "RubyPath": "Sample/$methods/initialize",
+        "RubyPath": "Sample#initialize",
         "ReturnType": ""
       }
     },
@@ -471,7 +471,7 @@
         "TypeString": "",
         "Signature": "my_method(a, b)",
         "Module": "",
-        "RubyPath": "Sample/$methods/my_method",
+        "RubyPath": "Sample#my_method",
         "ReturnType": ""
       }
     },
@@ -490,7 +490,7 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Sample/@i",
+        "RubyPath": "Sample::@i",
         "ReturnType": ""
       }
     },
@@ -509,13 +509,13 @@
         "TypeString": "Fixnum#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Sample/MY_CONST",
+        "RubyPath": "Sample::MY_CONST",
         "ReturnType": ""
       }
     },
     {
       "Path": "Sample@_local_0@/$methods/initialize@i",
-      "TreePath": "./Sample@_local_0@/initialize@i",
+      "TreePath": "./Sample/initialize/i",
       "Kind": "var",
       "Name": "i",
       "Callable": false,
@@ -528,13 +528,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Sample@_local_0@/$methods/initialize@i",
+        "RubyPath": "Sample\u003e_local_0\u003e#initialize\u003ei",
         "ReturnType": ""
       }
     },
     {
       "Path": "Sample@_local_0@/$methods/my_method@a",
-      "TreePath": "./Sample@_local_0@/my_method@a",
+      "TreePath": "./Sample/my_method/a",
       "Kind": "var",
       "Name": "a",
       "Callable": false,
@@ -547,13 +547,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Sample@_local_0@/$methods/my_method@a",
+        "RubyPath": "Sample\u003e_local_0\u003e#my_method\u003ea",
         "ReturnType": ""
       }
     },
     {
       "Path": "Sample@_local_0@/$methods/my_method@b",
-      "TreePath": "./Sample@_local_0@/my_method@b",
+      "TreePath": "./Sample/my_method/b",
       "Kind": "var",
       "Name": "b",
       "Callable": false,
@@ -566,13 +566,13 @@
         "TypeString": "String#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Sample@_local_0@/$methods/my_method@b",
+        "RubyPath": "Sample\u003e_local_0\u003e#my_method\u003eb",
         "ReturnType": ""
       }
     },
     {
       "Path": "Sample@_local_0@/$methods/my_method@c",
-      "TreePath": "./Sample@_local_0@/my_method@c",
+      "TreePath": "./Sample/my_method/c",
       "Kind": "var",
       "Name": "c",
       "Callable": false,
@@ -585,13 +585,13 @@
         "TypeString": "Fixnum#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Sample@_local_0@/$methods/my_method@c",
+        "RubyPath": "Sample\u003e_local_0\u003e#my_method\u003ec",
         "ReturnType": ""
       }
     },
     {
       "Path": "Sample@_local_0@/$methods/my_method@l",
-      "TreePath": "./Sample@_local_0@/my_method@l",
+      "TreePath": "./Sample/my_method/l",
       "Kind": "var",
       "Name": "l",
       "Callable": false,
@@ -604,13 +604,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "Sample@_local_0@/$methods/my_method@l",
+        "RubyPath": "Sample\u003e_local_0\u003e#my_method\u003el",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/cases/core_rb_local_0@@block_local_1@n",
-      "TreePath": "./file:lib/cases/core_rb_local_0@@block_local_1@n",
+      "TreePath": "./file:lib/cases/core_rb_local_0/@block_local_1/n",
       "Kind": "var",
       "Name": "n",
       "Callable": false,
@@ -623,13 +623,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/cases/core_rb_local_0@@block_local_1@n",
+        "RubyPath": "file:lib/cases/core.rb_local_0\u003e@block_local_1\u003en",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/cases/global_var_rb_local_0@a",
-      "TreePath": "./file:lib/cases/global_var_rb_local_0@a",
+      "TreePath": "./file:lib/cases/global_var_rb_local_0/a",
       "Kind": "var",
       "Name": "a",
       "Callable": false,
@@ -642,13 +642,13 @@
         "TypeString": "Fixnum#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/cases/global_var_rb_local_0@a",
+        "RubyPath": "file:lib/cases/global_var.rb_local_0\u003ea",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/cases/stdlib_rb_local_0@u",
-      "TreePath": "./file:lib/cases/stdlib_rb_local_0@u",
+      "TreePath": "./file:lib/cases/stdlib_rb_local_0/u",
       "Kind": "var",
       "Name": "u",
       "Callable": false,
@@ -661,13 +661,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/cases/stdlib_rb_local_0@u",
+        "RubyPath": "file:lib/cases/stdlib.rb_local_0\u003eu",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/cases/top_def_rb_local_0@/$methods/f@a",
-      "TreePath": "./file:lib/cases/top_def_rb_local_0@/f@a",
+      "TreePath": "./file:lib/cases/top_def_rb_local_0/f/a",
       "Kind": "var",
       "Name": "a",
       "Callable": false,
@@ -680,13 +680,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/cases/top_def_rb_local_0@/$methods/f@a",
+        "RubyPath": "file:lib/cases/top_def.rb_local_0\u003e#f\u003ea",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/ruby_gem_rb_local_0@@block_local_0@t",
-      "TreePath": "./file:lib/ruby_gem_rb_local_0@@block_local_0@t",
+      "TreePath": "./file:lib/ruby_gem_rb_local_0/@block_local_0/t",
       "Kind": "var",
       "Name": "t",
       "Callable": false,
@@ -699,13 +699,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/ruby_gem_rb_local_0@@block_local_0@t",
+        "RubyPath": "file:lib/ruby_gem.rb_local_0\u003e@block_local_0\u003et",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/ruby_gem_rb_local_0@b64",
-      "TreePath": "./file:lib/ruby_gem_rb_local_0@b64",
+      "TreePath": "./file:lib/ruby_gem_rb_local_0/b64",
       "Kind": "var",
       "Name": "b64",
       "Callable": false,
@@ -718,13 +718,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/ruby_gem_rb_local_0@b64",
+        "RubyPath": "file:lib/ruby_gem.rb_local_0\u003eb64",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/ruby_gem_rb_local_0@foo",
-      "TreePath": "./file:lib/ruby_gem_rb_local_0@foo",
+      "TreePath": "./file:lib/ruby_gem_rb_local_0/foo",
       "Kind": "var",
       "Name": "foo",
       "Callable": false,
@@ -737,13 +737,13 @@
         "TypeString": "",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/ruby_gem_rb_local_0@foo",
+        "RubyPath": "file:lib/ruby_gem.rb_local_0\u003efoo",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/ruby_gem_rb_local_0@my_global_var",
-      "TreePath": "./file:lib/ruby_gem_rb_local_0@my_global_var",
+      "TreePath": "./file:lib/ruby_gem_rb_local_0/my_global_var",
       "Kind": "var",
       "Name": "my_global_var",
       "Callable": false,
@@ -756,13 +756,13 @@
         "TypeString": "String#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/ruby_gem_rb_local_0@my_global_var",
+        "RubyPath": "file:lib/ruby_gem.rb_local_0\u003emy_global_var",
         "ReturnType": ""
       }
     },
     {
       "Path": "file:lib/ruby_gem_rb_local_0@my_sample",
-      "TreePath": "./file:lib/ruby_gem_rb_local_0@my_sample",
+      "TreePath": "./file:lib/ruby_gem_rb_local_0/my_sample",
       "Kind": "var",
       "Name": "my_sample",
       "Callable": false,
@@ -775,7 +775,7 @@
         "TypeString": "Sample#",
         "Signature": null,
         "Module": "",
-        "RubyPath": "file:lib/ruby_gem_rb_local_0@my_sample",
+        "RubyPath": "file:lib/ruby_gem.rb_local_0\u003emy_sample",
         "ReturnType": ""
       }
     }
