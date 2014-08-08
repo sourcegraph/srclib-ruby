@@ -6,7 +6,7 @@ install:
   - sudo wget -NO /usr/local/bin/src https://github.com/sourcegraph/srclib/releases/download/v0.0.9/src
   - sudo chmod +x /usr/local/bin/src
   - src toolchain add sourcegraph.com/sourcegraph/srclib-ruby
-  - cd yard && bundle install
+  - cd yard && bundle install && cd ..
 
 # TODO(sqs): also test yard?
 script:
