@@ -17,6 +17,9 @@ module Srclib
         opts.on("--subdir DIR", "path of current dir relative to repo root") do |v|
           @opt[:repo_subdir] = v
         end
+        opts.on("--config KV", "Config properties from Srcfile") do |v|
+          # Currently the Ruby toolchain does not process any of these, so ignore them.
+        end
       end
     end
 
