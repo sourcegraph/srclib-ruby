@@ -1,6 +1,7 @@
 require 'json'
 require 'optparse'
 require 'bundler'
+require 'pathname'
 
 module Srclib
   class Scan
@@ -24,6 +25,8 @@ module Srclib
       option_parser.order!
       raise "no args may be specified to scan (got #{args.inspect}); it only scans the current directory" if args.length != 0
 
+      pre_wd = Pathname.pwd
+
       source_units = find_gems('.').map do |gemspec, gem|
         Dir.chdir(File.dirname(gemspec))
         if File.exist?("Gemfile")
@@ -31,17 +34,17 @@ module Srclib
         end
 
         gem.delete(:date)
-
         {
           'Name' => gem[:name],
           'Type' => 'rubygem',
+          'Dir' => Pathname.new(gemspec).relative_path_from(pre_wd),
           'Files' => gem[:files].sort,
           'Dependencies' => (deps and deps.sort), #gem[:dependencies], # TODO(sqs): what to do with the gemspec deps?
           'Data' => gem,
           'Ops' => {'depresolve' => nil, 'graph' => nil},
         }
       end
-      puts JSON.generate(source_units.sort)
+      puts JSON.generate(source_units.sort_by { |a| a['Name'] })
     end
 
     def initialize
