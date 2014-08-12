@@ -3,14 +3,22 @@ rvm:
   - 2.1
 
 install:
-  - sudo wget -NO /usr/local/bin/src https://github.com/sourcegraph/srclib/releases/download/v0.0.9/src
+  - sudo wget -NO /usr/local/bin/src https://github.com/sourcegraph/srclib/releases/download/v0.0.13/src
   - sudo chmod +x /usr/local/bin/src
   - src toolchain add sourcegraph.com/sourcegraph/srclib-ruby
   - unset BUNDLE_GEMFILE
   - bundle install
   - cd yard && bundle install && cd ..
+  # for tests
+  - cd testdata/case/ruby-sample-0 && bundle install && cd ../../..
+  - cd testdata/case/ruby_sample_xref_app && bundle install && cd ../../..
+  - cd testdata/case/sample_ruby_gem && bundle install && cd ../../..
+  # process stdlib - only process some of the .rb files because it's slow otherwise
+  - rvm fetch 2.1
+  - cd ~/.rvm/src/`rvm current` && rvm 2.1 do yard/bin/yard doc -n -c .yardoc *.c lib/base64.rb lib/ipaddr.rb lib/uri.rb
+  - cd TRAVIS_BUILD_DIR
 
 # TODO(sqs): also test yard?
 script:
   - unset BUNDLE_GEMFILE
-  - src -v test -m program
+  - rvm 2.1 do src -v test -m program

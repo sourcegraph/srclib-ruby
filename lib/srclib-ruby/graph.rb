@@ -70,6 +70,10 @@ module Srclib
       bundle_output_dirs = bundle_output.split("\n").map { |l| l.split(/\s+/)[1] }.compact
       STDERR.puts " ==> #{bundle_output_dirs.inspect}"
 
+      if ENV['rvm_ruby_string']
+        bundle_output_dirs << RUBY_STDLIB_YARDOC_DIR if File.exist?(RUBY_STDLIB_YARDOC_DIR)
+      end
+
       load_opts = ''
       if bundle_output_dirs.length > 0
         load_opts = "--load-yardoc-files #{bundle_output_dirs.join(',')}"
@@ -202,9 +206,7 @@ module Srclib
       return ref, get_gem_name_from_gem_yardoc_file(yard_ref['target_origin_yardoc_file'])
     end
 
-    # getGemNameFromGemYardocFile converts a path of the form
-    # "/tmp/grapher-output-test308543943/github.com-ruth-my_ruby_gem/ruby/gems-./ruby/2.0.0/gems/sample_ruby_gem-0.0.1/.yardoc"
-    # to "sample_ruby_gem"
+    # getGemNameFromGemYardocFile converts a path to the .yardoc file or dir for a gem to the gem's name.
     def get_gem_name_from_gem_yardoc_file(gem_yardoc_file)
       if gem_yardoc_file == nil or gem_yardoc_file == ""
         return nil
@@ -215,7 +217,16 @@ module Srclib
         return STDLIB_GEM_NAME_SENTINEL
       end
 
-      name_ver = File.basename(File.dirname(gem_yardoc_file))
+      name_ver = if gem_yardoc_file.end_with?("/.yardoc")
+                   # handle paths of the form
+                   # "/tmp/grapher-output-test308543943/github.com-ruth-my_ruby_gem/ruby/gems-./ruby/2.0.0/gems/sample_ruby_gem-0.0.1/.yardoc"
+                   File.basename(File.dirname(gem_yardoc_file))
+                 elsif gem_yardoc_file.end_with?(".yardoc")
+                   File.basename(gem_yardoc_file.sub(/\.yardoc$/, ''))
+                 else
+                   raise "Unrecognized gem yardoc file #{gem_yardoc_file.inspect}"
+                 end
+
       i = name_ver.rindex('-')
       if i == nil
         name_ver
@@ -293,5 +304,6 @@ STDLIB_GEM_NAME_SENTINEL = "<RUBY_STDLIB>"
 
 STDLIB_CLONE_URL = "https://github.com/ruby/ruby.git"
 
-# TODO(sqs): RUBY_STDLIB_YARDOC_DIR is unused
-RUBY_STDLIB_YARDOC_DIR = "/tmp/ruby-stdlib-yardoc-dir"
+if ENV['rvm_ruby_string']
+  RUBY_STDLIB_YARDOC_DIR = File.join(ENV['rvm_src_path'], ENV['rvm_ruby_string'], '.yardoc')
+end

@@ -30,6 +30,8 @@ module Srclib
           deps = Bundler.definition.dependencies.map{ |d| [d.name, d.requirement.to_s] }
         end
 
+        gem.delete(:date)
+
         {
           'Name' => gem[:name],
           'Type' => 'rubygem',

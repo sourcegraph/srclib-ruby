@@ -440,6 +440,39 @@
   ],
   "Refs": [
     {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "IPAddr/$methods/initialize",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/sample_ruby_gem.rb",
+      "Start": 773,
+      "End": 776
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "IPAddr/$methods/reverse",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/sample_ruby_gem.rb",
+      "Start": 798,
+      "End": 805
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "IPAddr",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/sample_ruby_gem.rb",
+      "Start": 766,
+      "End": 772
+    },
+    {
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
@@ -867,6 +900,28 @@
       "File": "lib/sample_ruby_gem.rb",
       "Start": 928,
       "End": 934
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "String/$methods/length",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/sample_ruby_gem.rb",
+      "Start": 460,
+      "End": 466
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "URI",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/sample_ruby_gem.rb",
+      "Start": 733,
+      "End": 736
     },
     {
       "DefRepo": "",

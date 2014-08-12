@@ -1,25 +1,6 @@
 {
   "Defs": [
     {
-      "Path": "$methods/f",
-      "TreePath": "./f",
-      "Kind": "func",
-      "Name": "f",
-      "Callable": false,
-      "File": "lib/cases/top_def.rb",
-      "DefStart": 0,
-      "DefEnd": 12,
-      "Exported": true,
-      "Data": {
-        "RubyKind": "method",
-        "TypeString": "#f",
-        "Signature": "f(a)",
-        "Module": "",
-        "RubyPath": "#f",
-        "ReturnType": "NilClass#"
-      }
-    },
-    {
       "Path": "C",
       "TreePath": "./C",
       "Kind": "const",
@@ -782,9 +763,9 @@
   ],
   "Refs": [
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "$methods/f",
       "Def": false,
       "Repo": "",
@@ -793,26 +774,70 @@
       "End": 15
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "$methods/f",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/cases/top_def.rb",
-      "Start": 2,
-      "End": 3
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "$methods/f",
       "Def": true,
       "Repo": "",
       "File": "lib/cases/top_def.rb",
       "Start": 4,
       "End": 5
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "Array/$methods/each",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/ruby_gem.rb",
+      "Start": 633,
+      "End": 637
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "Array/$methods/map",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/cases/core.rb",
+      "Start": 19,
+      "End": 22
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "Array",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/ruby_gem.rb",
+      "Start": 622,
+      "End": 627
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "Base64",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/ruby_gem.rb",
+      "Start": 682,
+      "End": 688
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "BasicObject/$methods/initialize",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/cases/class.rb",
+      "Start": 257,
+      "End": 260
     },
     {
       "DefRepo": "",
@@ -901,6 +926,17 @@
       "File": "lib/cases/class.rb",
       "Start": 69,
       "End": 71
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "C/$methods/initialize",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/cases/class.rb",
+      "Start": 239,
+      "End": 242
     },
     {
       "DefRepo": "",
@@ -1068,9 +1104,9 @@
       "End": 268
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "C",
       "Def": false,
       "Repo": "",
@@ -1079,9 +1115,9 @@
       "End": 129
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "C",
       "Def": false,
       "Repo": "",
@@ -1090,9 +1126,9 @@
       "End": 18
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "C",
       "Def": false,
       "Repo": "",
@@ -1101,9 +1137,9 @@
       "End": 238
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "C",
       "Def": false,
       "Repo": "",
@@ -1112,9 +1148,9 @@
       "End": 247
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "C",
       "Def": false,
       "Repo": "",
@@ -1123,9 +1159,9 @@
       "End": 253
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "C",
       "Def": false,
       "Repo": "",
@@ -1134,9 +1170,9 @@
       "End": 265
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "C",
       "Def": false,
       "Repo": "",
@@ -1145,9 +1181,9 @@
       "End": 68
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "C",
       "Def": true,
       "Repo": "",
@@ -1319,6 +1355,17 @@
       "File": "lib/cases/module.rb",
       "Start": 7,
       "End": 8
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "N",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/cases/module.rb",
+      "Start": 18,
+      "End": 19
     },
     {
       "DefRepo": "",
@@ -1682,6 +1729,39 @@
       "File": "lib/ruby_gem.rb",
       "Start": 868,
       "End": 874
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "String/$methods/length",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/cases/core.rb",
+      "Start": 6,
+      "End": 12
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "String/$methods/length",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/ruby_gem.rb",
+      "Start": 460,
+      "End": 466
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "URI",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/cases/stdlib.rb",
+      "Start": 18,
+      "End": 21
     },
     {
       "DefRepo": "",

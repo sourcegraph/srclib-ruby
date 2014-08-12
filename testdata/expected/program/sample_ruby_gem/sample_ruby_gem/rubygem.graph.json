@@ -869,6 +869,17 @@
       "End": 934
     },
     {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "String/$methods/length",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/sample_ruby_gem.rb",
+      "Start": 460,
+      "End": 466
+    },
+    {
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
