@@ -1772,6 +1772,17 @@
       "End": 466
     },
     {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "URI",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/cases/stdlib.rb",
+      "Start": 18,
+      "End": 21
+    },
+    {
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
