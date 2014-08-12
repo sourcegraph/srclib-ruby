@@ -104,7 +104,7 @@ module Srclib
     end
 
     def seen_ref(ref)
-      key = "DefRepo=#{ref['DefRepo']} DefUnitType=#{ref['DefUnitType']} DefUnit=#{ref['DefUnit']} DefPath=#{ref['DefPath']} File=#{ref['File']} Start=#{ref['Start']} End=#{ref['End']}"
+      key = "DefPath=#{ref['DefPath']} File=#{ref['File']} Start=#{ref['Start']} End=#{ref['End']}"
       if seen = @seen_refs[key]
         STDERR.puts "already seen ref with seen-key #{key}; skipping (prev ref is: #{seen.inspect})"
         return true
