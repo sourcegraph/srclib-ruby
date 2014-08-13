@@ -32,6 +32,9 @@ RUN rvm $RUBY_VERSION do gem install RedCloth -v 4.2.9 --no-rdoc --no-ri && \
     rvm $RUBY_VERSION do gem install simplecov-html -v 0.7.1 --no-rdoc --no-ri && \
     rvm $RUBY_VERSION do gem install simplecov -v 0.7.1 --no-rdoc --no-ri
 
+# ignore .ruby-version, .rvmrc, etc., files
+RUN echo rvm_project_rvmrc=0 > /etc/rvmrc
+
 # Add this toolchain
 ADD . /srclib/srclib-ruby/
 WORKDIR /srclib/srclib-ruby
