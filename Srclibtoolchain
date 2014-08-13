@@ -11,14 +11,16 @@
       "Subcmd": "graph",
       "Op": "graph",
       "SourceUnitTypes": [
-        "rubygem"
+        "rubygem",
+        "ruby"
       ]
     },
     {
       "Subcmd": "depresolve",
       "Op": "depresolve",
       "SourceUnitTypes": [
-        "rubygem"
+        "rubygem",
+        "ruby"
       ]
     }
   ]
