@@ -52,7 +52,7 @@
       "ruby_sample_xref_app",
       ">= 0"
     ],
-    "Error": "#<JSON::ParserError: 757: unexpected token at 'This rubygem could not be found.'>"
+    "Error": "#<JSON::ParserError: 746: unexpected token at 'This rubygem could not be found.'>"
   },
   {
     "Raw": [
