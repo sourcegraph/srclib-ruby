@@ -18,4 +18,4 @@ RUBY_VERSION ?= 2.1.2
 RUBY_SRC=$(shell dirname `which rvm`)/../src/ruby-$(RUBY_VERSION)
 stdlib:
 	rvm fetch $(RUBY_VERSION)
-	rvm $(RUBY_VERSION) do yard/bin/yard doc -n -c .yardoc $(RUBY_SRC)/*.c $(RUBY_SRC)/lib/**/*.rb
+	rvm $(RUBY_VERSION) do yard/bin/yard doc -n -c $(RUBY_SRC)/.yardoc $(RUBY_SRC)/*.c $(RUBY_SRC)/lib/**/*.rb
