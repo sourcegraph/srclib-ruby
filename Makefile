@@ -10,6 +10,9 @@ test-dep:
 test:
 	rvm 2.1 do src -v test -m program
 
+test-gen-program:
+	rvm 2.1.2 do src test -m program --gen
+
 dep:
 	bundle install
 	cd yard && bundle install
