@@ -1,6 +1,6 @@
 .PHONY: default test-dep test dep
 
-default: dep
+default: dep stdlib
 
 test-dep:
 	cd testdata/case/ruby-sample-0 && rvm 2.1 do bundle install
@@ -13,3 +13,9 @@ test:
 dep:
 	bundle install
 	cd yard && bundle install
+
+RUBY_VERSION ?= 2.1.2
+RUBY_SRC=$(shell dirname `which rvm`)/../src/ruby-$(RUBY_VERSION)
+stdlib:
+	rvm fetch $(RUBY_VERSION)
+	rvm $(RUBY_VERSION) do yard/bin/yard doc -n -c .yardoc $(RUBY_SRC)/*.c $(RUBY_SRC)/lib/**/*.rb

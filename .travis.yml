@@ -11,10 +11,7 @@ install:
   - unset BUNDLE_GEMFILE
   - make dep
   - make test-dep
-  # process stdlib - only process some of the .rb files because it's slow otherwise
-  - rvm fetch 2.1
-  - cd ~/.rvm/src/`rvm current` && rvm 2.1 do $TRAVIS_BUILD_DIR/yard/bin/yard doc -n -c .yardoc *.c lib/base64.rb lib/ipaddr.rb lib/uri.rb
-  - cd $TRAVIS_BUILD_DIR
+  - make stdlib
 
 # TODO(sqs): also test yard?
 script:
