@@ -1,0 +1,15 @@
+PATH
+  remote: .
+  specs:
+    srclib-ruby (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.6.0)
+  srclib-ruby!
