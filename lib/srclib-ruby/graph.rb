@@ -70,7 +70,7 @@ module Srclib
       bundle_output_dirs = bundle_output.split("\n").map { |l| l.split(/\s+/)[1] }.compact
       STDERR.puts " ==> #{bundle_output_dirs.inspect}"
 
-      if ENV['rvm_ruby_string'] && (!srcunit['Config'] || !srcunit['Config']['noCachedStdlibYardoc'])
+      if (!srcunit['Config'] || !srcunit['Config']['noCachedStdlibYardoc'])
         bundle_output_dirs << RUBY_STDLIB_YARDOC_DIR if File.exist?(RUBY_STDLIB_YARDOC_DIR)
       end
 
