@@ -1,0 +1,36 @@
+{
+  "Defs": [
+    {
+      "Path": "A",
+      "TreePath": "./A",
+      "Kind": "type",
+      "Name": "A",
+      "Callable": false,
+      "File": "subdir/lib/ruby_subdir_gem.rb",
+      "DefStart": 0,
+      "DefEnd": 12,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "class",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "A",
+        "ReturnType": ""
+      }
+    }
+  ],
+  "Refs": [
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "A",
+      "Def": true,
+      "Repo": "",
+      "File": "subdir/lib/ruby_subdir_gem.rb",
+      "Start": 6,
+      "End": 7
+    }
+  ]
+}
