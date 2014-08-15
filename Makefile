@@ -3,22 +3,22 @@
 default: dep stdlib
 
 test-dep:
-	cd testdata/case/ruby-sample-0 && rvm 2.1 do bundle install
-	cd testdata/case/ruby_sample_xref_app && rvm 2.1 do bundle install
-	cd testdata/case/sample_ruby_gem && rvm 2.1 do bundle install
+	cd testdata/case/ruby-sample-0 && bundle install
+	cd testdata/case/ruby_sample_xref_app && bundle install
+	cd testdata/case/sample_ruby_gem && bundle install
 
 test:
-	rvm 2.1 do src -v test -m program
+	src -v test -m program
 
 test-gen-program:
-	rvm 2.1.2 do src test -m program --gen
+	src test -m program --gen
 
 dep:
 	bundle install
 	cd yard && bundle install
 
+RUBY_SOURCE_URL ?= http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.gz
 RUBY_VERSION ?= ruby-2.1.2
-RUBY_SRC=$(shell dirname `which rvm`)/../src/$(RUBY_VERSION)
 stdlib:
-	rvm fetch $(RUBY_VERSION)
-	rvm $(RUBY_VERSION) do yard/bin/yard doc -n -c $(RUBY_SRC)/.yardoc $(RUBY_SRC)/*.c $(RUBY_SRC)/lib/**/*.rb
+	[ -e $(RUBY_VERSION) ] || curl $(RUBY_SOURCE_URL) | tar -xz
+	yard/bin/yard doc -n -c $(RUBY_VERSION)/.yardoc $(RUBY_VERSION)/*.c $(RUBY_VERSION)/lib/**/*.rb
