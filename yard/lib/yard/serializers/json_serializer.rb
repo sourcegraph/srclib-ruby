@@ -17,7 +17,10 @@ module YARD
           else
             [f]
           end
-        end.flatten.map(&:to_s)
+        end.flatten.map(&:to_s).map do |f|
+          # remove leading "./"
+          f.gsub(/^\.\//, '')
+        end
       end
 
       def serialize(data)

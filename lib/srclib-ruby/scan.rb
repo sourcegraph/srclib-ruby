@@ -33,12 +33,14 @@ module Srclib
           deps = Bundler.definition.dependencies.map{ |d| [d.name, d.requirement.to_s] }
         end
 
+        gem_dir = Pathname.new(gemspec).relative_path_from(pre_wd).parent
+
         gem.delete(:date)
         {
           'Name' => gem[:name],
           'Type' => 'rubygem',
-          'Dir' => Pathname.new(gemspec).relative_path_from(pre_wd),
-          'Files' => gem[:files].sort,
+          'Dir' => gem_dir,
+          'Files' => gem[:files].sort.map { |f| gem_dir == "." ? f : File.join(gem_dir, f) },
           'Dependencies' => (deps and deps.sort), #gem[:dependencies], # TODO(sqs): what to do with the gemspec deps?
           'Data' => gem,
           'Ops' => {'depresolve' => nil, 'graph' => nil},

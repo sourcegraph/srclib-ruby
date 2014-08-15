@@ -10,3 +10,6 @@
 [submodule "testdata/case/ruby_sample_xref_app"]
 	path = testdata/case/ruby_sample_xref_app
 	url = https://github.com/sgtest/ruby_sample_xref_app.git
+[submodule "testdata/case/ruby-subdir-gem"]
+	path = testdata/case/ruby-subdir-gem
+	url = https://github.com/sgtest/ruby-subdir-gem.git
