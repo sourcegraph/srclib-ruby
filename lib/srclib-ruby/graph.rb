@@ -304,9 +304,4 @@ STDLIB_GEM_NAME_SENTINEL = "<RUBY_STDLIB>"
 
 STDLIB_CLONE_URL = "https://github.com/ruby/ruby.git"
 
-if ENV['rvm_ruby_string']
-  RUBY_STDLIB_YARDOC_DIR = File.join(ENV['rvm_src_path'], ENV['rvm_ruby_string'], '.yardoc')
-else
-  # HACK HACK hardcoded ruby 2.1.2
-  RUBY_STDLIB_YARDOC_DIR = File.expand_path("~/.rvm/src/ruby-2.1.2/.yardoc")
-end
+RUBY_STDLIB_YARDOC_DIR = File.expand_path("../../../ruby-#{RUBY_VERSION}/.yardoc", __FILE__)
