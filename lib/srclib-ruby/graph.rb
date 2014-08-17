@@ -53,7 +53,7 @@ module Srclib
         Bundler.settings[:path] = "/tmp/bundle" # install to system
         Bundler.settings[:frozen] = true # avoid writing to lockfile since docker volume is readonly
 
-        bundle = Bundler::Definition.new("Gemfile.lock", okdeps, bundle.sources, bundle.instance_variable_get("@unlock"), bundle.ruby_version)
+        bundle = Bundler::Definition.new("Gemfile.lock", okdeps, bundle.send(:sources), bundle.instance_variable_get("@unlock"), bundle.ruby_version)
 
         Bundler.ui.level = 'fatal'
         Bundler::Installer.install(Bundler.root, bundle)
