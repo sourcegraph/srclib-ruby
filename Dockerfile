@@ -7,9 +7,8 @@ RUN apt-get install -qq curl git
 RUN curl -L https://get.rvm.io | bash -s stable
 ENV PATH /usr/local/rvm/bin:$PATH
 RUN rvm requirements
-ENV RUBY_VERSION ruby-2.1
+ENV RUBY_VERSION ruby-2.1.2
 RUN rvm install $RUBY_VERSION
-RUN rvm fetch $RUBY_VERSION
 RUN rvm $RUBY_VERSION do gem install asciidoctor rdoc bundler --no-ri --no-rdoc
 
 ENV IN_DOCKER_CONTAINER true
@@ -42,8 +41,7 @@ ENV PATH /srclib/srclib-ruby/.bin:$PATH
 
 # Set up YARD
 WORKDIR /srclib/srclib-ruby/yard
-RUN rvm all do bundle
-ENV RUBY_STDLIB_YARDOC_DIR /tmp/ruby-stdlib-yardoc-dir
+RUN rvm $RUBY_VERSION do bundle
 
 # Add srclib (unprivileged) user
 RUN useradd -ms /bin/bash srclib
@@ -52,7 +50,8 @@ RUN chown -R srclib /src /srclib /usr/local/rvm
 USER srclib
 
 # Generate YARD doc for the stdlib
-RUN cd /usr/local/rvm/src/$RUBY_VERSION.* && rvm all do /srclib/srclib-ruby/yard/bin/yard doc -n -c .yardoc *.c **/*.rb
+WORKDIR /srclib/srclib-ruby
+RUN rvm $RUBY_VERSION do make stdlib
 
 WORKDIR /src
 

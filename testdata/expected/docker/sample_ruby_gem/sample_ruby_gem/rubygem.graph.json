@@ -916,6 +916,17 @@
       "DefRepo": "github.com/ruby/ruby",
       "DefUnitType": "ruby",
       "DefUnit": ".",
+      "DefPath": "URI/LDAP",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/sample_ruby_gem.rb",
+      "Start": 738,
+      "End": 742
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "URI",
       "Def": false,
       "Repo": "",
