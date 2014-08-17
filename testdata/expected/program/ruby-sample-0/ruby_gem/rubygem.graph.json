@@ -851,6 +851,17 @@
       "DefRepo": "github.com/ruby/ruby",
       "DefUnitType": "ruby",
       "DefUnit": ".",
+      "DefPath": "Base64",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/ruby_gem.rb",
+      "Start": 682,
+      "End": 688
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "BasicObject/$methods/initialize",
       "Def": false,
       "Repo": "",

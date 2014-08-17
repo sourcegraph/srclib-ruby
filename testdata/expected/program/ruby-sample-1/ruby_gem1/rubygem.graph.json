@@ -118,6 +118,17 @@
       "DefRepo": "github.com/ruby/ruby",
       "DefUnitType": "ruby",
       "DefUnit": ".",
+      "DefPath": "Time/$classmethods/parse",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/gem.rb",
+      "Start": 55,
+      "End": 60
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
       "DefPath": "Time",
       "Def": false,
       "Repo": "",
