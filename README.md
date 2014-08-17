@@ -10,15 +10,37 @@ subdirectory. Commits to that subtree should be regularly sent upstream to the
 
 ## Running tests
 
-**Always** run the tests wrapped in the rvm you want to use. If you're trying to
-match the expected output checked into the repository, use:
+The `make test` target analyzes sample repositories in `testdata/case` and
+checks that the actual output matches the expected output (which is committed to
+the repository).
+
+The sample repositories are git submodules, so you'll have to `git submodule
+init && git submodule update` the first time you want to run the tests.
+
+The output of the analyzer differs a bit depending on the version of Ruby you
+have installed. The expected output was generated using Ruby 2.1.2. If you're
+finding that your output differs from the expected, try **both** generating the
+stdlib index and running the tests with that version of Ruby. If you're using
+[rvm](https://rvm.io), this means running the following commands:
 
 ```
-make test-deps
-rvm 2.1 do src test
+# in case you built the stdlib index using a different version of Ruby (e.g.,
+# your system Ruby)
+rm -rf ruby-2.1.2/.yardoc
+
+# rebuild the stdlib index using Ruby 2.1.2 (run `rvm install 2.1.2` if you
+# haven't already installed Ruby 2.1.2)
+rvm 2.1.2 do make stdlib
+
+# run the tests with Ruby 2.1.2
+rvm 2.1.2 do make test
 ```
 
-Same goes for when you're generating new expected output (just add `--gen`).
+The same applies when you're generating new expected test output (after making
+an improvement to the code, for example).
+
+If you're having trouble getting your output to match the expected, post an
+issue.
 
 ## TODO
 
