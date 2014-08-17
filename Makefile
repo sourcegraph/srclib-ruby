@@ -21,4 +21,4 @@ RUBY_SOURCE_URL ?= http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.gz
 RUBY_VERSION ?= ruby-2.1.2
 stdlib:
 	[ -e $(RUBY_VERSION) ] || curl $(RUBY_SOURCE_URL) | tar -xz
-	yard/bin/yard doc -n -c $(RUBY_VERSION)/.yardoc $(RUBY_VERSION)/*.c $(RUBY_VERSION)/lib/**/*.rb
+	yard/bin/yard doc -n -c $(RUBY_VERSION).yardoc $(RUBY_VERSION)/*.c $(RUBY_VERSION)'/lib/**/*.rb'
