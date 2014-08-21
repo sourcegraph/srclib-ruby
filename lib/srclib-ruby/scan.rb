@@ -54,13 +54,14 @@ module Srclib
         script_dir = Pathname.new(script_path).relative_path_from(pre_wd).parent
         script_file = File.basename(script_path)
         script_name = (script_dir.to_path == '.' ? script_file : File.join(script_dir, script_file))
+        script_code = File.new(script_file).read()
 
         {
           'Name' => script_name,
           'Type' => 'rubyscript',
           'Dir' => script_dir,
           'Files' => [script_name],
-          'Dependencies' => nil, #TODO: Find all requires, and match it with currently installed gems
+          'Dependencies' => script_deps(script_code),
           'Data' => {
             'name' => script_name,
             'files' => [script_file]
@@ -68,6 +69,8 @@ module Srclib
           'Ops' => {'depresolve' => nil, 'graph' => nil},
         }
       end
+
+      #TODO: Merge "rubyscript" units that are in the same directory
 
       puts JSON.generate(source_units.sort_by { |a| a['Name'] })
     end
@@ -110,6 +113,28 @@ module Srclib
       end
 
       scripts
+    end
+
+    # Given the content of a script, finds all of its dependant gems
+    # @param script_code [String] Content of the script
+    # @return [Array] The dependency array.
+    def script_deps(script_code)
+      # Get a list of all installed gems
+      installed_gems = `gem list`.split(/\n/).map do |line|
+        line.split.first.strip #TODO: Extract version number
+      end
+
+      deps = []
+      script_code.scan(/require\W["'](.*)["']/) do |required|
+        if installed_gems.include? required[0].strip
+          deps << [
+            required[0].strip,
+            ">= 0" #TODO: Should use the currently installed version number
+          ]
+        end
+      end
+
+      return deps
     end
 
     def find_gems(dir)
