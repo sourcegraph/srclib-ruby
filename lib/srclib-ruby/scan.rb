@@ -47,12 +47,14 @@ module Srclib
         }
       end
 
+      Dir.chdir(pre_wd) # Reset working directory to initial root
       source_units += find_scripts('.', source_units).map do |script_path|
         Dir.chdir(File.dirname(script_path))
 
         script_dir = Pathname.new(script_path).relative_path_from(pre_wd).parent
         script_file = File.basename(script_path)
         script_name = (script_dir.to_path == '.' ? script_file : File.join(script_dir, script_file))
+
         {
           'Name' => script_name,
           'Type' => 'rubyscript',
@@ -76,16 +78,33 @@ module Srclib
 
     private
 
-    def script_in_unit(scriptfile, units)
+    # Checks to see if the given script file is accounted for
+    # in the files of the given source units.
+    # @return [Boolean] Returns false if the script is not accounted for
+    def script_in_units(script_file, units)
+      script_absolute = File.expand_path(script_file)
+
+      units.each do |unit|
+        unit_dir = File.expand_path(unit['Dir'])
+        unit['Data'][:files].each do |file|
+          if File.join(unit_dir, file) == script_file
+            return true
+          end
+        end
+      end
+
       return false
     end
 
+    # Finds all scripts that are not accounted for in the existing set of found gems
+    # @param dir [String] The directory in which to search for scripts
+    # @param gem_units [Array] The source units that have already been found.
     def find_scripts(dir, gem_units)
       scripts = []
 
       dir = File.expand_path(dir)
       Dir.glob(File.join(dir, "**/*.rb")).map do |script_file|
-        if !script_in_unit(script_file, gem_units)
+        if !script_in_units(script_file, gem_units)
           scripts << script_file
         end
       end
@@ -94,7 +113,7 @@ module Srclib
     end
 
     def find_gems(dir)
-
+      dir = File.expand_path(dir)
       gemspecs = {}
       spec_files = Dir.glob(File.join(dir, "**/*.gemspec")).sort
       spec_files.each do |spec_file|
