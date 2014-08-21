@@ -12,6 +12,7 @@
       "Op": "graph",
       "SourceUnitTypes": [
         "rubygem",
+        "rubyscript",
         "ruby"
       ]
     },
@@ -20,6 +21,7 @@
       "Op": "depresolve",
       "SourceUnitTypes": [
         "rubygem",
+        "rubyscript",
         "ruby"
       ]
     }

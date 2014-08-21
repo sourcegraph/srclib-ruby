@@ -46,6 +46,27 @@ module Srclib
           'Ops' => {'depresolve' => nil, 'graph' => nil},
         }
       end
+
+      source_units += find_scripts('.', source_units).map do |script_path|
+        Dir.chdir(File.dirname(script_path))
+
+        script_dir = Pathname.new(script_path).relative_path_from(pre_wd).parent
+        script_file = File.basename(script_path)
+        script_name = (script_dir.to_path == '.' ? script_file : File.join(script_dir, script_file))
+        {
+          'Name' => script_name,
+          'Type' => 'rubyscript',
+          'Dir' => script_dir,
+          'Files' => [script_name],
+          'Dependencies' => nil, #TODO: Find all requires, and match it with currently installed gems
+          'Data' => {
+            'name' => script_name,
+            'files' => [script_file]
+          },
+          'Ops' => {'depresolve' => nil, 'graph' => nil},
+        }
+      end
+
       puts JSON.generate(source_units.sort_by { |a| a['Name'] })
     end
 
@@ -55,8 +76,25 @@ module Srclib
 
     private
 
-    def find_gems(dir)
+    def script_in_unit(scriptfile, units)
+      return false
+    end
+
+    def find_scripts(dir, gem_units)
+      scripts = []
+
       dir = File.expand_path(dir)
+      Dir.glob(File.join(dir, "**/*.rb")).map do |script_file|
+        if !script_in_unit(script_file, gem_units)
+          scripts << script_file
+        end
+      end
+
+      scripts
+    end
+
+    def find_gems(dir)
+
       gemspecs = {}
       spec_files = Dir.glob(File.join(dir, "**/*.gemspec")).sort
       spec_files.each do |spec_file|
