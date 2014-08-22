@@ -48,29 +48,24 @@ module Srclib
       end
 
       Dir.chdir(pre_wd) # Reset working directory to initial root
-      source_units += find_scripts('.', source_units).map do |script_path|
-        Dir.chdir(File.dirname(script_path))
+      scripts = find_scripts('.', source_units).map do |script_path|
+        Pathname.new(script_path).relative_path_from(pre_wd)
+      end
 
-        script_dir = Pathname.new(script_path).relative_path_from(pre_wd).parent
-        script_file = File.basename(script_path)
-        script_name = (script_dir.to_path == '.' ? script_file : File.join(script_dir, script_file))
-        script_code = File.new(script_file).read()
-
-        {
-          'Name' => script_name,
-          'Type' => 'rubyscript',
-          'Dir' => script_dir,
-          'Files' => [script_name],
-          'Dependencies' => script_deps(script_code),
+      if scripts.length > 0
+        source_units << {
+          'Name' => 'rubyscripts',
+          'Type' => 'rubyscripts',
+          'Dir' => '.',
+          'Files' => scripts,
+          'Dependencies' => nil, #TODO(rameshvarun): Aggregate dependencies from all of the scripts
           'Data' => {
-            'name' => script_name,
-            'files' => [script_file]
+            'name' => 'rubyscripts',
+            'files' => scripts,
           },
           'Ops' => {'depresolve' => nil, 'graph' => nil},
         }
       end
-
-      #TODO: Merge "rubyscript" units that are in the same directory
 
       puts JSON.generate(source_units.sort_by { |a| a['Name'] })
     end
