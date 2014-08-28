@@ -32,6 +32,9 @@ rm -rf ruby-2.1.2/.yardoc
 # haven't already installed Ruby 2.1.2)
 rvm 2.1.2 do make stdlib
 
+# install gem deps for the test repos using Ruby 2.1.2
+rvm 2.1.2 do make test-dep
+
 # run the tests with Ruby 2.1.2
 rvm 2.1.2 do make test
 ```
