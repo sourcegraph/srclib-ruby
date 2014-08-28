@@ -3,9 +3,8 @@
     {
       "Path": "A",
       "TreePath": "./A",
-      "Kind": "type",
       "Name": "A",
-      "Callable": false,
+      "Kind": "type",
       "File": "lib/gem.rb",
       "DefStart": 16,
       "DefEnd": 94,
@@ -22,9 +21,8 @@
     {
       "Path": "A/$classmethods/method",
       "TreePath": "./A/method",
-      "Kind": "func",
       "Name": "method",
-      "Callable": false,
+      "Kind": "func",
       "File": "lib/gem.rb",
       "DefStart": 26,
       "DefEnd": 90,
@@ -41,9 +39,8 @@
     {
       "Path": "A@_local_0@method@t",
       "TreePath": "./A/method/t",
-      "Kind": "var",
       "Name": "t",
-      "Callable": false,
+      "Kind": "var",
       "File": "lib/gem.rb",
       "DefStart": 46,
       "DefEnd": 76,

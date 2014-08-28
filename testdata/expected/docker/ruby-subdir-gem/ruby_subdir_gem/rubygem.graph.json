@@ -3,9 +3,8 @@
     {
       "Path": "A",
       "TreePath": "./A",
-      "Kind": "type",
       "Name": "A",
-      "Callable": false,
+      "Kind": "type",
       "File": "subdir/lib/ruby_subdir_gem.rb",
       "DefStart": 0,
       "DefEnd": 12,
