@@ -2,6 +2,7 @@ require 'json'
 require 'optparse'
 require 'bundler'
 require 'pathname'
+require 'set'
 
 module Srclib
   class Scan
@@ -27,6 +28,9 @@ module Srclib
 
       pre_wd = Pathname.pwd
 
+      # Keep track of already discovered files in a set
+      discovered_files = Set.new
+
       source_units = find_gems('.').map do |gemspec, gem|
         Dir.chdir(File.dirname(gemspec))
         if File.exist?("Gemfile")
@@ -36,6 +40,10 @@ module Srclib
         gem_dir = Pathname.new(gemspec).relative_path_from(pre_wd).parent
 
         gem.delete(:date)
+
+        # Add set of all now accounted for files, using absolute paths
+        discovered_files.merge(gem[:files].sort.map { |x| File.expand_path(x) } )
+
         {
           'Name' => gem[:name],
           'Type' => 'rubygem',
@@ -51,11 +59,18 @@ module Srclib
       scripts = find_scripts('.', source_units).map do |script_path|
         Pathname.new(script_path).relative_path_from(pre_wd)
       end
+      
+      # Filter out scripts that are already accounted for in the existing Source Units
+      scripts = scripts.select do |script_file|
+        script_absolute = File.expand_path(script_file)
+        member = discovered_files.member? script_absolute
+        !member
+      end
 
       if scripts.length > 0
         source_units << {
-          'Name' => 'rubyscripts',
-          'Type' => 'rubyscripts',
+          'Name' => 'rubyprogram',
+          'Type' => 'rubyprogram',
           'Dir' => '.',
           'Files' => scripts,
           'Dependencies' => nil, #TODO(rameshvarun): Aggregate dependencies from all of the scripts
@@ -76,24 +91,6 @@ module Srclib
 
     private
 
-    # Checks to see if the given script file is accounted for
-    # in the files of the given source units.
-    # @return [Boolean] Returns false if the script is not accounted for
-    def script_in_units(script_file, units)
-      script_absolute = File.expand_path(script_file)
-
-      units.each do |unit|
-        unit_dir = File.expand_path(unit['Dir'])
-        unit['Data'][:files].each do |file|
-          if File.join(unit_dir, file) == script_file
-            return true
-          end
-        end
-      end
-
-      return false
-    end
-
     # Finds all scripts that are not accounted for in the existing set of found gems
     # @param dir [String] The directory in which to search for scripts
     # @param gem_units [Array] The source units that have already been found.
@@ -102,9 +99,7 @@ module Srclib
 
       dir = File.expand_path(dir)
       Dir.glob(File.join(dir, "**/*.rb")).map do |script_file|
-        if !script_in_units(script_file, gem_units)
-          scripts << script_file
-        end
+        scripts << script_file
       end
 
       scripts

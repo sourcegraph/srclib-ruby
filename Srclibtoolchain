@@ -5,7 +5,7 @@
       "Op": "scan",
       "SourceUnitTypes": [
         "rubygem",
-        "rubyscripts"
+        "rubyprogram"
       ]
     },
     {
@@ -13,7 +13,7 @@
       "Op": "graph",
       "SourceUnitTypes": [
         "rubygem",
-        "rubyscripts",
+        "rubyprogram",
         "ruby"
       ]
     },
@@ -22,7 +22,7 @@
       "Op": "depresolve",
       "SourceUnitTypes": [
         "rubygem",
-        "rubyscripts",
+        "rubyprogram",
         "ruby"
       ]
     }
