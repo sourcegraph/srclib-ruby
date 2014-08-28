@@ -59,13 +59,14 @@ module Srclib
       scripts = find_scripts('.', source_units).map do |script_path|
         Pathname.new(script_path).relative_path_from(pre_wd)
       end
-      
+
       # Filter out scripts that are already accounted for in the existing Source Units
       scripts = scripts.select do |script_file|
         script_absolute = File.expand_path(script_file)
         member = discovered_files.member? script_absolute
         !member
       end
+      scripts.sort! # For testing consistency
 
       if scripts.length > 0
         source_units << {
