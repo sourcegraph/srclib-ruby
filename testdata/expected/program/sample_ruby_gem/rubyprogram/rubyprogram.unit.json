@@ -1,1 +1,0 @@
-{"Name":"rubyprogram","Type":"rubyprogram","Repo":"github.com/sgtest/sample_ruby_gem","Globs":null,"Files":["lib/cases/class.rb","lib/cases/global_var.rb","lib/cases/top_const.rb"],"Dir":".","Data":{"files":["lib/cases/class.rb","lib/cases/global_var.rb","lib/cases/top_const.rb"],"name":"rubyscripts"},"Ops":{"depresolve":null,"graph":null}}
