@@ -70,7 +70,7 @@ module Srclib
 
       if scripts.length > 0
         source_units << {
-          'Name' => 'rubyprogram',
+          'Name' => '.',
           'Type' => 'rubyprogram',
           'Dir' => '.',
           'Files' => scripts,
