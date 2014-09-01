@@ -55,32 +55,36 @@ module Srclib
         }
       end
 
-      Dir.chdir(pre_wd) # Reset working directory to initial root
-      scripts = find_scripts('.', source_units).map do |script_path|
-        Pathname.new(script_path).relative_path_from(pre_wd)
-      end
+      # Ignore standard library
+      if @opt[:repo] != "github.com/ruby/ruby"
+        Dir.chdir(pre_wd) # Reset working directory to initial root
+        scripts = find_scripts('.', source_units).map do |script_path|
+          Pathname.new(script_path).relative_path_from(pre_wd)
+        end
 
-      # Filter out scripts that are already accounted for in the existing Source Units
-      scripts = scripts.select do |script_file|
-        script_absolute = File.expand_path(script_file)
-        member = discovered_files.member? script_absolute
-        !member
-      end
-      scripts.sort! # For testing consistency
+        # Filter out scripts that are already accounted for in the existing Source Units
+        scripts = scripts.select do |script_file|
+          script_absolute = File.expand_path(script_file)
+          member = discovered_files.member? script_absolute
+          !member
+        end
+        scripts.sort! # For testing consistency
 
-      if scripts.length > 0
-        source_units << {
-          'Name' => '.',
-          'Type' => 'rubyprogram',
-          'Dir' => '.',
-          'Files' => scripts,
-          'Dependencies' => nil, #TODO(rameshvarun): Aggregate dependencies from all of the scripts
-          'Data' => {
-            'name' => 'rubyscripts',
-            'files' => scripts,
-          },
-          'Ops' => {'depresolve' => nil, 'graph' => nil},
-        }
+        # If scripts were found, append to the list of source units
+        if scripts.length > 0
+          source_units << {
+            'Name' => '.',
+            'Type' => 'rubyprogram',
+            'Dir' => '.',
+            'Files' => scripts,
+            'Dependencies' => nil, #TODO(rameshvarun): Aggregate dependencies from all of the scripts
+            'Data' => {
+              'name' => 'rubyscripts',
+              'files' => scripts,
+            },
+            'Ops' => {'depresolve' => nil, 'graph' => nil},
+          }
+        end
       end
 
       puts JSON.generate(source_units.sort_by { |a| a['Name'] })
