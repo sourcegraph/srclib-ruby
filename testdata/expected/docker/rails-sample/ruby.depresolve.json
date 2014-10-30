@@ -1,3 +1,110 @@
 [
-
+  {
+    "Raw": [
+      "coffee-rails",
+      "~> 4.0.0"
+    ],
+    "Target": {
+      "ToUnit": "coffee-rails",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "~> 4.0.0",
+      "ToRepoCloneURL": "https://github.com/rails/coffee-rails"
+    }
+  },
+  {
+    "Raw": [
+      "jbuilder",
+      "~> 1.2"
+    ],
+    "Target": {
+      "ToUnit": "jbuilder",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "~> 1.2",
+      "ToRepoCloneURL": "https://github.com/rails/jbuilder"
+    }
+  },
+  {
+    "Raw": [
+      "jquery-rails",
+      ">= 0"
+    ],
+    "Target": {
+      "ToUnit": "jquery-rails",
+      "ToUnitType": "rubygem",
+      "ToVersionString": ">= 0",
+      "ToRepoCloneURL": "https://github.com/rails/jquery-rails"
+    }
+  },
+  {
+    "Raw": [
+      "rails",
+      "= 4.0.3"
+    ],
+    "Target": {
+      "ToUnit": "rails",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "= 4.0.3",
+      "ToRepoCloneURL": "https://github.com/rails/rails"
+    }
+  },
+  {
+    "Raw": [
+      "sass-rails",
+      "~> 4.0.0"
+    ],
+    "Target": {
+      "ToUnit": "sass-rails",
+      "ToUnitType": "rubygem",
+      "ToVersionString": "~> 4.0.0",
+      "ToRepoCloneURL": "https://github.com/rails/sass-rails"
+    }
+  },
+  {
+    "Raw": [
+      "sdoc",
+      ">= 0"
+    ],
+    "Target": {
+      "ToUnit": "sdoc",
+      "ToUnitType": "rubygem",
+      "ToVersionString": ">= 0",
+      "ToRepoCloneURL": "http://github.com/voloko/sdoc"
+    }
+  },
+  {
+    "Raw": [
+      "sqlite3",
+      ">= 0"
+    ],
+    "Target": {
+      "ToUnit": "sqlite3",
+      "ToUnitType": "rubygem",
+      "ToVersionString": ">= 0",
+      "ToRepoCloneURL": "https://github.com/sparklemotion/sqlite3-ruby"
+    }
+  },
+  {
+    "Raw": [
+      "turbolinks",
+      ">= 0"
+    ],
+    "Target": {
+      "ToUnit": "turbolinks",
+      "ToUnitType": "rubygem",
+      "ToVersionString": ">= 0",
+      "ToRepoCloneURL": "https://github.com/rails/turbolinks/"
+    }
+  },
+  {
+    "Raw": [
+      "uglifier",
+      ">= 1.3.0"
+    ],
+    "Target": {
+      "ToUnit": "uglifier",
+      "ToUnitType": "rubygem",
+      "ToVersionString": ">= 1.3.0",
+      "ToRepoCloneURL": "https://github.com/lautis/uglifier"
+    }
+  }
 ]
