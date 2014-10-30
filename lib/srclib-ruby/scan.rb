@@ -72,12 +72,16 @@ module Srclib
 
         # If scripts were found, append to the list of source units
         if scripts.length > 0
+          if File.exist?("Gemfile")
+            deps = Bundler.definition.dependencies.map{ |d| [d.name, d.requirement.to_s] }
+          end
+
           source_units << {
             'Name' => '.',
             'Type' => 'ruby',
             'Dir' => '.',
             'Files' => scripts,
-            'Dependencies' => nil, #TODO(rameshvarun): Aggregate dependencies from all of the scripts
+            'Dependencies' => (deps and deps.sort),
             'Data' => {
               'name' => 'rubyscripts',
               'files' => scripts,

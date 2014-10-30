@@ -19,24 +19,6 @@
       }
     },
     {
-      "Path": "ApplicationHelper",
-      "TreePath": "./ApplicationHelper",
-      "Name": "ApplicationHelper",
-      "Kind": "module",
-      "File": "app/helpers/application_helper.rb",
-      "DefStart": 0,
-      "DefEnd": 28,
-      "Exported": true,
-      "Data": {
-        "RubyKind": "module",
-        "TypeString": "",
-        "Signature": null,
-        "Module": "",
-        "RubyPath": "ApplicationHelper",
-        "ReturnType": ""
-      }
-    },
-    {
       "Path": "CreatePosts",
       "TreePath": "./CreatePosts",
       "Name": "CreatePosts",
@@ -575,15 +557,268 @@
       "End": 85
     },
     {
-      "DefRepo": "",
+      "DefRepo": "github.com/nex3/sass",
       "DefUnitType": "",
-      "DefUnit": "",
+      "DefUnit": "sass",
+      "DefPath": "ActionController/Base",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 48,
+      "End": 52
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "railties",
+      "DefPath": "ActionController/TestCase",
+      "Def": false,
+      "Repo": "",
+      "File": "test/controllers/posts_controller_test.rb",
+      "Start": 69,
+      "End": 77
+    },
+    {
+      "DefRepo": "github.com/nex3/sass",
+      "DefUnitType": "",
+      "DefUnit": "sass",
+      "DefPath": "ActionController",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 30,
+      "End": 46
+    },
+    {
+      "DefRepo": "github.com/nex3/sass",
+      "DefUnitType": "",
+      "DefUnit": "sass",
+      "DefPath": "ActionController",
+      "Def": false,
+      "Repo": "",
+      "File": "test/controllers/posts_controller_test.rb",
+      "Start": 51,
+      "End": 67
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "actionpack",
+      "DefPath": "ActionView/TestCase",
+      "Def": false,
+      "Repo": "",
+      "File": "test/helpers/posts_helper_test.rb",
+      "Start": 59,
+      "End": 67
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "actionpack",
+      "DefPath": "ActionView",
+      "Def": false,
+      "Repo": "",
+      "File": "test/helpers/posts_helper_test.rb",
+      "Start": 47,
+      "End": 57
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord/Base",
+      "Def": false,
+      "Repo": "",
+      "File": "app/models/post.rb",
+      "Start": 27,
+      "End": 31
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord/Core/$methods/initialize",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 274,
+      "End": 277
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord/Core/$methods/initialize",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 293,
+      "End": 296
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord/Core/$methods/initialize",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 411,
+      "End": 414
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord/Migration/$classmethods/check_pending!",
+      "Def": false,
+      "Repo": "",
+      "File": "test/test_helper.rb",
+      "Start": 174,
+      "End": 188
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord/Migration",
+      "Def": false,
+      "Repo": "",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "Start": 34,
+      "End": 43
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord/Migration",
+      "Def": false,
+      "Repo": "",
+      "File": "test/test_helper.rb",
+      "Start": 164,
+      "End": 173
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord/Persistence/$methods/update",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 909,
+      "End": 915
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord/Transactions/$methods/destroy",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1286,
+      "End": 1293
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord/Transactions/$methods/save",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 471,
+      "End": 475
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord",
+      "Def": false,
+      "Repo": "",
+      "File": "app/models/post.rb",
+      "Start": 13,
+      "End": 25
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord",
+      "Def": false,
+      "Repo": "",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "Start": 20,
+      "End": 32
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activerecord",
+      "DefPath": "ActiveRecord",
+      "Def": false,
+      "Repo": "",
+      "File": "test/test_helper.rb",
+      "Start": 150,
+      "End": 162
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "activesupport",
+      "DefPath": "ActiveSupport/$classmethods/on_load",
+      "Def": false,
+      "Repo": "",
+      "File": "config/initializers/wrap_parameters.rb",
+      "Start": 270,
+      "End": 277
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "railties",
+      "DefPath": "ActiveSupport/TestCase",
+      "Def": false,
+      "Repo": "",
+      "File": "test/models/post_test.rb",
+      "Start": 55,
+      "End": 63
+    },
+    {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "railties",
       "DefPath": "ActiveSupport/TestCase",
       "Def": true,
       "Repo": "",
       "File": "test/test_helper.rb",
       "Start": 124,
       "End": 147
+    },
+    {
+      "DefRepo": "github.com/mikel/mail",
+      "DefUnitType": "",
+      "DefUnit": "mail",
+      "DefPath": "ActiveSupport",
+      "Def": false,
+      "Repo": "",
+      "File": "config/initializers/wrap_parameters.rb",
+      "Start": 256,
+      "End": 269
+    },
+    {
+      "DefRepo": "github.com/mikel/mail",
+      "DefUnitType": "",
+      "DefUnit": "mail",
+      "DefPath": "ActiveSupport",
+      "Def": false,
+      "Repo": "",
+      "File": "test/models/post_test.rb",
+      "Start": 40,
+      "End": 53
     },
     {
       "DefRepo": "",
@@ -619,9 +854,9 @@
       "End": 45
     },
     {
-      "DefRepo": "",
+      "DefRepo": "github.com/rails/rails",
       "DefUnitType": "",
-      "DefUnit": "",
+      "DefUnit": "railties",
       "DefPath": "ApplicationHelper",
       "Def": true,
       "Repo": "",
@@ -641,37 +876,26 @@
       "End": 256
     },
     {
-      "DefRepo": "github.com/ruby/ruby",
-      "DefUnitType": "ruby",
-      "DefUnit": ".",
-      "DefPath": "BasicObject/$methods/initialize",
+      "DefRepo": "github.com/carlhuda/bundler",
+      "DefUnitType": "",
+      "DefUnit": "bundler",
+      "DefPath": "Bundler/$classmethods/require",
       "Def": false,
       "Repo": "",
-      "File": "app/controllers/application_controller.rb",
-      "Start": 274,
-      "End": 277
+      "File": "config/application.rb",
+      "Start": 190,
+      "End": 197
     },
     {
-      "DefRepo": "github.com/ruby/ruby",
-      "DefUnitType": "ruby",
-      "DefUnit": ".",
-      "DefPath": "BasicObject/$methods/initialize",
+      "DefRepo": "github.com/carlhuda/bundler",
+      "DefUnitType": "",
+      "DefUnit": "bundler",
+      "DefPath": "Bundler",
       "Def": false,
       "Repo": "",
-      "File": "app/controllers/posts_controller.rb",
-      "Start": 293,
-      "End": 296
-    },
-    {
-      "DefRepo": "github.com/ruby/ruby",
-      "DefUnitType": "ruby",
-      "DefUnit": ".",
-      "DefPath": "BasicObject/$methods/initialize",
-      "Def": false,
-      "Repo": "",
-      "File": "app/controllers/posts_controller.rb",
-      "Start": 411,
-      "End": 414
+      "File": "config/application.rb",
+      "Start": 182,
+      "End": 189
     },
     {
       "DefRepo": "",
@@ -1444,6 +1668,28 @@
       "End": 18
     },
     {
+      "DefRepo": "github.com/rails/rails",
+      "DefUnitType": "",
+      "DefUnit": "railties",
+      "DefPath": "Rails/$classmethods/application",
+      "Def": false,
+      "Repo": "",
+      "File": "config/initializers/filter_parameter_logging.rb",
+      "Start": 142,
+      "End": 153
+    },
+    {
+      "DefRepo": "github.com/rails/sprockets-rails",
+      "DefUnitType": "",
+      "DefUnit": "sprockets-rails",
+      "DefPath": "Rails/Application",
+      "Def": false,
+      "Repo": "",
+      "File": "config/application.rb",
+      "Start": 268,
+      "End": 279
+    },
+    {
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
@@ -1618,6 +1864,28 @@
       "File": "config/routes.rb",
       "Start": 0,
       "End": 11
+    },
+    {
+      "DefRepo": "github.com/rails/sprockets-rails",
+      "DefUnitType": "",
+      "DefUnit": "sprockets-rails",
+      "DefPath": "Rails",
+      "Def": false,
+      "Repo": "",
+      "File": "config/application.rb",
+      "Start": 261,
+      "End": 266
+    },
+    {
+      "DefRepo": "github.com/rails/sprockets-rails",
+      "DefUnitType": "",
+      "DefUnit": "sprockets-rails",
+      "DefPath": "Rails",
+      "Def": false,
+      "Repo": "",
+      "File": "config/initializers/filter_parameter_logging.rb",
+      "Start": 136,
+      "End": 141
     },
     {
       "DefRepo": "",

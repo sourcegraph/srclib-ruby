@@ -6,6 +6,7 @@ test-dep:
 	cd testdata/case/ruby-sample-0 && bundle install
 	cd testdata/case/ruby_sample_xref_app && bundle install
 	cd testdata/case/sample_ruby_gem && bundle install
+	cd testdata/case/rails-sample && bundle install
 
 test:
 	src -v test -m program
