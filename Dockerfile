@@ -1,10 +1,11 @@
 FROM ubuntu:14.04
 
-RUN apt-get update -qq
+RUN apt-get update -q 
 RUN apt-get install -qq curl git
 
 # Install Ruby
-RUN curl -L https://get.rvm.io | bash -s stable
+RUN gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
+RUN curl -sSL https://get.rvm.io | bash -s stable
 ENV PATH /usr/local/rvm/bin:$PATH
 RUN rvm requirements
 ENV RUBY_VERSION ruby-2.1.2

@@ -13,3 +13,6 @@
 [submodule "testdata/case/ruby-subdir-gem"]
 	path = testdata/case/ruby-subdir-gem
 	url = https://github.com/sgtest/ruby-subdir-gem.git
+[submodule "testdata/case/rails-sample"]
+	path = testdata/case/rails-sample
+	url = https://github.com/sgtest/rails-sample.git

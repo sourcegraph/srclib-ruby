@@ -1,0 +1,1532 @@
+{
+  "Defs": [
+    {
+      "Path": "ApplicationController",
+      "TreePath": "./ApplicationController",
+      "Name": "ApplicationController",
+      "Kind": "type",
+      "File": "app/controllers/application_controller.rb",
+      "DefStart": 0,
+      "DefEnd": 204,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "class",
+        "TypeString": "ApplicationController",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "ApplicationController",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "ApplicationHelper",
+      "TreePath": "./ApplicationHelper",
+      "Name": "ApplicationHelper",
+      "Kind": "module",
+      "File": "app/helpers/application_helper.rb",
+      "DefStart": 0,
+      "DefEnd": 28,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "module",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "ApplicationHelper",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "CreatePosts",
+      "TreePath": "./CreatePosts",
+      "Name": "CreatePosts",
+      "Kind": "type",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "DefStart": 0,
+      "DefEnd": 222,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "class",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "CreatePosts",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "CreatePosts/$methods/change",
+      "TreePath": "./CreatePosts/change",
+      "Name": "change",
+      "Kind": "func",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "DefStart": 46,
+      "DefEnd": 218,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "method",
+        "TypeString": "",
+        "Signature": "change",
+        "Module": "",
+        "RubyPath": "CreatePosts#change",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "CreatePosts@_local_0@/$methods/change@@block_local_0@t",
+      "TreePath": "./CreatePosts/change/@block_local_0/t",
+      "Name": "t",
+      "Kind": "var",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "DefStart": 85,
+      "DefEnd": 86,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "localvariable",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "CreatePosts\u003e_local_0\u003e#change\u003e@block_local_0\u003et",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "Post",
+      "TreePath": "./Post",
+      "Name": "Post",
+      "Kind": "type",
+      "File": "app/models/post.rb",
+      "DefStart": 0,
+      "DefEnd": 74,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "class",
+        "TypeString": "Post",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "Post",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "Post/$methods/excerpt",
+      "TreePath": "./Post/excerpt",
+      "Name": "excerpt",
+      "Kind": "func",
+      "File": "app/models/post.rb",
+      "DefStart": 33,
+      "DefEnd": 70,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "method",
+        "TypeString": "",
+        "Signature": "excerpt",
+        "Module": "",
+        "RubyPath": "Post#excerpt",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostTest",
+      "TreePath": "./PostTest",
+      "Name": "PostTest",
+      "Kind": "type",
+      "File": "test/models/post_test.rb",
+      "DefStart": 23,
+      "DefEnd": 117,
+      "Exported": true,
+      "Test": true,
+      "Data": {
+        "RubyKind": "class",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "PostTest",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController",
+      "TreePath": "./PostsController",
+      "Name": "PostsController",
+      "Kind": "type",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 0,
+      "DefEnd": 1761,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "class",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "PostsController",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController/$methods/create",
+      "TreePath": "./PostsController/create",
+      "Name": "create",
+      "Kind": "func",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 383,
+      "DefEnd": 801,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "method",
+        "TypeString": "",
+        "Signature": "create",
+        "Module": "",
+        "RubyPath": "PostsController#create",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController/$methods/destroy",
+      "TreePath": "./PostsController/destroy",
+      "Name": "destroy",
+      "Kind": "func",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 1264,
+      "DefEnd": 1417,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "method",
+        "TypeString": "",
+        "Signature": "destroy",
+        "Module": "",
+        "RubyPath": "PostsController#destroy",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController/$methods/edit",
+      "TreePath": "./PostsController/edit",
+      "Name": "edit",
+      "Kind": "func",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 328,
+      "DefEnd": 342,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "method",
+        "TypeString": "",
+        "Signature": "edit",
+        "Module": "",
+        "RubyPath": "PostsController#edit",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController/$methods/index",
+      "TreePath": "./PostsController/index",
+      "Name": "index",
+      "Kind": "func",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 151,
+      "DefEnd": 188,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "method",
+        "TypeString": "",
+        "Signature": "index",
+        "Module": "",
+        "RubyPath": "PostsController#index",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController/$methods/new",
+      "TreePath": "./PostsController/new",
+      "Name": "new",
+      "Kind": "func",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 268,
+      "DefEnd": 302,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "method",
+        "TypeString": "",
+        "Signature": "new",
+        "Module": "",
+        "RubyPath": "PostsController#new",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController/$methods/post_params",
+      "TreePath": "./PostsController/post_params",
+      "Name": "post_params",
+      "Kind": "func",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 1659,
+      "DefEnd": 1757,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "method",
+        "TypeString": "",
+        "Signature": "post_params",
+        "Module": "",
+        "RubyPath": "PostsController#post_params",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController/$methods/set_post",
+      "TreePath": "./PostsController/set_post",
+      "Name": "set_post",
+      "Kind": "func",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 1507,
+      "DefEnd": 1564,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "method",
+        "TypeString": "",
+        "Signature": "set_post",
+        "Module": "",
+        "RubyPath": "PostsController#set_post",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController/$methods/show",
+      "TreePath": "./PostsController/show",
+      "Name": "show",
+      "Kind": "func",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 231,
+      "DefEnd": 245,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "method",
+        "TypeString": "",
+        "Signature": "show",
+        "Module": "",
+        "RubyPath": "PostsController#show",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController/$methods/update",
+      "TreePath": "./PostsController/update",
+      "Name": "update",
+      "Kind": "func",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 856,
+      "DefEnd": 1215,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "method",
+        "TypeString": "",
+        "Signature": "update",
+        "Module": "",
+        "RubyPath": "PostsController#update",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController/@post",
+      "TreePath": "./PostsController/@post",
+      "Name": "@post",
+      "Kind": "var",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 1526,
+      "DefEnd": 1556,
+      "Exported": false,
+      "Data": {
+        "RubyKind": "instancevariable",
+        "TypeString": "Post#",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "PostsController::@post",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController/@posts",
+      "TreePath": "./PostsController/@posts",
+      "Name": "@posts",
+      "Kind": "var",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 165,
+      "DefEnd": 182,
+      "Exported": false,
+      "Data": {
+        "RubyKind": "instancevariable",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "PostsController::@posts",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController@_local_0@/$methods/create@@block_local_0@format",
+      "TreePath": "./PostsController/create/@block_local_0/format",
+      "Name": "format",
+      "Kind": "var",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 448,
+      "DefEnd": 454,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "localvariable",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "PostsController\u003e_local_0\u003e#create\u003e@block_local_0\u003eformat",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController@_local_0@/$methods/destroy@@block_local_0@format",
+      "TreePath": "./PostsController/destroy/@block_local_0/format",
+      "Name": "format",
+      "Kind": "var",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 1313,
+      "DefEnd": 1319,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "localvariable",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "PostsController\u003e_local_0\u003e#destroy\u003e@block_local_0\u003eformat",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsController@_local_0@/$methods/update@@block_local_0@format",
+      "TreePath": "./PostsController/update/@block_local_0/format",
+      "Name": "format",
+      "Kind": "var",
+      "File": "app/controllers/posts_controller.rb",
+      "DefStart": 886,
+      "DefEnd": 892,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "localvariable",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "PostsController\u003e_local_0\u003e#update\u003e@block_local_0\u003eformat",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsControllerTest",
+      "TreePath": "./PostsControllerTest",
+      "Name": "PostsControllerTest",
+      "Kind": "type",
+      "File": "test/controllers/posts_controller_test.rb",
+      "DefStart": 23,
+      "DefEnd": 1138,
+      "Exported": true,
+      "Test": true,
+      "Data": {
+        "RubyKind": "class",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "PostsControllerTest",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsHelper",
+      "TreePath": "./PostsHelper",
+      "Name": "PostsHelper",
+      "Kind": "module",
+      "File": "app/helpers/posts_helper.rb",
+      "DefStart": 0,
+      "DefEnd": 22,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "module",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "PostsHelper",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "PostsHelperTest",
+      "TreePath": "./PostsHelperTest",
+      "Name": "PostsHelperTest",
+      "Kind": "type",
+      "File": "test/helpers/posts_helper_test.rb",
+      "DefStart": 23,
+      "DefEnd": 71,
+      "Exported": true,
+      "Test": true,
+      "Data": {
+        "RubyKind": "class",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "PostsHelperTest",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "RailsSample",
+      "TreePath": "./RailsSample",
+      "Name": "RailsSample",
+      "Kind": "module",
+      "File": "config/application.rb",
+      "DefStart": 220,
+      "DefEnd": 987,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "module",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "RailsSample",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "RailsSample/Application",
+      "TreePath": "./RailsSample/Application",
+      "Name": "Application",
+      "Kind": "type",
+      "File": "config/application.rb",
+      "DefStart": 241,
+      "DefEnd": 983,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "class",
+        "TypeString": "RailsSample::Application",
+        "Signature": null,
+        "Module": "RailsSample",
+        "RubyPath": "RailsSample::Application",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "file:app/controllers/application_controller_rb_local_0@a",
+      "TreePath": "./file:app/controllers/application_controller_rb_local_0/a",
+      "Name": "a",
+      "Kind": "var",
+      "File": "app/controllers/application_controller.rb",
+      "DefStart": 227,
+      "DefEnd": 256,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "localvariable",
+        "TypeString": "ApplicationController#",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "file:app/controllers/application_controller.rb_local_0\u003ea",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "file:app/controllers/application_controller_rb_local_0@foo",
+      "TreePath": "./file:app/controllers/application_controller_rb_local_0/foo",
+      "Name": "foo",
+      "Kind": "var",
+      "File": "app/controllers/application_controller.rb",
+      "DefStart": 206,
+      "DefEnd": 216,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "localvariable",
+        "TypeString": "",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "file:app/controllers/application_controller.rb_local_0\u003efoo",
+        "ReturnType": ""
+      }
+    },
+    {
+      "Path": "file:app/controllers/application_controller_rb_local_0@p",
+      "TreePath": "./file:app/controllers/application_controller_rb_local_0/p",
+      "Name": "p",
+      "Kind": "var",
+      "File": "app/controllers/application_controller.rb",
+      "DefStart": 265,
+      "DefEnd": 277,
+      "Exported": true,
+      "Data": {
+        "RubyKind": "localvariable",
+        "TypeString": "Post#",
+        "Signature": null,
+        "Module": "",
+        "RubyPath": "file:app/controllers/application_controller.rb_local_0\u003ep",
+        "ReturnType": ""
+      }
+    }
+  ],
+  "Refs": [
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "ActiveSupport/TestCase",
+      "Def": true,
+      "Repo": "",
+      "File": "test/test_helper.rb",
+      "Start": 124,
+      "End": 147
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "ApplicationController",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 231,
+      "End": 252
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "ApplicationController",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 6,
+      "End": 27
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "ApplicationController",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 24,
+      "End": 45
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "ApplicationHelper",
+      "Def": true,
+      "Repo": "",
+      "File": "app/helpers/application_helper.rb",
+      "Start": 7,
+      "End": 24
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "CreatePosts/$methods/change",
+      "Def": true,
+      "Repo": "",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "Start": 50,
+      "End": 56
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "CreatePosts@_local_0@/$methods/change@@block_local_0@t",
+      "Def": false,
+      "Repo": "",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "Start": 116,
+      "End": 117
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "CreatePosts@_local_0@/$methods/change@@block_local_0@t",
+      "Def": false,
+      "Repo": "",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "Start": 135,
+      "End": 136
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "CreatePosts@_local_0@/$methods/change@@block_local_0@t",
+      "Def": false,
+      "Repo": "",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "Start": 162,
+      "End": 163
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "CreatePosts@_local_0@/$methods/change@@block_local_0@t",
+      "Def": false,
+      "Repo": "",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "Start": 192,
+      "End": 193
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "CreatePosts@_local_0@/$methods/change@@block_local_0@t",
+      "Def": true,
+      "Repo": "",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "Start": 85,
+      "End": 86
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "CreatePosts@_local_0@/$methods/change@@block_local_0@t",
+      "Def": false,
+      "Repo": "",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "Start": 94,
+      "End": 95
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "CreatePosts",
+      "Def": true,
+      "Repo": "",
+      "File": "db/migrate/20140219041504_create_posts.rb",
+      "Start": 6,
+      "End": 17
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Post/$methods/excerpt",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 280,
+      "End": 287
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Post/$methods/excerpt",
+      "Def": true,
+      "Repo": "",
+      "File": "app/models/post.rb",
+      "Start": 37,
+      "End": 44
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostTest",
+      "Def": true,
+      "Repo": "",
+      "File": "test/models/post_test.rb",
+      "Start": 29,
+      "End": 37
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 269,
+      "End": 273
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1534,
+      "End": 1538
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 174,
+      "End": 178
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 288,
+      "End": 292
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 406,
+      "End": 410
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "Post",
+      "Def": true,
+      "Repo": "",
+      "File": "app/models/post.rb",
+      "Start": 6,
+      "End": 10
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/$methods/create",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 387,
+      "End": 393
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/$methods/destroy",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1268,
+      "End": 1275
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/$methods/edit",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 332,
+      "End": 336
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/$methods/index",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 155,
+      "End": 160
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/$methods/new",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 272,
+      "End": 275
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/$methods/post_params",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1663,
+      "End": 1674
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/$methods/set_post",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1511,
+      "End": 1519
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/$methods/show",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 235,
+      "End": 239
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/$methods/update",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 860,
+      "End": 866
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1146,
+      "End": 1151
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1280,
+      "End": 1285
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@post",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1526,
+      "End": 1531
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 280,
+      "End": 285
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 398,
+      "End": 403
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 465,
+      "End": 470
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 510,
+      "End": 515
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 633,
+      "End": 638
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 732,
+      "End": 737
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 903,
+      "End": 908
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@post",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 963,
+      "End": 968
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController/@posts",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 165,
+      "End": 171
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/create@@block_local_0@format",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 448,
+      "End": 454
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/create@@block_local_0@format",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 484,
+      "End": 490
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/create@@block_local_0@format",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 568,
+      "End": 574
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/create@@block_local_0@format",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 660,
+      "End": 666
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/create@@block_local_0@format",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 705,
+      "End": 711
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/destroy@@block_local_0@format",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1313,
+      "End": 1319
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/destroy@@block_local_0@format",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1327,
+      "End": 1333
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/destroy@@block_local_0@format",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1371,
+      "End": 1377
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/update@@block_local_0@format",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1021,
+      "End": 1027
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/update@@block_local_0@format",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1073,
+      "End": 1079
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/update@@block_local_0@format",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 1119,
+      "End": 1125
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/update@@block_local_0@format",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 886,
+      "End": 892
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController@_local_0@/$methods/update@@block_local_0@format",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 937,
+      "End": 943
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsControllerTest",
+      "Def": true,
+      "Repo": "",
+      "File": "test/controllers/posts_controller_test.rb",
+      "Start": 29,
+      "End": 48
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsController",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 6,
+      "End": 21
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsHelperTest",
+      "Def": true,
+      "Repo": "",
+      "File": "test/helpers/posts_helper_test.rb",
+      "Start": 29,
+      "End": 44
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "PostsHelper",
+      "Def": true,
+      "Repo": "",
+      "File": "app/helpers/posts_helper.rb",
+      "Start": 7,
+      "End": 18
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample/Application",
+      "Def": true,
+      "Repo": "",
+      "File": "config/application.rb",
+      "Start": 247,
+      "End": 258
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample/Application",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environment.rb",
+      "Start": 133,
+      "End": 144
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample/Application",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environments/development.rb",
+      "Start": 13,
+      "End": 24
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample/Application",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environments/production.rb",
+      "Start": 13,
+      "End": 24
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample/Application",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environments/test.rb",
+      "Start": 13,
+      "End": 24
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample/Application",
+      "Def": false,
+      "Repo": "",
+      "File": "config/initializers/secret_token.rb",
+      "Start": 497,
+      "End": 508
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample/Application",
+      "Def": false,
+      "Repo": "",
+      "File": "config/initializers/session_store.rb",
+      "Start": 74,
+      "End": 85
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample/Application",
+      "Def": false,
+      "Repo": "",
+      "File": "config/routes.rb",
+      "Start": 13,
+      "End": 24
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample",
+      "Def": true,
+      "Repo": "",
+      "File": "config/application.rb",
+      "Start": 227,
+      "End": 238
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environment.rb",
+      "Start": 120,
+      "End": 131
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environments/development.rb",
+      "Start": 0,
+      "End": 11
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environments/production.rb",
+      "Start": 0,
+      "End": 11
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environments/test.rb",
+      "Start": 0,
+      "End": 11
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample",
+      "Def": false,
+      "Repo": "",
+      "File": "config/initializers/secret_token.rb",
+      "Start": 484,
+      "End": 495
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample",
+      "Def": false,
+      "Repo": "",
+      "File": "config/initializers/session_store.rb",
+      "Start": 61,
+      "End": 72
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "RailsSample",
+      "Def": false,
+      "Repo": "",
+      "File": "config/routes.rb",
+      "Start": 0,
+      "End": 11
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:app/controllers/application_controller_rb_local_0@a",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 227,
+      "End": 228
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:app/controllers/application_controller_rb_local_0@foo",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 206,
+      "End": 209
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:app/controllers/application_controller_rb_local_0@foo",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 217,
+      "End": 220
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:app/controllers/application_controller_rb_local_0@p",
+      "Def": true,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 265,
+      "End": 266
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:app/controllers/application_controller_rb_local_0@p",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 278,
+      "End": 279
+    }
+  ],
+  "Docs": [
+    {
+      "Path": "PostsController/$methods/create",
+      "Format": "text/html",
+      "Data": "\u003cdiv class=\"method_body\"\u003e\u003cdiv class=\"docstring\"\u003e\n  \u003cdiv class=\"discussion\"\u003e\n    \n\u003cp\u003ePOST /posts POST /posts.json\u003c/p\u003e\n\n\n  \u003c/div\u003e\n\u003c/div\u003e\n\u003cdiv class=\"tags\"\u003e\n  \n\n\u003c/div\u003e\u003c/div\u003e",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "PostsController/$methods/destroy",
+      "Format": "text/html",
+      "Data": "\u003cdiv class=\"method_body\"\u003e\u003cdiv class=\"docstring\"\u003e\n  \u003cdiv class=\"discussion\"\u003e\n    \n\u003cp\u003eDELETE /posts/1 DELETE /posts/1.json\u003c/p\u003e\n\n\n  \u003c/div\u003e\n\u003c/div\u003e\n\u003cdiv class=\"tags\"\u003e\n  \n\n\u003c/div\u003e\u003c/div\u003e",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "PostsController/$methods/edit",
+      "Format": "text/html",
+      "Data": "\u003cdiv class=\"method_body\"\u003e\u003cdiv class=\"docstring\"\u003e\n  \u003cdiv class=\"discussion\"\u003e\n    \n\u003cp\u003eGET /posts/1/edit\u003c/p\u003e\n\n\n  \u003c/div\u003e\n\u003c/div\u003e\n\u003cdiv class=\"tags\"\u003e\n  \n\n\u003c/div\u003e\u003c/div\u003e",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "PostsController/$methods/index",
+      "Format": "text/html",
+      "Data": "\u003cdiv class=\"method_body\"\u003e\u003cdiv class=\"docstring\"\u003e\n  \u003cdiv class=\"discussion\"\u003e\n    \n\u003cp\u003eGET /posts GET /posts.json\u003c/p\u003e\n\n\n  \u003c/div\u003e\n\u003c/div\u003e\n\u003cdiv class=\"tags\"\u003e\n  \n\n\u003c/div\u003e\u003c/div\u003e",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "PostsController/$methods/new",
+      "Format": "text/html",
+      "Data": "\u003cdiv class=\"method_body\"\u003e\u003cdiv class=\"docstring\"\u003e\n  \u003cdiv class=\"discussion\"\u003e\n    \n\u003cp\u003eGET /posts/new\u003c/p\u003e\n\n\n  \u003c/div\u003e\n\u003c/div\u003e\n\u003cdiv class=\"tags\"\u003e\n  \n\n\u003c/div\u003e\u003c/div\u003e",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "PostsController/$methods/post_params",
+      "Format": "text/html",
+      "Data": "\u003cdiv class=\"method_body\"\u003e\u003cdiv class=\"docstring\"\u003e\n  \u003cdiv class=\"discussion\"\u003e\n    \n\u003cp\u003eNever trust parameters from the scary internet, only allow the white list\nthrough.\u003c/p\u003e\n\n\n  \u003c/div\u003e\n\u003c/div\u003e\n\u003cdiv class=\"tags\"\u003e\n  \n\n\u003c/div\u003e\u003c/div\u003e",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "PostsController/$methods/set_post",
+      "Format": "text/html",
+      "Data": "\u003cdiv class=\"method_body\"\u003e\u003cdiv class=\"docstring\"\u003e\n  \u003cdiv class=\"discussion\"\u003e\n    \n\u003cp\u003eUse callbacks to share common setup or constraints between actions.\u003c/p\u003e\n\n\n  \u003c/div\u003e\n\u003c/div\u003e\n\u003cdiv class=\"tags\"\u003e\n  \n\n\u003c/div\u003e\u003c/div\u003e",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "PostsController/$methods/show",
+      "Format": "text/html",
+      "Data": "\u003cdiv class=\"method_body\"\u003e\u003cdiv class=\"docstring\"\u003e\n  \u003cdiv class=\"discussion\"\u003e\n    \n\u003cp\u003eGET /posts/1 GET /posts/1.json\u003c/p\u003e\n\n\n  \u003c/div\u003e\n\u003c/div\u003e\n\u003cdiv class=\"tags\"\u003e\n  \n\n\u003c/div\u003e\u003c/div\u003e",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "PostsController/$methods/update",
+      "Format": "text/html",
+      "Data": "\u003cdiv class=\"method_body\"\u003e\u003cdiv class=\"docstring\"\u003e\n  \u003cdiv class=\"discussion\"\u003e\n    \n\u003cp\u003ePATCH/PUT /posts/1 PATCH/PUT /posts/1.json\u003c/p\u003e\n\n\n  \u003c/div\u003e\n\u003c/div\u003e\n\u003cdiv class=\"tags\"\u003e\n  \n\n\u003c/div\u003e\u003c/div\u003e",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 0,
+      "End": 0
+    }
+  ]
+}
