@@ -1,0 +1,42 @@
+{
+  "CommitMap": {
+    "5490b7d3d6b0a6c3ba307979d5b08687243f5fee": {
+      "ID": "5490b7d3d6b0a6c3ba307979d5b08687243f5fee",
+      "Author": {
+        "Name": "Quinn Slack",
+        "Email": "qslack@qslack.com"
+      },
+      "Message": "add cases",
+      "AuthorDate": "2013-10-11T05:13:16Z"
+    }
+  },
+  "HunkMap": {
+    "lib/cases/class.rb": [
+      {
+        "CommitID": "5490b7d3d6b0a6c3ba307979d5b08687243f5fee",
+        "LineStart": 0,
+        "LineEnd": 7,
+        "CharStart": 0,
+        "CharEnd": 37
+      }
+    ],
+    "lib/cases/global_var.rb": [
+      {
+        "CommitID": "5490b7d3d6b0a6c3ba307979d5b08687243f5fee",
+        "LineStart": 0,
+        "LineEnd": 2,
+        "CharStart": 0,
+        "CharEnd": 8
+      }
+    ],
+    "lib/cases/top_const.rb": [
+      {
+        "CommitID": "5490b7d3d6b0a6c3ba307979d5b08687243f5fee",
+        "LineStart": 0,
+        "LineEnd": 2,
+        "CharStart": 0,
+        "CharEnd": 8
+      }
+    ]
+  }
+}

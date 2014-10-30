@@ -74,7 +74,7 @@ module Srclib
         if scripts.length > 0
           source_units << {
             'Name' => '.',
-            'Type' => 'rubyprogram',
+            'Type' => 'ruby',
             'Dir' => '.',
             'Files' => scripts,
             'Dependencies' => nil, #TODO(rameshvarun): Aggregate dependencies from all of the scripts

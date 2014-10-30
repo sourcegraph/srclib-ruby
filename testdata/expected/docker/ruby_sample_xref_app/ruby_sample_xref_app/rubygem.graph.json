@@ -6,8 +6,8 @@
       "Name": "Article",
       "Kind": "type",
       "File": "lib/use_tire.rb",
-      "DefStart": 2736,
-      "DefEnd": 3240,
+      "DefStart": 2746,
+      "DefEnd": 3250,
       "Exported": true,
       "Data": {
         "RubyKind": "class",
@@ -24,8 +24,8 @@
       "Name": "q",
       "Kind": "func",
       "File": "lib/use_tire.rb",
-      "DefStart": 8450,
-      "DefEnd": 8481,
+      "DefStart": 8472,
+      "DefEnd": 8503,
       "Exported": true,
       "Data": {
         "RubyKind": "method",
@@ -42,8 +42,8 @@
       "Name": "search",
       "Kind": "func",
       "File": "lib/use_tire.rb",
-      "DefStart": 8543,
-      "DefEnd": 8904,
+      "DefStart": 8565,
+      "DefEnd": 8926,
       "Exported": true,
       "Data": {
         "RubyKind": "method",
@@ -60,8 +60,8 @@
       "Name": "initialize",
       "Kind": "func",
       "File": "lib/use_tire.rb",
-      "DefStart": 2806,
-      "DefEnd": 2961,
+      "DefStart": 2816,
+      "DefEnd": 2971,
       "Exported": true,
       "Data": {
         "RubyKind": "method",
@@ -78,8 +78,8 @@
       "Name": "published_on",
       "Kind": "func",
       "File": "lib/use_tire.rb",
-      "DefStart": 2761,
-      "DefEnd": 2801,
+      "DefStart": 2771,
+      "DefEnd": 2811,
       "Exported": true,
       "Data": {
         "RubyKind": "method",
@@ -96,8 +96,8 @@
       "Name": "tags",
       "Kind": "func",
       "File": "lib/use_tire.rb",
-      "DefStart": 2761,
-      "DefEnd": 2801,
+      "DefStart": 2771,
+      "DefEnd": 2811,
       "Exported": true,
       "Data": {
         "RubyKind": "method",
@@ -114,8 +114,8 @@
       "Name": "title",
       "Kind": "func",
       "File": "lib/use_tire.rb",
-      "DefStart": 2761,
-      "DefEnd": 2801,
+      "DefStart": 2771,
+      "DefEnd": 2811,
       "Exported": true,
       "Data": {
         "RubyKind": "method",
@@ -132,8 +132,8 @@
       "Name": "to_indexed_json",
       "Kind": "func",
       "File": "lib/use_tire.rb",
-      "DefStart": 3181,
-      "DefEnd": 3234,
+      "DefStart": 3191,
+      "DefEnd": 3244,
       "Exported": true,
       "Data": {
         "RubyKind": "method",
@@ -150,8 +150,8 @@
       "Name": "type",
       "Kind": "func",
       "File": "lib/use_tire.rb",
-      "DefStart": 3060,
-      "DefEnd": 3092,
+      "DefStart": 3070,
+      "DefEnd": 3102,
       "Exported": true,
       "Data": {
         "RubyKind": "method",
@@ -168,8 +168,8 @@
       "Name": "@attributes",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 2842,
-      "DefEnd": 2867,
+      "DefStart": 2852,
+      "DefEnd": 2877,
       "Exported": false,
       "Data": {
         "RubyKind": "instancevariable",
@@ -186,8 +186,8 @@
       "Name": "name",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 2899,
-      "DefEnd": 2903,
+      "DefStart": 2909,
+      "DefEnd": 2913,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -204,8 +204,8 @@
       "Name": "value",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 2904,
-      "DefEnd": 2909,
+      "DefStart": 2914,
+      "DefEnd": 2919,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -222,8 +222,8 @@
       "Name": "attributes",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 2821,
-      "DefEnd": 2834,
+      "DefStart": 2831,
+      "DefEnd": 2844,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -240,8 +240,8 @@
       "Name": "query",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 8769,
-      "DefEnd": 8774,
+      "DefStart": 8791,
+      "DefEnd": 8796,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -258,8 +258,8 @@
       "Name": "search",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 8671,
-      "DefEnd": 8677,
+      "DefStart": 8693,
+      "DefEnd": 8699,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -672,8 +672,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 7181,
-      "DefEnd": 7189,
+      "DefStart": 7203,
+      "DefEnd": 7211,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -690,8 +690,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 7599,
-      "DefEnd": 7607,
+      "DefStart": 7621,
+      "DefEnd": 7629,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -708,8 +708,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 8094,
-      "DefEnd": 8102,
+      "DefStart": 8116,
+      "DefEnd": 8124,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -726,8 +726,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 11822,
-      "DefEnd": 11830,
+      "DefStart": 11858,
+      "DefEnd": 11866,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -744,8 +744,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 12315,
-      "DefEnd": 12323,
+      "DefStart": 12367,
+      "DefEnd": 12375,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -762,8 +762,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 13256,
-      "DefEnd": 13264,
+      "DefStart": 13308,
+      "DefEnd": 13316,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -780,8 +780,8 @@
       "Name": "boolean",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 13614,
-      "DefEnd": 13621,
+      "DefStart": 13666,
+      "DefEnd": 13673,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -798,8 +798,8 @@
       "Name": "boolean",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 13791,
-      "DefEnd": 13798,
+      "DefStart": 13843,
+      "DefEnd": 13850,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -816,8 +816,8 @@
       "Name": "f",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 16192,
-      "DefEnd": 16193,
+      "DefStart": 16264,
+      "DefEnd": 16265,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -834,8 +834,8 @@
       "Name": "f",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 17101,
-      "DefEnd": 17102,
+      "DefStart": 17179,
+      "DefEnd": 17180,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -852,8 +852,8 @@
       "Name": "f",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 17513,
-      "DefEnd": 17514,
+      "DefStart": 17599,
+      "DefEnd": 17600,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -870,8 +870,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 19631,
-      "DefEnd": 19639,
+      "DefStart": 19745,
+      "DefEnd": 19753,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -888,8 +888,8 @@
       "Name": "f",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 19992,
-      "DefEnd": 19993,
+      "DefStart": 20110,
+      "DefEnd": 20111,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -906,8 +906,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 20210,
-      "DefEnd": 20218,
+      "DefStart": 20328,
+      "DefEnd": 20336,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -924,8 +924,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 21015,
-      "DefEnd": 21023,
+      "DefStart": 21137,
+      "DefEnd": 21145,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -942,8 +942,8 @@
       "Name": "article",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 3421,
-      "DefEnd": 3564,
+      "DefStart": 3431,
+      "DefEnd": 3574,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -960,8 +960,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 21703,
-      "DefEnd": 21711,
+      "DefStart": 21825,
+      "DefEnd": 21833,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -978,8 +978,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 23854,
-      "DefEnd": 23862,
+      "DefStart": 23976,
+      "DefEnd": 23984,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -996,8 +996,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 24530,
-      "DefEnd": 24538,
+      "DefStart": 24656,
+      "DefEnd": 24664,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -1014,8 +1014,8 @@
       "Name": "document",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 6633,
-      "DefEnd": 6641,
+      "DefStart": 6651,
+      "DefEnd": 6659,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -1032,8 +1032,8 @@
       "Name": "documents",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 6482,
-      "DefEnd": 6491,
+      "DefStart": 6500,
+      "DefEnd": 6509,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -1050,8 +1050,8 @@
       "Name": "articles",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 5497,
-      "DefEnd": 6130,
+      "DefStart": 5515,
+      "DefEnd": 6148,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -1068,8 +1068,8 @@
       "Name": "index",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 25669,
-      "DefEnd": 26102,
+      "DefStart": 25805,
+      "DefEnd": 26238,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -1086,8 +1086,8 @@
       "Name": "matches",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 27313,
-      "DefEnd": 27420,
+      "DefStart": 27457,
+      "DefEnd": 27564,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -1104,8 +1104,8 @@
       "Name": "published_on_query",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 13759,
-      "DefEnd": 13873,
+      "DefStart": 13811,
+      "DefEnd": 13925,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -1122,8 +1122,8 @@
       "Name": "q",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 7879,
-      "DefEnd": 7893,
+      "DefStart": 7901,
+      "DefEnd": 7915,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -1140,8 +1140,8 @@
       "Name": "response",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 28252,
-      "DefEnd": 28488,
+      "DefStart": 28396,
+      "DefEnd": 28636,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -1158,8 +1158,8 @@
       "Name": "s",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 24684,
-      "DefEnd": 25075,
+      "DefStart": 24810,
+      "DefEnd": 25207,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -1176,8 +1176,8 @@
       "Name": "tags_query",
       "Kind": "var",
       "File": "lib/use_tire.rb",
-      "DefStart": 13590,
-      "DefEnd": 13706,
+      "DefStart": 13642,
+      "DefEnd": 13758,
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
@@ -1456,8 +1456,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8459,
-      "End": 8460
+      "Start": 8481,
+      "End": 8482
     },
     {
       "DefRepo": "",
@@ -1467,8 +1467,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8871,
-      "End": 8872
+      "Start": 8893,
+      "End": 8894
     },
     {
       "DefRepo": "",
@@ -1478,8 +1478,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8552,
-      "End": 8558
+      "Start": 8574,
+      "End": 8580
     },
     {
       "DefRepo": "",
@@ -1489,8 +1489,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2810,
-      "End": 2820
+      "Start": 2820,
+      "End": 2830
     },
     {
       "DefRepo": "",
@@ -1500,8 +1500,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 3439,
-      "End": 3442
+      "Start": 3449,
+      "End": 3452
     },
     {
       "DefRepo": "",
@@ -1511,8 +1511,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2789,
-      "End": 2801
+      "Start": 2799,
+      "End": 2811
     },
     {
       "DefRepo": "",
@@ -1522,8 +1522,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2782,
-      "End": 2786
+      "Start": 2792,
+      "End": 2796
     },
     {
       "DefRepo": "",
@@ -1533,8 +1533,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2774,
-      "End": 2779
+      "Start": 2784,
+      "End": 2789
     },
     {
       "DefRepo": "",
@@ -1544,8 +1544,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 3185,
-      "End": 3200
+      "Start": 3195,
+      "End": 3210
     },
     {
       "DefRepo": "",
@@ -1555,8 +1555,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 3064,
-      "End": 3068
+      "Start": 3074,
+      "End": 3078
     },
     {
       "DefRepo": "",
@@ -1566,8 +1566,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2842,
-      "End": 2853
+      "Start": 2852,
+      "End": 2863
     },
     {
       "DefRepo": "",
@@ -1577,8 +1577,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2874,
-      "End": 2885
+      "Start": 2884,
+      "End": 2895
     },
     {
       "DefRepo": "",
@@ -1588,8 +1588,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 3207,
-      "End": 3218
+      "Start": 3217,
+      "End": 3228
     },
     {
       "DefRepo": "",
@@ -1599,8 +1599,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2899,
-      "End": 2903
+      "Start": 2909,
+      "End": 2913
     },
     {
       "DefRepo": "",
@@ -1610,8 +1610,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2938,
-      "End": 2942
+      "Start": 2948,
+      "End": 2952
     },
     {
       "DefRepo": "",
@@ -1621,8 +1621,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2904,
-      "End": 2909
+      "Start": 2914,
+      "End": 2919
     },
     {
       "DefRepo": "",
@@ -1632,8 +1632,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2946,
-      "End": 2951
+      "Start": 2956,
+      "End": 2961
     },
     {
       "DefRepo": "",
@@ -1643,8 +1643,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2821,
-      "End": 2831
+      "Start": 2831,
+      "End": 2841
     },
     {
       "DefRepo": "",
@@ -1654,8 +1654,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2857,
-      "End": 2867
+      "Start": 2867,
+      "End": 2877
     },
     {
       "DefRepo": "",
@@ -1665,8 +1665,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8769,
-      "End": 8774
+      "Start": 8791,
+      "End": 8796
     },
     {
       "DefRepo": "",
@@ -1676,8 +1676,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8853,
-      "End": 8858
+      "Start": 8875,
+      "End": 8880
     },
     {
       "DefRepo": "",
@@ -1687,8 +1687,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8671,
-      "End": 8677
+      "Start": 8693,
+      "End": 8699
     },
     {
       "DefRepo": "",
@@ -1698,8 +1698,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8752,
-      "End": 8758
+      "Start": 8774,
+      "End": 8780
     },
     {
       "DefRepo": "",
@@ -1709,8 +1709,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 10924,
-      "End": 10931
+      "Start": 10946,
+      "End": 10953
     },
     {
       "DefRepo": "",
@@ -1720,8 +1720,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 2742,
-      "End": 2749
+      "Start": 2752,
+      "End": 2759
     },
     {
       "DefRepo": "",
@@ -1731,8 +1731,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 3431,
-      "End": 3438
+      "Start": 3441,
+      "End": 3448
     },
     {
       "DefRepo": "",
@@ -1742,8 +1742,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8385,
-      "End": 8392
+      "Start": 8407,
+      "End": 8414
     },
     {
       "DefRepo": "",
@@ -1753,8 +1753,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8454,
-      "End": 8458
+      "Start": 8476,
+      "End": 8480
     },
     {
       "DefRepo": "",
@@ -1764,8 +1764,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8547,
-      "End": 8551
+      "Start": 8569,
+      "End": 8573
     },
     {
       "DefRepo": "",
@@ -1775,8 +1775,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8866,
-      "End": 8870
+      "Start": 8888,
+      "End": 8892
     },
     {
       "DefRepo": "github.com/ankane/barkick",
@@ -2600,8 +2600,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 1716,
-      "End": 1719
+      "Start": 1718,
+      "End": 1721
     },
     {
       "DefRepo": "github.com/rest-client/rest-client",
@@ -2611,8 +2611,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 1705,
-      "End": 1715
+      "Start": 1707,
+      "End": 1717
     },
     {
       "DefRepo": "github.com/stripe/stripe-ruby",
@@ -2765,8 +2765,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 22798,
-      "End": 22804
+      "Start": 22920,
+      "End": 22926
     },
     {
       "DefRepo": "github.com/karmi/tire",
@@ -2776,8 +2776,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 22784,
-      "End": 22797
+      "Start": 22906,
+      "End": 22919
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2787,8 +2787,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 10673,
-      "End": 10677
+      "Start": 10695,
+      "End": 10699
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2798,8 +2798,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 11290,
-      "End": 11294
+      "Start": 11312,
+      "End": 11316
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2809,8 +2809,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 11988,
-      "End": 11992
+      "Start": 12032,
+      "End": 12036
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2820,8 +2820,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 12686,
-      "End": 12690
+      "Start": 12738,
+      "End": 12742
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2831,8 +2831,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13924,
-      "End": 13928
+      "Start": 13976,
+      "End": 13980
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2842,8 +2842,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 14040,
-      "End": 14044
+      "Start": 14092,
+      "End": 14096
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2853,8 +2853,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 15451,
-      "End": 15455
+      "Start": 15503,
+      "End": 15507
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2864,8 +2864,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 16399,
-      "End": 16403
+      "Start": 16471,
+      "End": 16475
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2875,8 +2875,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 1844,
-      "End": 1848
+      "Start": 1850,
+      "End": 1854
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2886,8 +2886,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 19158,
-      "End": 19162
+      "Start": 19260,
+      "End": 19264
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2897,8 +2897,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 20133,
-      "End": 20137
+      "Start": 20251,
+      "End": 20255
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2908,8 +2908,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 20713,
-      "End": 20717
+      "Start": 20831,
+      "End": 20835
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2919,8 +2919,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 21143,
-      "End": 21147
+      "Start": 21265,
+      "End": 21269
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2930,8 +2930,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 22778,
-      "End": 22782
+      "Start": 22900,
+      "End": 22904
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2941,8 +2941,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 22809,
-      "End": 22813
+      "Start": 22931,
+      "End": 22935
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2952,8 +2952,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 23113,
-      "End": 23117
+      "Start": 23235,
+      "End": 23239
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2963,8 +2963,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 23549,
-      "End": 23553
+      "Start": 23671,
+      "End": 23675
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2974,8 +2974,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 24226,
-      "End": 24230
+      "Start": 24348,
+      "End": 24352
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2985,8 +2985,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 24688,
-      "End": 24692
+      "Start": 24814,
+      "End": 24818
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -2996,8 +2996,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 25677,
-      "End": 25681
+      "Start": 25813,
+      "End": 25817
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -3007,8 +3007,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 26308,
-      "End": 26312
+      "Start": 26444,
+      "End": 26448
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -3018,8 +3018,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 3860,
-      "End": 3864
+      "Start": 3874,
+      "End": 3878
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -3029,8 +3029,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 6184,
-      "End": 6188
+      "Start": 6202,
+      "End": 6206
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -3040,8 +3040,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 6320,
-      "End": 6324
+      "Start": 6338,
+      "End": 6342
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -3051,8 +3051,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7048,
-      "End": 7052
+      "Start": 7070,
+      "End": 7074
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -3062,8 +3062,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7351,
-      "End": 7355
+      "Start": 7373,
+      "End": 7377
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -3073,8 +3073,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7950,
-      "End": 7954
+      "Start": 7972,
+      "End": 7976
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -3084,8 +3084,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8643,
-      "End": 8647
+      "Start": 8665,
+      "End": 8669
     },
     {
       "DefRepo": "github.com/karmi/tire-contrib",
@@ -3095,8 +3095,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 9782,
-      "End": 9786
+      "Start": 9804,
+      "End": 9808
     },
     {
       "DefRepo": "github.com/ruby/ruby",
@@ -4250,8 +4250,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7181,
-      "End": 7189
+      "Start": 7203,
+      "End": 7211
     },
     {
       "DefRepo": "",
@@ -4261,8 +4261,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7204,
-      "End": 7212
+      "Start": 7226,
+      "End": 7234
     },
     {
       "DefRepo": "",
@@ -4272,8 +4272,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7230,
-      "End": 7238
+      "Start": 7252,
+      "End": 7260
     },
     {
       "DefRepo": "",
@@ -4283,8 +4283,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7599,
-      "End": 7607
+      "Start": 7621,
+      "End": 7629
     },
     {
       "DefRepo": "",
@@ -4294,8 +4294,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7622,
-      "End": 7630
+      "Start": 7644,
+      "End": 7652
     },
     {
       "DefRepo": "",
@@ -4305,8 +4305,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7653,
-      "End": 7661
+      "Start": 7675,
+      "End": 7683
     },
     {
       "DefRepo": "",
@@ -4316,8 +4316,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8094,
-      "End": 8102
+      "Start": 8116,
+      "End": 8124
     },
     {
       "DefRepo": "",
@@ -4327,8 +4327,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8117,
-      "End": 8125
+      "Start": 8139,
+      "End": 8147
     },
     {
       "DefRepo": "",
@@ -4338,8 +4338,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8143,
-      "End": 8151
+      "Start": 8165,
+      "End": 8173
     },
     {
       "DefRepo": "",
@@ -4349,8 +4349,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 11822,
-      "End": 11830
+      "Start": 11858,
+      "End": 11866
     },
     {
       "DefRepo": "",
@@ -4360,8 +4360,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 11845,
-      "End": 11853
+      "Start": 11881,
+      "End": 11889
     },
     {
       "DefRepo": "",
@@ -4371,8 +4371,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 11871,
-      "End": 11879
+      "Start": 11907,
+      "End": 11915
     },
     {
       "DefRepo": "",
@@ -4382,8 +4382,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 12315,
-      "End": 12323
+      "Start": 12367,
+      "End": 12375
     },
     {
       "DefRepo": "",
@@ -4393,8 +4393,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 12338,
-      "End": 12346
+      "Start": 12390,
+      "End": 12398
     },
     {
       "DefRepo": "",
@@ -4404,8 +4404,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 12364,
-      "End": 12372
+      "Start": 12416,
+      "End": 12424
     },
     {
       "DefRepo": "",
@@ -4415,8 +4415,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13256,
-      "End": 13264
+      "Start": 13308,
+      "End": 13316
     },
     {
       "DefRepo": "",
@@ -4426,8 +4426,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13279,
-      "End": 13287
+      "Start": 13331,
+      "End": 13339
     },
     {
       "DefRepo": "",
@@ -4437,8 +4437,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13305,
-      "End": 13313
+      "Start": 13357,
+      "End": 13365
     },
     {
       "DefRepo": "",
@@ -4448,8 +4448,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13614,
-      "End": 13621
+      "Start": 13666,
+      "End": 13673
     },
     {
       "DefRepo": "",
@@ -4459,8 +4459,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13625,
-      "End": 13632
+      "Start": 13677,
+      "End": 13684
     },
     {
       "DefRepo": "",
@@ -4470,8 +4470,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13665,
-      "End": 13672
+      "Start": 13717,
+      "End": 13724
     },
     {
       "DefRepo": "",
@@ -4481,8 +4481,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13791,
-      "End": 13798
+      "Start": 13843,
+      "End": 13850
     },
     {
       "DefRepo": "",
@@ -4492,8 +4492,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13802,
-      "End": 13809
+      "Start": 13854,
+      "End": 13861
     },
     {
       "DefRepo": "",
@@ -4503,8 +4503,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 16192,
-      "End": 16193
+      "Start": 16264,
+      "End": 16265
     },
     {
       "DefRepo": "",
@@ -4514,8 +4514,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 16205,
-      "End": 16206
+      "Start": 16277,
+      "End": 16278
     },
     {
       "DefRepo": "",
@@ -4525,8 +4525,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 16228,
-      "End": 16229
+      "Start": 16300,
+      "End": 16301
     },
     {
       "DefRepo": "",
@@ -4536,8 +4536,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 17101,
-      "End": 17102
+      "Start": 17179,
+      "End": 17180
     },
     {
       "DefRepo": "",
@@ -4547,8 +4547,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 17114,
-      "End": 17115
+      "Start": 17192,
+      "End": 17193
     },
     {
       "DefRepo": "",
@@ -4558,8 +4558,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 17137,
-      "End": 17138
+      "Start": 17215,
+      "End": 17216
     },
     {
       "DefRepo": "",
@@ -4569,8 +4569,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 17513,
-      "End": 17514
+      "Start": 17599,
+      "End": 17600
     },
     {
       "DefRepo": "",
@@ -4580,14 +4580,707 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 17526,
-      "End": 17527
+      "Start": 17612,
+      "End": 17613
     },
     {
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
       "DefPath": "file:lib/use_tire_rb_local_0@@block_local_54@f",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 17635,
+      "End": 17636
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_58@document",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 19745,
+      "End": 19753
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_58@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 19768,
+      "End": 19776
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_58@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 19794,
+      "End": 19802
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_59@f",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 20110,
+      "End": 20111
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_59@f",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 20123,
+      "End": 20124
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_59@f",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 20146,
+      "End": 20147
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_62@document",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 20328,
+      "End": 20336
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_62@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 20351,
+      "End": 20359
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_62@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 20389,
+      "End": 20397
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_62@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 20505,
+      "End": 20513
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_66@document",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 21137,
+      "End": 21145
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_66@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 21160,
+      "End": 21168
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_6@article",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 3431,
+      "End": 3438
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_6@article",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 3624,
+      "End": 3631
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 21825,
+      "End": 21833
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 21848,
+      "End": 21856
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 21894,
+      "End": 21902
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_76@document",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 23976,
+      "End": 23984
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_76@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 23999,
+      "End": 24007
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_76@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 24029,
+      "End": 24037
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_79@document",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 24656,
+      "End": 24664
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_79@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 24684,
+      "End": 24692
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_79@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 24717,
+      "End": 24725
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_9@@block_local_10@@block_local_11@document",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 6651,
+      "End": 6659
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_9@@block_local_10@@block_local_11@document",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 6661,
+      "End": 6669
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_9@@block_local_10@documents",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 6500,
+      "End": 6509
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_9@@block_local_10@documents",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 6634,
+      "End": 6643
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@articles",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 5515,
+      "End": 5523
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@articles",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 6236,
+      "End": 6244
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@articles",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 6487,
+      "End": 6495
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 25805,
+      "End": 25810
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 26589,
+      "End": 26594
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 27002,
+      "End": 27007
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 27467,
+      "End": 27472
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 28009,
+      "End": 28014
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@index",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 28407,
+      "End": 28412
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 26579,
+      "End": 26586
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 26852,
+      "End": 26859
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 26992,
+      "End": 26999
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 27357,
+      "End": 27364
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 27457,
+      "End": 27464
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@matches",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 27668,
+      "End": 27675
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@published_on_query",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 13811,
+      "End": 13829
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@published_on_query",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 14167,
+      "End": 14185
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@q",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 7901,
+      "End": 7902
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@q",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 8013,
+      "End": 8014
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@response",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 27998,
+      "End": 28006
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@response",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 28294,
+      "End": 28302
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@response",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 28396,
+      "End": 28404
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@response",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 28792,
+      "End": 28800
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 11308,
+      "End": 11309
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 11839,
+      "End": 11840
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 12028,
+      "End": 12029
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 12348,
+      "End": 12349
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 12734,
+      "End": 12735
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 13289,
+      "End": 13290
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 15499,
+      "End": 15500
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 16126,
+      "End": 16127
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 16155,
+      "End": 16156
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 16221,
+      "End": 16222
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 16467,
+      "End": 16468
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/use_tire.rb",
+      "Start": 17128,
+      "End": 17129
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
@@ -4598,551 +5291,12 @@
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_58@document",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 19631,
-      "End": 19639
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_58@document",
+      "DefPath": "file:lib/use_tire_rb_local_0@s",
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 19654,
-      "End": 19662
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_58@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 19680,
-      "End": 19688
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_59@f",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 19992,
-      "End": 19993
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_59@f",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 20005,
-      "End": 20006
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_59@f",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 20028,
-      "End": 20029
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_62@document",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 20210,
-      "End": 20218
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_62@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 20233,
-      "End": 20241
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_62@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 20271,
-      "End": 20279
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_62@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 20387,
-      "End": 20395
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_66@document",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 21015,
-      "End": 21023
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_66@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 21038,
-      "End": 21046
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_6@article",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 3421,
-      "End": 3428
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_6@article",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 3614,
-      "End": 3621
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 21703,
-      "End": 21711
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 21726,
-      "End": 21734
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_70@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 21772,
-      "End": 21780
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_76@document",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 23854,
-      "End": 23862
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_76@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 23877,
-      "End": 23885
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_76@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 23907,
-      "End": 23915
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_79@document",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 24530,
-      "End": 24538
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_79@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 24558,
-      "End": 24566
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_79@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 24591,
-      "End": 24599
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_9@@block_local_10@@block_local_11@document",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 6633,
-      "End": 6641
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_9@@block_local_10@@block_local_11@document",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 6643,
-      "End": 6651
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_9@@block_local_10@documents",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 6482,
-      "End": 6491
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@@block_local_9@@block_local_10@documents",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 6616,
-      "End": 6625
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@articles",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 5497,
-      "End": 5505
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@articles",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 6218,
-      "End": 6226
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@articles",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 6469,
-      "End": 6477
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@index",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 25669,
-      "End": 25674
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@index",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 26453,
-      "End": 26458
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@index",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 26866,
-      "End": 26871
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@index",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 27323,
-      "End": 27328
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@index",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 27865,
-      "End": 27870
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@index",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 28263,
-      "End": 28268
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@matches",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 26443,
-      "End": 26450
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@matches",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 26716,
-      "End": 26723
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@matches",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 26856,
-      "End": 26863
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@matches",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 27217,
-      "End": 27224
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@matches",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 27313,
-      "End": 27320
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@matches",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 27524,
-      "End": 27531
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@published_on_query",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 13759,
-      "End": 13777
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@published_on_query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 14115,
-      "End": 14133
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@q",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 7879,
-      "End": 7880
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@q",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 7991,
-      "End": 7992
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@response",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 27854,
-      "End": 27862
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@response",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 28150,
-      "End": 28158
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@response",
-      "Def": true,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 28252,
-      "End": 28260
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@response",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 28640,
-      "End": 28648
+      "Start": 19256,
+      "End": 19257
     },
     {
       "DefRepo": "",
@@ -5152,8 +5306,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 11286,
-      "End": 11287
+      "Start": 19726,
+      "End": 19727
     },
     {
       "DefRepo": "",
@@ -5163,8 +5317,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 11803,
-      "End": 11804
+      "Start": 20067,
+      "End": 20068
     },
     {
       "DefRepo": "",
@@ -5174,8 +5328,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 11984,
-      "End": 11985
+      "Start": 20247,
+      "End": 20248
     },
     {
       "DefRepo": "",
@@ -5185,8 +5339,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 12296,
-      "End": 12297
+      "Start": 20309,
+      "End": 20310
     },
     {
       "DefRepo": "",
@@ -5196,8 +5350,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 12682,
-      "End": 12683
+      "Start": 20827,
+      "End": 20828
     },
     {
       "DefRepo": "",
@@ -5207,8 +5361,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13237,
-      "End": 13238
+      "Start": 21118,
+      "End": 21119
     },
     {
       "DefRepo": "",
@@ -5218,8 +5372,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 15447,
-      "End": 15448
+      "Start": 21261,
+      "End": 21262
     },
     {
       "DefRepo": "",
@@ -5229,8 +5383,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 16054,
-      "End": 16055
+      "Start": 21806,
+      "End": 21807
     },
     {
       "DefRepo": "",
@@ -5240,8 +5394,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 16083,
-      "End": 16084
+      "Start": 23667,
+      "End": 23668
     },
     {
       "DefRepo": "",
@@ -5251,8 +5405,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 16149,
-      "End": 16150
+      "Start": 23957,
+      "End": 23958
     },
     {
       "DefRepo": "",
@@ -5262,8 +5416,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 16395,
-      "End": 16396
+      "Start": 24344,
+      "End": 24345
     },
     {
       "DefRepo": "",
@@ -5273,162 +5427,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 17050,
-      "End": 17051
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 17463,
-      "End": 17464
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 19154,
-      "End": 19155
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 19612,
-      "End": 19613
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 19949,
-      "End": 19950
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 20129,
-      "End": 20130
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 20191,
-      "End": 20192
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 20709,
-      "End": 20710
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 20996,
-      "End": 20997
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 21139,
-      "End": 21140
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 21684,
-      "End": 21685
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 23545,
-      "End": 23546
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 23835,
-      "End": 23836
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 24222,
-      "End": 24223
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file:lib/use_tire_rb_local_0@s",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/use_tire.rb",
-      "Start": 24511,
-      "End": 24512
+      "Start": 24637,
+      "End": 24638
     },
     {
       "DefRepo": "",
@@ -5438,8 +5438,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 24684,
-      "End": 24685
+      "Start": 24810,
+      "End": 24811
     },
     {
       "DefRepo": "",
@@ -5449,8 +5449,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7044,
-      "End": 7045
+      "Start": 7066,
+      "End": 7067
     },
     {
       "DefRepo": "",
@@ -5460,8 +5460,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7162,
-      "End": 7163
+      "Start": 7184,
+      "End": 7185
     },
     {
       "DefRepo": "",
@@ -5471,8 +5471,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7347,
-      "End": 7348
+      "Start": 7369,
+      "End": 7370
     },
     {
       "DefRepo": "",
@@ -5482,8 +5482,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7580,
-      "End": 7581
+      "Start": 7602,
+      "End": 7603
     },
     {
       "DefRepo": "",
@@ -5493,8 +5493,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 7946,
-      "End": 7947
+      "Start": 7968,
+      "End": 7969
     },
     {
       "DefRepo": "",
@@ -5504,8 +5504,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 8075,
-      "End": 8076
+      "Start": 8097,
+      "End": 8098
     },
     {
       "DefRepo": "",
@@ -5515,8 +5515,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 9232,
-      "End": 9233
+      "Start": 9254,
+      "End": 9255
     },
     {
       "DefRepo": "",
@@ -5526,8 +5526,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 9614,
-      "End": 9615
+      "Start": 9636,
+      "End": 9637
     },
     {
       "DefRepo": "",
@@ -5537,8 +5537,8 @@
       "Def": true,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13590,
-      "End": 13600
+      "Start": 13642,
+      "End": 13652
     },
     {
       "DefRepo": "",
@@ -5548,8 +5548,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 13967,
-      "End": 13977
+      "Start": 14019,
+      "End": 14029
     },
     {
       "DefRepo": "",
@@ -5559,8 +5559,8 @@
       "Def": false,
       "Repo": "",
       "File": "lib/use_tire.rb",
-      "Start": 14091,
-      "End": 14101
+      "Start": 14143,
+      "End": 14153
     },
     {
       "DefRepo": "",

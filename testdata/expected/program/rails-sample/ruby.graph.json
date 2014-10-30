@@ -536,7 +536,7 @@
       "Exported": true,
       "Data": {
         "RubyKind": "localvariable",
-        "TypeString": "",
+        "TypeString": "File",
         "Signature": null,
         "Module": "",
         "RubyPath": "file:app/controllers/application_controller.rb_local_0\u003efoo",
@@ -563,6 +563,17 @@
     }
   ],
   "Refs": [
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "$methods/setup",
+      "Def": false,
+      "Repo": "",
+      "File": "test/controllers/posts_controller_test.rb",
+      "Start": 80,
+      "End": 85
+    },
     {
       "DefRepo": "",
       "DefUnitType": "",
@@ -617,6 +628,50 @@
       "File": "app/helpers/application_helper.rb",
       "Start": 7,
       "End": 24
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "BasicObject/$methods/initialize",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 253,
+      "End": 256
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "BasicObject/$methods/initialize",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 274,
+      "End": 277
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "BasicObject/$methods/initialize",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 293,
+      "End": 296
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "BasicObject/$methods/initialize",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/posts_controller.rb",
+      "Start": 411,
+      "End": 414
     },
     {
       "DefRepo": "",
@@ -705,6 +760,171 @@
       "File": "db/migrate/20140219041504_create_posts.rb",
       "Start": 6,
       "End": 17
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "ENV",
+      "Def": false,
+      "Repo": "",
+      "File": "config/boot.rb",
+      "Start": 37,
+      "End": 40
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "ENV",
+      "Def": false,
+      "Repo": "",
+      "File": "test/test_helper.rb",
+      "Start": 0,
+      "End": 3
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "File/$classmethods/expand_path",
+      "Def": false,
+      "Repo": "",
+      "File": "config/application.rb",
+      "Start": 13,
+      "End": 24
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "File/$classmethods/expand_path",
+      "Def": false,
+      "Repo": "",
+      "File": "config/boot.rb",
+      "Start": 68,
+      "End": 79
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "File/$classmethods/expand_path",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environment.rb",
+      "Start": 43,
+      "End": 54
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "File/$classmethods/expand_path",
+      "Def": false,
+      "Repo": "",
+      "File": "test/test_helper.rb",
+      "Start": 41,
+      "End": 52
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "File",
+      "Def": false,
+      "Repo": "",
+      "File": "app/controllers/application_controller.rb",
+      "Start": 212,
+      "End": 216
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "File",
+      "Def": false,
+      "Repo": "",
+      "File": "config/application.rb",
+      "Start": 8,
+      "End": 12
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "File",
+      "Def": false,
+      "Repo": "",
+      "File": "config/boot.rb",
+      "Start": 135,
+      "End": 139
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "File",
+      "Def": false,
+      "Repo": "",
+      "File": "config/boot.rb",
+      "Start": 63,
+      "End": 67
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "File",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environment.rb",
+      "Start": 38,
+      "End": 42
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "File",
+      "Def": false,
+      "Repo": "",
+      "File": "test/test_helper.rb",
+      "Start": 36,
+      "End": 40
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "Logger/Formatter/$methods/initialize",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environments/production.rb",
+      "Start": 3247,
+      "End": 3250
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "Logger/Formatter",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environments/production.rb",
+      "Start": 3237,
+      "End": 3246
+    },
+    {
+      "DefRepo": "github.com/ruby/ruby",
+      "DefUnitType": "ruby",
+      "DefUnit": ".",
+      "DefPath": "Logger",
+      "Def": false,
+      "Repo": "",
+      "File": "config/environments/production.rb",
+      "Start": 3227,
+      "End": 3235
     },
     {
       "DefRepo": "",
