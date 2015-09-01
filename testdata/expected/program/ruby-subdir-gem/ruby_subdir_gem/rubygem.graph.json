@@ -2,7 +2,6 @@
   "Defs": [
     {
       "Path": "A",
-      "TreePath": "./A",
       "Name": "A",
       "Kind": "type",
       "File": "subdir/lib/ruby_subdir_gem.rb",
@@ -16,17 +15,14 @@
         "Module": "",
         "RubyPath": "A",
         "ReturnType": ""
-      }
+      },
+      "TreePath": "./A"
     }
   ],
   "Refs": [
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "A",
       "Def": true,
-      "Repo": "",
       "File": "subdir/lib/ruby_subdir_gem.rb",
       "Start": 6,
       "End": 7
