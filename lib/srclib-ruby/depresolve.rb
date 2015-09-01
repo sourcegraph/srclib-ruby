@@ -17,7 +17,14 @@ module Srclib
     end
 
     def run(args)
-      option_parser.order!
+      if Gem.win_platform?
+      	opt_args = []
+      	args.map do |arg|
+      		opt_args << arg.sub(/^\//, '--')
+      	end
+      	args = opt_args
+      end
+      option_parser.order!(args)
       # raise "no args may be specified to depresolve (got #{args.inspect}); it only depresolves the current directory and accepts a JSON repr of a source unit via stdin" if args.length != 0
 
       srcunit = JSON.parse(STDIN.read)

@@ -28,7 +28,14 @@ module Srclib
     end
 
     def run(args)
-      option_parser.order!
+      if Gem.win_platform?
+      	opt_args = []
+      	args.map do |arg|
+      		opt_args << arg.sub(/^\//, '--')
+      	end
+      	args = opt_args
+      end
+      option_parser.order!(args)
 
       # TODO(sqs): this chdir is for debugging only, remove it when not needed
       if ENV['TESTING_CWD']
@@ -36,7 +43,13 @@ module Srclib
       end
 
       # send rubygems log output to stderr, not stdout (default)
-      Gem::DefaultUserInteraction.ui = Gem::StreamUI.new(File.open('/dev/null', 'r'), STDERR, STDERR, false)
+      
+      if Gem.win_platform?
+      	dev_null = 'NUL'
+      else
+      	dev_null = '/dev/null'
+      end
+      Gem::DefaultUserInteraction.ui = Gem::StreamUI.new(File.open(dev_null, 'r'), STDERR, STDERR, false)
 
       # raise "no args may be specified to graph (got #{args.inspect}); it only graphs the current directory and accepts a JSON repr of a source unit via stdin" if args.length != 0
 
