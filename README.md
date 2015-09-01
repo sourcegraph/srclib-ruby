@@ -62,6 +62,11 @@ CYGWIN_NT-6.1-WOW Diana 2.0.4(0.287/5/3) 2015-06-09 12:20 i686 Cygwin
 * Run ```gem exefy --all``` to convert .bat files to .exe in RubyInstaller (for example, it will create `bundle.exe` and remove `bundle.bat`
 * Now, you are ready to run ```make``` in your srclib-ruby directory. It will take some time while Ruby downloads required files and then Yard builts cache of Ruby 2.2.2 files.
 
+### Issue with OpenSSL
+
+Ruby may not provide default OpenSSL certificate authorities file, thus srclib-ruby may unable to communicate with external sites. Here is the [workaround
+](https://gist.github.com/fnichol/867550) - see `The Manual Way` there.
+
 ## TODO
 
 * Check whether Ruby stdlib works
