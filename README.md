@@ -48,12 +48,12 @@ issue.
 ## Using srclib-ruby in Windows/Cygwin environment
 
 ### Prerequisites
-Windows with Cygwin installed, I have tested it with 
+Windows with Cygwin installed, srclib-ruby has been tested with 
 ```
 CYGWIN_NT-6.1-WOW Diana 2.0.4(0.287/5/3) 2015-06-09 12:20 i686 Cygwin
 ```
-* Download and install Ruby 2.2.2 using [RubyInstaller](http://rubyinstaller.org/downloads/). I have tried [x64 version]((http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.2.exe)) Make sure that ruby.exe is included into your path.
-* Download Development Kit from [RubyInstaller](http://rubyinstaller.org/downloads/). I have used [x64 version]( http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe). Extract self-extracting archive somewhere (say `C:\rbdevkit`), switch to this directory.
+* Download and install Ruby 2.2.2 using [RubyInstaller](http://rubyinstaller.org/downloads/). The [x64 version]((http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.2.exe)) has worked successfully. Make sure that ruby.exe is included into your path.
+* Download Development Kit from [RubyInstaller](http://rubyinstaller.org/downloads/). The [x64 version]( http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe) has worked successfully. Extract self-extracting archive somewhere (say `C:\rbdevkit`), switch to this directory.
 * Run ```ruby dk.rb init``` to generate `config.yml`
 * Edit `config.yml` and add a line like ` - RUBY-INSTALLATION-DIR`, for example ` - C:/ruby22-x64`
 * Run ```ruby dk.rb install```
