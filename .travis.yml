@@ -7,7 +7,7 @@ install:
   - sudo unzip /tmp/src*.zip -d /usr/local/bin
   - sudo mv /usr/local/bin/src-* /usr/local/bin/src
   - sudo chmod +x /usr/local/bin/src
-  - src toolchain add github.com/alexsaveliev/srclib-ruby
+  - src toolchain add sourcegraph.com/sourcegraph/srclib-ruby
   - unset BUNDLE_GEMFILE
   - make dep
   - make test-dep
