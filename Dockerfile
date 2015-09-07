@@ -8,7 +8,7 @@ RUN gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
 RUN curl -sSL https://get.rvm.io | bash -s stable
 ENV PATH /usr/local/rvm/bin:$PATH
 RUN rvm requirements
-ENV RUBY_VERSION ruby-2.1.2
+ENV RUBY_VERSION ruby-2.2.2
 RUN rvm install $RUBY_VERSION
 RUN rvm $RUBY_VERSION do gem install asciidoctor rdoc bundler --no-ri --no-rdoc
 

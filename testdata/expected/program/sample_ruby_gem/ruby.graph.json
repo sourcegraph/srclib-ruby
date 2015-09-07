@@ -2,7 +2,6 @@
   "Defs": [
     {
       "Path": "A",
-      "TreePath": "./A",
       "Name": "A",
       "Kind": "type",
       "File": "lib/cases/class.rb",
@@ -16,11 +15,11 @@
         "Module": "",
         "RubyPath": "A",
         "ReturnType": ""
-      }
+      },
+      "TreePath": "./A"
     },
     {
       "Path": "A/$methods/f",
-      "TreePath": "./A/f",
       "Name": "f",
       "Kind": "func",
       "File": "lib/cases/class.rb",
@@ -34,11 +33,11 @@
         "Module": "",
         "RubyPath": "A#f",
         "ReturnType": ""
-      }
+      },
+      "TreePath": "./A/f"
     },
     {
       "Path": "C",
-      "TreePath": "./C",
       "Name": "C",
       "Kind": "const",
       "File": "lib/cases/top_const.rb",
@@ -52,11 +51,11 @@
         "Module": "",
         "RubyPath": "C",
         "ReturnType": ""
-      }
+      },
+      "TreePath": "./C"
     },
     {
       "Path": "file:lib/cases/global_var_rb_local_0@a",
-      "TreePath": "./file:lib/cases/global_var_rb_local_0/a",
       "Name": "a",
       "Kind": "var",
       "File": "lib/cases/global_var.rb",
@@ -70,72 +69,46 @@
         "Module": "",
         "RubyPath": "file:lib/cases/global_var.rb_local_0\u003ea",
         "ReturnType": ""
-      }
+      },
+      "TreePath": "./file:lib/cases/global_var_rb_local_0/a"
     }
   ],
   "Refs": [
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "A/$methods/f",
       "Def": true,
-      "Repo": "",
       "File": "lib/cases/class.rb",
       "Start": 12,
       "End": 13
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "A/$methods/f",
       "Def": true,
-      "Repo": "",
       "File": "lib/cases/class.rb",
       "Start": 14,
       "End": 15
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "A/$methods/f",
-      "Def": false,
-      "Repo": "",
       "File": "lib/cases/class.rb",
       "Start": 35,
       "End": 36
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "A",
-      "Def": false,
-      "Repo": "",
       "File": "lib/cases/class.rb",
       "Start": 27,
       "End": 28
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "A",
-      "Def": false,
-      "Repo": "",
       "File": "lib/cases/class.rb",
       "Start": 29,
       "End": 30
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "A",
       "Def": true,
-      "Repo": "",
       "File": "lib/cases/class.rb",
       "Start": 6,
       "End": 7
@@ -145,52 +118,30 @@
       "DefUnitType": "ruby",
       "DefUnit": ".",
       "DefPath": "BasicObject/$methods/initialize",
-      "Def": false,
-      "Repo": "",
       "File": "lib/cases/class.rb",
       "Start": 31,
       "End": 34
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "C",
-      "Def": false,
-      "Repo": "",
       "File": "lib/cases/top_const.rb",
       "Start": 0,
       "End": 1
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "C",
-      "Def": false,
-      "Repo": "",
       "File": "lib/cases/top_const.rb",
       "Start": 6,
       "End": 7
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "file:lib/cases/global_var_rb_local_0@a",
-      "Def": false,
-      "Repo": "",
       "File": "lib/cases/global_var.rb",
       "Start": 0,
       "End": 1
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "file:lib/cases/global_var_rb_local_0@a",
-      "Def": false,
-      "Repo": "",
       "File": "lib/cases/global_var.rb",
       "Start": 6,
       "End": 7
