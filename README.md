@@ -52,7 +52,7 @@ Windows with Cygwin installed is required as a prerequisite. `srclib-ruby` has b
 CYGWIN_NT-6.1-WOW Diana 2.0.4(0.287/5/3) 2015-06-09 12:20 i686 Cygwin
 ```
 
-### Installation instructions
+### Windows installation instructions
 
 * Download and install Ruby 2.2.2 using [RubyInstaller](http://rubyinstaller.org/downloads/). The
   [x64 version]((http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.2.exe)) has worked successfully. Make
