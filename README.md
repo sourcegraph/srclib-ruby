@@ -47,24 +47,29 @@ issue.
 
 ## Using srclib-ruby in Windows/Cygwin environment
 
-### Prerequisites
-Windows with Cygwin installed, srclib-ruby has been tested with 
+Windows with Cygwin installed is required as a prerequisite. `srclib-ruby` has been tested with:
 ```
 CYGWIN_NT-6.1-WOW Diana 2.0.4(0.287/5/3) 2015-06-09 12:20 i686 Cygwin
 ```
-* Download and install Ruby 2.2.2 using [RubyInstaller](http://rubyinstaller.org/downloads/). The [x64 version]((http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.2.exe)) has worked successfully. Make sure that ruby.exe is included into your path.
-* Download Development Kit from [RubyInstaller](http://rubyinstaller.org/downloads/). The [x64 version]( http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe) has worked successfully. Extract self-extracting archive somewhere (say `C:\rbdevkit`), switch to this directory.
-* Run ```ruby dk.rb init``` to generate `config.yml`
-* Edit `config.yml` and add a line like ` - RUBY-INSTALLATION-DIR`, for example ` - C:/ruby22-x64`
-* Run ```ruby dk.rb install```
-* Run ```gem install bundler -v 1.6.9```, using 1.6.x is important because srclib-ruby is supposed to work with 1.6.x.
-* Run ```gem install gem-exefy``` - this tool replaces .bat files in RubyInstaller with .exe. Ensure that you have installed DevKit as described above, otherwise gem wouldn't work.
+
+### Installation instructions
+
+* Download and install Ruby 2.2.2 using [RubyInstaller](http://rubyinstaller.org/downloads/). The
+  [x64 version]((http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.2.exe)) has worked successfully. Make
+  sure that `ruby.exe` is included in your path.
+* Download the Development Kit from [RubyInstaller](http://rubyinstaller.org/downloads/). The [x64 version](
+  http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe) is known to work successfully. Extract the self-extracting archive somewhere (say `C:\rbdevkit`) and switch to this directory.
+* Run ```ruby dk.rb init``` to generate `config.yml`.
+* Edit `config.yml` and add a line like ` - RUBY-INSTALLATION-DIR`. For example, ` - C:/ruby22-x64`.
+* Run ```ruby dk.rb install```..
+* Run ```gem install bundler -v 1.6.9```. Using 1.6.x is important because srclib-ruby is supposed to work with 1.6.x.
+* Run ```gem install gem-exefy```. This tool replaces .bat files in RubyInstaller with .exe. Ensure that you have installed DevKit as described above. Otherwise, `gem` won't work.
 * Run ```gem exefy --all``` to convert .bat files to .exe in RubyInstaller (for example, it will create `bundle.exe` and remove `bundle.bat`
-* Now, you are ready to run ```make``` in your srclib-ruby directory. It will take some time while Ruby downloads required files and then Yard builts cache of Ruby 2.2.2 files.
+* Now, you are ready to run ```make``` in your srclib-ruby directory. It will take some time while Ruby downloads required files and then Yard builds the cache of Ruby 2.2.2 files.
 
 ### Issue with OpenSSL
 
-Ruby may not provide default OpenSSL certificate authorities file, thus srclib-ruby may unable to communicate with external sites. Here is the [workaround
+Ruby may not provide a default OpenSSL certificate authorities file. Thus, `srclib-ruby` may unable to communicate with external sites. Here is the [workaround
 ](https://gist.github.com/fnichol/867550) - see `The Manual Way` there.
 
 ## TODO
