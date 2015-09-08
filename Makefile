@@ -18,10 +18,10 @@ test-dep:
 	cd testdata/case/rails-sample && $(BUNDLE) install
 
 test:
-	src -v test -m program
+	srclib -v test -m program
 
 test-gen-program:
-	src test -m program --gen
+	srclib test -m program --gen
 
 dep:
 	$(BUNDLE) install
