@@ -1,7 +1,6 @@
 ifeq ($(OS),Windows_NT)
 	BUNDLE = bundle.exe
 	YARDOC = ../yard/bin/yardoc.bat
-	RUBY_VERSION = ruby-2.2.2
 else
 	BUNDLE = bundle
 	YARDOC = ../yard/bin/yardoc
@@ -27,12 +26,12 @@ dep:
 	$(BUNDLE) install
 	cd yard && $(BUNDLE) install
 
-RUBY_SOURCE_URL ?= http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.2.tar.gz
-RUBY_VERSION ?= ruby-2.1.2
+RUBY_VERSION ?= ruby-2.2.2
+RUBY_SOURCE_URL ?= http://cache.ruby-lang.org/pub/ruby/2.2/$(RUBY_VERSION).tar.gz
 stdlib: $(RUBY_VERSION) $(RUBY_VERSION)/.yardoc
 
 $(RUBY_VERSION):
 	[ -e $(RUBY_VERSION) ] || curl $(RUBY_SOURCE_URL) | tar -xz
 
 $(RUBY_VERSION)/.yardoc:
-	cp .yardopts_ruby $(RUBY_VERSION)/.yardopts && cd $(RUBY_VERSION) && $(YARDOC)
+	cp $(CURDIR)/.yardopts_ruby $(CURDIR)/$(RUBY_VERSION)/.yardopts && cd $(CURDIR)/$(RUBY_VERSION) && $(YARDOC)
