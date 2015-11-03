@@ -29,11 +29,11 @@ module Srclib
 
     def run(args)
       if Gem.win_platform?
-      	opt_args = []
-      	args.map do |arg|
-      		opt_args << arg.sub(/^\//, '--')
-      	end
-      	args = opt_args
+        opt_args = []
+        args.map do |arg|
+          opt_args << arg.sub(/^\//, '--')
+        end
+        args = opt_args
       end
       option_parser.order!(args)
 
@@ -43,11 +43,11 @@ module Srclib
       end
 
       # send rubygems log output to stderr, not stdout (default)
-      
+
       if Gem.win_platform?
-      	dev_null = 'NUL'
+        dev_null = 'NUL'
       else
-      	dev_null = '/dev/null'
+        dev_null = '/dev/null'
       end
       Gem::DefaultUserInteraction.ui = Gem::StreamUI.new(File.open(dev_null, 'r'), STDERR, STDERR, false)
 
@@ -304,13 +304,13 @@ end
 OMIT_DEPS = ["pg", "nokigiri", "rake", "mysql", "bcrypt-ruby", "debugger", "debugger-linecache", "debugger-ruby_core_source", "tzinfo"]
 
 RUBY_OBJECT_TYPE_MAP = {
-	"method" =>           "func",
-	"constant" =>         "const",
-	"class" =>            "type",
-	"module" =>           "module",
-	"localvariable" =>    "var",
-	"instancevariable" => "var",
-	"classvariable" =>    "var",
+  "method" =>           "func",
+  "constant" =>         "const",
+  "class" =>            "type",
+  "module" =>           "module",
+  "localvariable" =>    "var",
+  "instancevariable" => "var",
+  "classvariable" =>    "var",
 }
 
 STDLIB_GEM_NAME_SENTINEL = "<RUBY_STDLIB>"
