@@ -24,11 +24,11 @@ module Srclib
 
     def run(args)
       if Gem.win_platform?
-      	opt_args = []
-      	args.map do |arg|
-      		opt_args << arg.sub(/^\//, '--')
-      	end
-      	args = opt_args
+        opt_args = []
+        args.map do |arg|
+          opt_args << arg.sub(/^\//, '--')
+        end
+        args = opt_args
       end
       option_parser.order!(args)
       raise "no args may be specified to scan (got #{args.inspect}); it only scans the current directory" if args.length != 0

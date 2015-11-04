@@ -18,11 +18,11 @@ module Srclib
 
     def run(args)
       if Gem.win_platform?
-      	opt_args = []
-      	args.map do |arg|
-      		opt_args << arg.sub(/^\//, '--')
-      	end
-      	args = opt_args
+        opt_args = []
+        args.map do |arg|
+          opt_args << arg.sub(/^\//, '--')
+        end
+        args = opt_args
       end
       option_parser.order!(args)
       # raise "no args may be specified to depresolve (got #{args.inspect}); it only depresolves the current directory and accepts a JSON repr of a source unit via stdin" if args.length != 0
@@ -89,36 +89,36 @@ module Srclib
 end
 
 GEM_CLONE_URLS = {
-	"ruby" =>  "https://github.com/ruby/ruby",
+  "ruby" =>  "https://github.com/ruby/ruby",
 
-	"rails" =>          "https://github.com/rails/rails",
-	"actionmailer" =>   "https://github.com/rails/rails",
-	"actionpack" =>     "https://github.com/rails/rails",
-	"actionview" =>     "https://github.com/rails/rails",
-	"activerecord" =>   "https://github.com/rails/rails",
-	"activemodel" =>    "https://github.com/rails/rails",
-	"railties" =>       "https://github.com/rails/rails",
-	"activesupport" =>  "https://github.com/rails/rails",
+  "rails" =>          "https://github.com/rails/rails",
+  "actionmailer" =>   "https://github.com/rails/rails",
+  "actionpack" =>     "https://github.com/rails/rails",
+  "actionview" =>     "https://github.com/rails/rails",
+  "activerecord" =>   "https://github.com/rails/rails",
+  "activemodel" =>    "https://github.com/rails/rails",
+  "railties" =>       "https://github.com/rails/rails",
+  "activesupport" =>  "https://github.com/rails/rails",
 
-	"elasticsearch" =>             "https://github.com/elasticsearch/elasticsearch-ruby",
-	"elasticsearch-api" =>         "https://github.com/elasticsearch/elasticsearch-ruby",
-	"elasticsearch-extensions" =>  "https://github.com/elasticsearch/elasticsearch-ruby",
-	"elasticsearch-transport" =>   "https://github.com/elasticsearch/elasticsearch-ruby",
+  "elasticsearch" =>             "https://github.com/elasticsearch/elasticsearch-ruby",
+  "elasticsearch-api" =>         "https://github.com/elasticsearch/elasticsearch-ruby",
+  "elasticsearch-extensions" =>  "https://github.com/elasticsearch/elasticsearch-ruby",
+  "elasticsearch-transport" =>   "https://github.com/elasticsearch/elasticsearch-ruby",
 
-	"sass" =>                       "https://github.com/nex3/sass",
-	"json" =>                       "https://github.com/flori/json",
-	"treetop" =>                    "https://github.com/nathansobo/treetop",
-	"barkick" =>                    "https://github.com/ankane/barkick",
-	"groupdate" =>                  "https://github.com/ankane/groupdate",
-	"pretender" =>                  "https://github.com/ankane/pretender",
-	"searchkick" =>                 "https://github.com/ankane/searchkick",
-	"chartkick" =>                  "https://github.com/ankane/chartkick",
-	"redis" =>                      "https://github.com/redis/redis-rb",
-	"geocoder" =>                   "https://github.com/alexreisner/geocoder",
-	"yajl" =>                       "https://github.com/brianmario/yajl-ruby",
-	"plu" =>                        "https://github.com/ankane/plu",
-	"active_median" =>              "https://github.com/ankane/active_median",
-	"delayed_job" =>                "https://github.com/collectiveidea/delayed_job",
-	"delayed_job_active_record" =>  "https://github.com/collectiveidea/delayed_job_active_record",
-	"tire-contrib" =>               "https://github.com/karmi/tire-contrib",
+  "sass" =>                       "https://github.com/nex3/sass",
+  "json" =>                       "https://github.com/flori/json",
+  "treetop" =>                    "https://github.com/nathansobo/treetop",
+  "barkick" =>                    "https://github.com/ankane/barkick",
+  "groupdate" =>                  "https://github.com/ankane/groupdate",
+  "pretender" =>                  "https://github.com/ankane/pretender",
+  "searchkick" =>                 "https://github.com/ankane/searchkick",
+  "chartkick" =>                  "https://github.com/ankane/chartkick",
+  "redis" =>                      "https://github.com/redis/redis-rb",
+  "geocoder" =>                   "https://github.com/alexreisner/geocoder",
+  "yajl" =>                       "https://github.com/brianmario/yajl-ruby",
+  "plu" =>                        "https://github.com/ankane/plu",
+  "active_median" =>              "https://github.com/ankane/active_median",
+  "delayed_job" =>                "https://github.com/collectiveidea/delayed_job",
+  "delayed_job_active_record" =>  "https://github.com/collectiveidea/delayed_job_active_record",
+  "tire-contrib" =>               "https://github.com/karmi/tire-contrib",
 }
